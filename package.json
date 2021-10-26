@@ -2,8 +2,14 @@
   "name": "@ts-defold/library",
   "version": "1.0.0",
   "description": "Type library for Defold",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "bin": "bin/library.js",
+  "files": [
+    "lib/**/*.{js,d.ts}",
+    "bin/**/*.js"
+  ],
   "scripts": {
+    "publish": "npm run build && ./bin/library.js publish --src ./packages",
     "build": "npm run clean && tsc",
     "clean": "tsc --build --clean",
     "dev": "npm run build && DEV=true node ./bin/library.js publish --src ./packages"

@@ -135,7 +135,7 @@ export default async function publish(src: string, dest: string) {
 
         // Write typing file to out directory
         const output = path.join(dest, path.basename(key));
-        fs.mkdir(output, { recursive: true });
+        await fs.mkdir(output, { recursive: true });
         await fs.writeFile(path.join(output, version.path), data);
       }
     }
@@ -145,7 +145,7 @@ export default async function publish(src: string, dest: string) {
     //* ------------------------------------------------------------
     for await (const key of Object.keys(modules)) {
       const lib = modules[key];
-      fs.mkdir(path.join(dest, path.basename(key)), { recursive: true });
+      await fs.mkdir(path.join(dest, path.basename(key)), { recursive: true });
       await fs.writeFile(path.join(dest, path.basename(key), "index.json"), JSON.stringify(lib, null, 2));
     }
 
