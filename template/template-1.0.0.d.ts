@@ -1,4 +1,4 @@
-/// <library version="1.0.0" src="https://github.com/acme/defold-awesome/archive/refs/tags/1.0.0.zip" />
+/// <library version="1.0.0" src="https://github.com/acme/template/archive/refs/tags/1.0.0.zip" />
 /// <reference path="./template.d.ts" />
 
 // We can use reference paths to bring in core types that are shared across all versions
