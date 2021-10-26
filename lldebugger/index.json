@@ -1,0 +1,13 @@
+{
+  "name": "lldebugger",
+  "url": "https://github.com/ts-defold/defold-lldebugger",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/ts-defold/defold-lldebugger/archive/extension.zip",
+      "hash": "16d99aa56f63275866a7c6477d65ee5a53c693be",
+      "path": "lldebugger-0.0.1.d.ts",
+      "checksum": "99ed865709228f8b0e74bffa28e6372b"
+    }
+  ]
+}
