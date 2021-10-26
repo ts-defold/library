@@ -26,6 +26,7 @@ enum PublishStep {
   Libraries,
   Amalgamate,
   Index,
+  Registry,
 }
 
 export default async function publish(src: string, dest: string) {
@@ -148,6 +149,19 @@ export default async function publish(src: string, dest: string) {
       await fs.mkdir(path.join(dest, path.basename(key)), { recursive: true });
       await fs.writeFile(path.join(dest, path.basename(key), "index.json"), JSON.stringify(lib, null, 2));
     }
+
+    //* Generate a package registry index.json for each module
+    step = PublishStep.Registry;
+    //* ------------------------------------------------------------
+    const registry: Record<string, { name: string, url: string }> = {}
+    for await (const key of Object.keys(modules)) {
+      const lib = modules[key];
+      registry[path.basename(key)] = {
+        name: lib.name!,
+        url: lib.url!,
+      }
+    }
+    await fs.writeFile(path.join(dest, "index.json"), JSON.stringify(registry, null, 2));
 
   } catch (e) {
     void step;
