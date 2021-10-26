@@ -29,6 +29,12 @@ enum PublishStep {
   Registry,
 }
 
+function to<T, U = Error> (promise: Promise<T>): Promise<[U, undefined] | [undefined, T]> {
+  return promise.then<[undefined, T]>((data: T) => [undefined, data])
+    .catch<[U, undefined]>((err: U) => [err, undefined]);
+}
+
+
 export default async function publish(src: string, dest: string) {
   let step = PublishStep.Init;
   try {
@@ -45,13 +51,15 @@ export default async function publish(src: string, dest: string) {
     step = PublishStep.Libraries;
     //* ------------------------------------------------------------
     const modules: Record<string, Index> = {};
-    for await (const m of packages) {
+    for (const m of packages) {
       try {
         //* Parse and verify library.json
-        const libFile = await fs.readFile(path.join(m, "library.json"));
+        const [err, libFile] = await to(fs.readFile(path.join(m, "library.json")));
+        if (err || !libFile) throw new Error('Missing library.json');
+        
         const lib = JSON.parse(libFile.toString()) as Library;
-        if (!lib.name) throw new Error("Missing library name");
-        if (!lib.url) throw new Error("Missing library url");
+        if (!lib.name) throw new Error('Missing library name');
+        if (!lib.url) throw new Error('Missing library url');
 
         //* Insert library index
         const key = m;
@@ -92,17 +100,17 @@ export default async function publish(src: string, dest: string) {
           }
         }
       } catch (e) {
-        console.error(`Error reading library.json: ${e}`);
+        console.warn(`Skipping ${path.basename(m)}, ${(e as Error).message}`);
       }
     };
 
     //* Amalgamate referenced types into library versions
     step = PublishStep.Amalgamate;
     //* ------------------------------------------------------------
-    for await (const key of Object.keys(modules)) {
+    for (const key of Object.keys(modules)) {
       const lib = modules[key];
       const cache: Record<string, string> = {};
-      for await (const version of lib.versions) {
+      for (const version of lib.versions) {
         // Read in typing and replace references to other files
         let data = await fs.readFile(version.path, "utf8");
         let match: RegExpMatchArray | null;
@@ -144,7 +152,7 @@ export default async function publish(src: string, dest: string) {
     //* Generate an index.json for each module
     step = PublishStep.Index;
     //* ------------------------------------------------------------
-    for await (const key of Object.keys(modules)) {
+    for (const key of Object.keys(modules)) {
       const lib = modules[key];
       await fs.mkdir(path.join(dest, path.basename(key)), { recursive: true });
       await fs.writeFile(path.join(dest, path.basename(key), "index.json"), JSON.stringify(lib, null, 2));
@@ -154,7 +162,7 @@ export default async function publish(src: string, dest: string) {
     step = PublishStep.Registry;
     //* ------------------------------------------------------------
     const registry: Record<string, { name: string, url: string }> = {}
-    for await (const key of Object.keys(modules)) {
+    for (const key of Object.keys(modules)) {
       const lib = modules[key];
       registry[path.basename(key)] = {
         name: lib.name!,
@@ -166,6 +174,5 @@ export default async function publish(src: string, dest: string) {
   } catch (e) {
     console.error(PublishStep[step], e);
     process.exit(1);
-
   }
 }
