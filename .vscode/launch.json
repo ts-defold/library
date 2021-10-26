@@ -7,7 +7,7 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Debug Publish",
       "skipFiles": [
         "<node_internals>/**"
       ],
@@ -16,6 +16,26 @@
         "publish",
         "--src",
         "${workspaceFolder}/packages"
+      ],
+      "sourceMaps": true,
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Debug Resolve",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/bin/library.js",
+      "args": [
+        "resolve",
+        "--src",
+        "${workspaceFolder}/tests/resolve",
+        "--out",
+        "${workspaceFolder}/tests/resolve/@types/"
       ],
       "sourceMaps": true,
       "outFiles": [

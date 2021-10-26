@@ -17,5 +17,12 @@
       "rootDir": "src",
       "outDir": "lib",
   },
-  "exclude": ["./node_modules/*", "./lib/*", "./bin/*", "./dist/*", "./packages/*"]
+  "exclude": [
+    "./node_modules/*",
+    "./lib/*",
+    "./bin/*",
+    "./dist/*",
+    "./packages/*",
+    "./tests/*"
+  ]
 }

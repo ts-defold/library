@@ -1,14 +1,15 @@
+import { to } from "await-to-js";
+import { createHash } from "crypto";
 import fs from "fs/promises";
 import * as path from "path";
 import { parseStringPromise } from "xml2js";
-import { createHash } from "crypto";
 
-interface Library {
+export interface Library {
   name?: string;
   url?: string;
 }
 
-interface Version {
+export interface Version {
   version: string;
   url: string;
   hash: string;
@@ -16,7 +17,7 @@ interface Version {
   checksum: string;
 }
 
-interface Index extends Library {
+export interface Index extends Library {
   versions: Version[];
 }
 
@@ -28,12 +29,6 @@ enum PublishStep {
   Index,
   Registry,
 }
-
-function to<T, U = Error> (promise: Promise<T>): Promise<[U, undefined] | [undefined, T]> {
-  return promise.then<[undefined, T]>((data: T) => [undefined, data])
-    .catch<[U, undefined]>((err: U) => [err, undefined]);
-}
-
 
 export default async function publish(src: string, dest: string) {
   let step = PublishStep.Init;
@@ -135,6 +130,7 @@ export default async function publish(src: string, dest: string) {
             }
           }
         } while (match);
+        data = data.trimEnd() + "\n";
 
         // compute checksum
         version.checksum = createHash('md5').update(data).digest('hex');

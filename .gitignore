@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Project ignores
+tests/**/@types
+tests/**/dist
