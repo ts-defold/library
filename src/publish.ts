@@ -164,8 +164,7 @@ export default async function publish(src: string, dest: string) {
     await fs.writeFile(path.join(dest, "index.json"), JSON.stringify(registry, null, 2));
 
   } catch (e) {
-    void step;
-    console.error(e);
+    console.error(PublishStep[step], e);
     process.exit(1);
 
   }
