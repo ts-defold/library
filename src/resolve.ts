@@ -79,13 +79,12 @@ export default async function resolve(projectDir: string, types: string) {
     //* Find the best version
     const ordered = index.versions.sort((a, b) => semver.compare(a.version, b.version));
     const target = ordered.find((v) => semver.satisfies(v.version, dep.version));
-    const latest = ordered[ordered.length - 1];
-    if (!target && !latest) throw new Error(`No suitable version found for ${dep.name}`);
-
+    const latest = ordered.length > 0 ? ordered[ordered.length - 1] : undefined;
     const version = target || latest;
-    const localPath = path.join(types, version.path);
+    if (!version) throw new Error(`No suitable version found for ${dep.name}`);
 
     //* If the version exists and matches the checksum we can skip downloading
+    const localPath = path.join(types, version.path);
     const [err, type] = await to(fs.readFile(localPath, 'utf8'));
     if (!err && type) {
       if (version.checksum === createHash('md5').update(type).digest('hex')) {
