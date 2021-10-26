@@ -112,6 +112,3 @@ declare module 'yagames.yagames' {
 
   export function payments_consume_purchase(purchase_token: string, callback: ApiCallback): void;
 }
-
-
-

@@ -37,4 +37,3 @@ declare module 'orthographic.camera' {
    */
   export function window_to_world(camera_id: hash | url | null, window: vmath.vector3): vmath.vector3;
 }
-

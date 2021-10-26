@@ -20,4 +20,3 @@ declare module 'defcon.console' {
 
   export function set_environment(env: unknown): void;
 }
-
