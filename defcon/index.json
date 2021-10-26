@@ -1,0 +1,13 @@
+{
+  "name": "defcon",
+  "url": "https://github.com/britzl/defcon",
+  "versions": [
+    {
+      "version": "2.4.0",
+      "url": "https://github.com/britzl/defcon/archive/refs/tags/2.4.0.zip",
+      "hash": "6c4b2e6d4926dce6c65ac936264b3dabdcacce7c",
+      "path": "defcon-2.4.0.d.ts",
+      "checksum": "291202c8b94fd66149d62a6cdc75d934"
+    }
+  ]
+}
