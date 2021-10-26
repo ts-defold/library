@@ -1,0 +1,13 @@
+{
+  "name": "orthographic",
+  "url": "https://github.com/britzl/defold-orthographic",
+  "versions": [
+    {
+      "version": "3.1.3",
+      "url": "https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.3.zip",
+      "hash": "1a83fec2c96a5ec9a0d97f3732c592a3e15d31c2",
+      "path": "orthographic-3.1.3.d.ts",
+      "checksum": "49db3a53578ec4a4374f10d0adb8afce"
+    }
+  ]
+}

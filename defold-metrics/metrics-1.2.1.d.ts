@@ -13,6 +13,8 @@ declare module 'metrics.fps' {
   export function create(samples?: number, format?: string, position?: string, color?: string): Metrics;
 }
 
+/** @noSelfInFile **/
+
 /** @noResolution */
 declare module 'metrics.mem' {
   /** @noSelf */
@@ -24,4 +26,3 @@ declare module 'metrics.mem' {
 
   export function create(format?: string, position?: string, color?: string): Metrics;
 }
-
