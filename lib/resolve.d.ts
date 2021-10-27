@@ -1,4 +1,4 @@
-export declare function findProject(root: string): Promise<string | undefined>;
+export declare function findProject(root: string): Promise<string>;
 export declare type Dependencies = Array<{
     name: string;
     version: string;

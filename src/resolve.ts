@@ -8,7 +8,7 @@ import type { Index } from "./publish";
 
 const TYPES_REGISTRY = "https://ts-defold.dev/library";
 
-export async function findProject(root: string): Promise<string | undefined> {
+export async function findProject(root: string): Promise<string> {
   for await (const d of await fs.opendir(root)) {
     if (d.isDirectory()) {
       const projectPath = await findProject(path.join(root, d.name) );
@@ -18,7 +18,8 @@ export async function findProject(root: string): Promise<string | undefined> {
       return path.join(root, d.name);
     }
   }
-  return undefined;
+
+  return "";
 }
 
 export type Dependencies = Array<{
