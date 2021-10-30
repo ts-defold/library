@@ -62,7 +62,7 @@ export async function gatherDependencies(projectPath: string): Promise<Dependenc
   return results;
 }
 
-export default async function resolve(projectDir: string, types: string) {
+export default async function resolve(projectDir: string, types: string, log = console.log) {
   //* Find a game.project file
   const project = await findProject(projectDir);
   if (!project) throw new Error(`No game.project file found in ${projectDir}`);
@@ -90,14 +90,14 @@ export default async function resolve(projectDir: string, types: string) {
     if (!err && type) {
 
       if (version.checksum === createHash('md5').update(type).digest('hex')) {
-        console.log(`Using cached types for ${dep.name}@${version.version}`);
+        log(`Using cached types for ${dep.name}@${version.version}`);
         resolved.set(dep.name, { version: version.version, index });
         continue;
       }
     }
 
     //* Download the target version
-    console.log(`Downloading types for ${dep.name}@${version.version}`);
+    log(`Downloading types for ${dep.name}@${version.version}`);
     const data = await (
       await fetch(`${TYPES_REGISTRY}/${dep.name}/${version.path}`)
     ).buffer();
@@ -124,7 +124,7 @@ export default async function resolve(projectDir: string, types: string) {
     for (const v of prune) {
       const localPath = path.join(types, v.path);
       const [err] = await to(fs.unlink(localPath));
-      if (!err) console.log(`Pruned types ${dep.name}@${v.version}`);
+      if (!err) log(`Pruned types ${dep.name}@${v.version}`);
     }
   }
 }
