@@ -71,7 +71,7 @@ export default async function resolve(projectDir: string, types: string) {
   const deps = await gatherDependencies(project);
 
   //* Resolve dependencies against registry https://ts-defold.dev/library
-  const resolved: Set<string> = new Set();
+  const resolved = new Map<string, { version: string, index: Index }>();
   for (const dep of deps) {
     const index = await (
       await fetch(`${TYPES_REGISTRY}/${dep.name}/`)
@@ -88,9 +88,10 @@ export default async function resolve(projectDir: string, types: string) {
     const localPath = path.join(types, version.path);
     const [err, type] = await to(fs.readFile(localPath, 'utf8'));
     if (!err && type) {
+
       if (version.checksum === createHash('md5').update(type).digest('hex')) {
         console.log(`Using cached types for ${dep.name}@${version.version}`);
-        resolved.add(dep.name);
+        resolved.set(dep.name, { version: version.version, index });
         continue;
       }
     }
@@ -104,9 +105,10 @@ export default async function resolve(projectDir: string, types: string) {
     //* Write the types to disk
     await fs.mkdir(path.dirname(localPath), { recursive: true });
     await fs.writeFile(localPath, data);
-    resolved.add(dep.name);
+    resolved.set(dep.name, { version: version.version, index });
   }
 
+  //* Generate types from library directly
   const needsTypes = deps.filter((d) => !resolved.has(d.name));
   for (const dep of needsTypes) {
     void dep;
@@ -114,5 +116,15 @@ export default async function resolve(projectDir: string, types: string) {
     // TODO: Run the script_api.yaml through type-gen
   }
 
-  // TODO: We only ever want one type per library, resolve should prune old types
+  //* Prune old versions of types if known
+  const hasTypes = deps.filter((d) => resolved.has(d.name));
+  for (const dep of hasTypes) {
+    const { version, index } = resolved.get(dep.name)!;
+    const prune = index.versions.filter((v) => v.version !== version);
+    for (const v of prune) {
+      const localPath = path.join(types, v.path);
+      const [err] = await to(fs.unlink(localPath));
+      if (!err) console.log(`Pruned types ${dep.name}@${v.version}`);
+    }
+  }
 }
