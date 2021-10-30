@@ -113,4 +113,6 @@ export default async function resolve(projectDir: string, types: string) {
     // TODO: Search for a script_api.yaml in either the cached dep or from the url
     // TODO: Run the script_api.yaml through type-gen
   }
+
+  // TODO: We only ever want one type per library, resolve should prune old types
 }
