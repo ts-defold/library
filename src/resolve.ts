@@ -108,13 +108,15 @@ export default async function resolve(projectDir: string, types: string, log = c
     resolved.set(dep.name, { version: version.version, index });
   }
 
-  //* Generate types from library directly
+  //* Try to generate types from the dependencies directly if still unresolved
   const needsTypes = deps.filter((d) => !resolved.has(d.name));
   for (const dep of needsTypes) {
     void dep;
     // TODO: Search for a script_api.yaml in either the cached dep or from the url
     // TODO: Run the script_api.yaml through type-gen
   }
+
+  // TODO: Log and request types from the library service for any unresolved dependencies
 
   //* Prune old versions of types if known
   const hasTypes = deps.filter((d) => resolved.has(d.name));
