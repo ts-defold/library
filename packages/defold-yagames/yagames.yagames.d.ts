@@ -1,8 +1,9 @@
+/// <library version="0.6.4" src="https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.4.zip" />
 /** @noSelfInFile **/
 
 /** @noResolution */
 declare module 'yagames.yagames' {
-  export type Context = {};
+  export type Context = unknown;
 
   export interface ApiCallback {
     (this: Context, err: string, data?: unknown): void;
@@ -63,9 +64,7 @@ declare module 'yagames.yagames' {
       userID: string;
     }>): void;
   }
-  export function player_get_ids_per_game(callback: PlayerGetIdsCallback): void
-
-  export function player_get_name(): string;
+  export function player_get_ids_per_game(callback: PlayerGetIdsCallback): void;
 
   export function player_get_photo(size: 'small' | 'medium' | 'large'): string;
 
