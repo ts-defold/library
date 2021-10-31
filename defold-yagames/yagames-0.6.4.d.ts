@@ -5,27 +5,25 @@
 declare module 'yagames.yagames' {
   export type Context = unknown;
 
-  export interface ApiCallback {
-    (this: Context, err: string, data?: unknown): void;
-  }
+  export type ApiCallback = (self: Context, err: string, data?: unknown) => void;
 
   export function init(callback: ApiCallback): void;
 
   //* Advertisement
 
   export interface AdvCallbacks {
-    open: (this: Context) => void;
-    close: (this: Context, was_shown: boolean) => void;
-    offline: (this: Context) => void;
+    open: (ctx: Context) => void;
+    close: (ctx: Context, was_shown: boolean) => void;
+    offline: (ctx: Context) => void;
     error: (err: string) => void;
   }
   export function adv_show_fullscreen_adv(callbacks: AdvCallbacks): void;
 
   export interface RewardedCallbacks {
-    open: (this: Context) => void;
-    rewarded: (this: Context) => void;
-    close: (this: Context) => void;
-    error: (this: Context, err: string) => void;
+    open: (ctx: Context) => void;
+    rewarded: (ctx: Context) => void;
+    close: (ctx: Context) => void;
+    error: (ctx: Context, err: string) => void;
   }
   export function adv_show_rewarded_video(callbacks: RewardedCallbacks): void;
 
@@ -58,12 +56,10 @@ declare module 'yagames.yagames' {
 
   export function player_get_name(): string;
 
-  export interface PlayerGetIdsCallback {
-    (this: Context, err: string, data: Array<{
-      appID: string;
-      userID: string;
-    }>): void;
-  }
+  export type PlayerGetIdsCallback = (ctx: Context, err: string, data: Array<{
+    appID: string;
+    userID: string;
+  }>) => void;
   export function player_get_ids_per_game(callback: PlayerGetIdsCallback): void;
 
   export function player_get_photo(size: 'small' | 'medium' | 'large'): string;
@@ -76,39 +72,33 @@ declare module 'yagames.yagames' {
     id: string;
     developerPayload?: string;
   }
-  export interface PaymentsPurchaseCallback {
-    (this: Context, err: string, data: {
+  export type PaymentsPurchaseCallback = (ctx: Context, err: string, data: {
+    productId: string;
+    purchaseToken: string;
+    developerPayload: string;
+    signature: string;
+  }) => void;
+  export function payments_purchase(options: PaymentsPurchaseOptions | null, callback: PaymentsPurchaseCallback): void;
+
+  export type PaymentsPurchasesCallback = (ctx: Context, err: string, data: {
+    purchases: Array<{
       productId: string;
       purchaseToken: string;
       developerPayload: string;
-      signature: string;
-    }): void;
-  }
-  export function payments_purchase(options: PaymentsPurchaseOptions | null, callback: PaymentsPurchaseCallback): void;
-
-  export interface PaymentsPurchasesCallback {
-    (this: Context, err: string, data: {
-      purchases: Array<{
-        productId: string;
-        purchaseToken: string;
-        developerPayload: string;
-      }>;
-      signature: Array<string>;
-    }): void;
-  }
+    }>;
+    signature: Array<string>;
+  }) => void;
   export function payments_get_purchases(callback: PaymentsPurchasesCallback): void;
 
-  export interface PaymentsCatalogCallback {
-    (this: Context, err: string, data: Array<{
-      id: string;
-      title: string;
-      description: string;
-      imageURI: string;
-      price: string;
-      priceValue: string;
-      priceCurrencyCode: string;
-    }>): void;
-  }
+  export type PaymentsCatalogCallback = (ctx: Context, err: string, data: Array<{
+    id: string;
+    title: string;
+    description: string;
+    imageURI: string;
+    price: string;
+    priceValue: string;
+    priceCurrencyCode: string;
+  }>) => void;
   export function payments_get_catalog(callback: PaymentsCatalogCallback): void;
 
   export function payments_consume_purchase(purchase_token: string, callback: ApiCallback): void;
@@ -117,26 +107,24 @@ declare module 'yagames.yagames' {
 
   export function leaderboards_init(callback: ApiCallback): void;
 
-  export interface LeaderboardsDescriptionCallback {
-    (this: Context, err: string, data: {
-      appID: string;
-      default: boolean;
-      description: {
-        invert_sort_order: boolean;
-        score_format: {
-          options: {
-            decimal_offset: number;
-          }
+  export type LeaderboardsDescriptionCallback = (ctx: Context, err: string, data: {
+    appID: string;
+    default: boolean;
+    description: {
+      invert_sort_order: boolean;
+      score_format: {
+        options: {
+          decimal_offset: number;
         }
-        type: string;
       }
-      name: string;
-      title: {
-        en: string;
-        ru: string;
-      }
-    }): void;
-  }
+      type: string;
+    }
+    name: string;
+    title: {
+      en: string;
+      ru: string;
+    }
+  }) => void;
   export function leaderboards_get_description(leaderboard_name: string, callback: LeaderboardsDescriptionCallback): void;
 
   export interface LeaderboardsGetPlayerEntryOptions {
@@ -152,19 +140,15 @@ declare module 'yagames.yagames' {
 
   //* Feedback
 
-  export interface FeedbackCanReviewCallback {
-    (this: Context, err: string, data: {
-      value: boolean;
-      reason: string;
-    }): void;
-  }
+  export type FeedbackCanReviewCallback = (ctx: Context, err: string, data: {
+    value: boolean;
+    reason: string;
+  }) => void;
   export function feedback_can_review(callback: FeedbackCanReviewCallback): void;
 
-  export interface FeedbackCanReviewCallback {
-    (this: Context, err: string, data: {
-      feedbackSent: boolean;
-    }): void;
-  }
+  export type FeedbackRequestReviewCallback = (ctx: Context, err: string, data: {
+    feedbackSent: boolean;
+  }) => void;
   export function feedback_request_review(callback: FeedbackCanReviewCallback): void;
 
   //* Clipboard
@@ -232,11 +216,9 @@ declare module 'yagames.yagames' {
     css_class?: string;
     display?: "none" | "block";
   }
-  export interface BannerCreateCallback {
-    (this: Context, err: string, data: {
-      product: "direct" | "rtb";
-    }): void;
-  }
+  export type BannerCreateCallback = (ctx: Context, err: string, data: {
+    product: "direct" | "rtb";
+  }) => void;
   export function banner_create(rtb_id: string, options: BannerCreateOptions, callback?: BannerCreateCallback): void;
   
   export function banner_delete(rtb_id: string): void;
