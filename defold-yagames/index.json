@@ -7,13 +7,6 @@
       "url": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.4.zip",
       "hash": "310c3e7d3c3b2e451436d7bc155306ff8726800a",
       "path": "yagames-0.6.4.d.ts",
-      "checksum": "e06a141c8c2064c95515d75dcf2d9a67"
-    },
-    {
-      "version": "0.6.4",
-      "url": "https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.4.zip",
-      "hash": "310c3e7d3c3b2e451436d7bc155306ff8726800a",
-      "path": "yagames.yagames.d.ts",
       "checksum": "6c030e324e24647902c02868a12708e3"
     }
   ]
