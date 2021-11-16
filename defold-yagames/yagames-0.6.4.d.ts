@@ -136,6 +136,34 @@ declare module 'yagames.yagames' {
   }
   export function leaderboards_get_player_entry(leaderboard_name: string, options: LeaderboardsGetPlayerEntryOptions | null, callback: ApiCallback): void;
 
+  export type LeaderboardsGetPlayerEntriesCallback = (ctx: Context, err: string, data: {
+  ranges: [ 
+    {
+      start: number,
+      size: number,
+    }
+  ],
+  userRank: number,
+  entries: [  
+    {
+      score: number,
+      extraData: string,
+      rank: number,
+      player: {
+        getAvatarSrc: (size: string) => string,
+        getAvatarSrcSet: (size: string) => string,
+        lang: string,
+        publicName: string,
+        scopePermissions: {
+          avatar: string,
+          public_name: string
+        },
+        uniqueID: string,
+      },
+    formattedScore: string
+    },
+  ]
+  }) => void;
   export interface LeaderboardsGetEntriesOptions {
     includeUser?: boolean;
     quantityAround?: number;
@@ -143,7 +171,7 @@ declare module 'yagames.yagames' {
     getAvatarSrc?: "small" | "medium" | "large";
     getAvatarSrcSet?: "small" | "medium" | "large";
   }
-  export function leaderboards_get_entries(leaderboard_name: string, options: LeaderboardsGetEntriesOptions | null, callback: ApiCallback): void;
+  export function leaderboards_get_entries(leaderboard_name: string, options: LeaderboardsGetEntriesOptions | null, callback: LeaderboardsGetPlayerEntriesCallback): void;
 
   export function leaderboards_set_score(leaderboard_name: string, score: number, extra_data: string, callback: ApiCallback): void;
 
