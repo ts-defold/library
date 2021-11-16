@@ -31,8 +31,8 @@ declare module 'yagames.yagames' {
   export function auth_open_auth_dialog(callback: ApiCallback): void;
 
   export interface PlayerInitOptions {
-    signed: boolean;
-    scopes: boolean;
+    signed?: boolean;
+    scopes?: boolean;
   }
   export function player_init(options: PlayerInitOptions, callback: ApiCallback): void;
 
@@ -127,13 +127,22 @@ declare module 'yagames.yagames' {
   export function leaderboards_get_description(leaderboard_name: string, callback: LeaderboardsDescriptionCallback): void;
 
   export interface LeaderboardsGetPlayerEntryOptions {
-    includeUser: boolean;
-    quantityAround: number;
-    quantityTop: number;
-    getAvatarSrc: "small" | "medium" | "large";
-    getAvatarSrcSet: "small" | "medium" | "large"
+    includeUser?: boolean;
+    quantityAround?: number;
+    quantityTop?: number;
+    getAvatarSrc?: "small" | "medium" | "large";
+    getAvatarSrcSet?: "small" | "medium" | "large"
   }
   export function leaderboards_get_player_entry(leaderboard_name: string, options: LeaderboardsGetPlayerEntryOptions | null, callback: ApiCallback): void;
+
+  export interface LeaderboardsGetEntriesOptions {
+    includeUser?: boolean;
+    quantityAround?: number;
+    quantityTop?: number;
+    getAvatarSrc?: "small" | "medium" | "large";
+    getAvatarSrcSet?: "small" | "medium" | "large";
+  }
+  export function leaderboards_get_entries(leaderboard_name: string, options: LeaderboardsGetEntriesOptions | null, callback: ApiCallback): void;
 
   export function leaderboards_set_score(leaderboard_name: string, score: number, extra_data: string, callback: ApiCallback): void;
 
