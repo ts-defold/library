@@ -1,6 +1,6 @@
 {
   "name": "@ts-defold/library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Type library for Defold",
   "main": "lib/index.js",
   "bin": "bin/library.js",
