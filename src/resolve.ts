@@ -73,22 +73,28 @@ export default async function resolve(projectDir: string, types: string, log = c
   //* Resolve dependencies against registry https://ts-defold.dev/library
   const resolved = new Map<string, { version: string, index: Index }>();
   for (const dep of deps) {
-    const index = await (
-      await fetch(`${TYPES_REGISTRY}/${dep.name}/`)
-    ).json() as Index;
+    const [_err, index] = await to<Index>(
+      fetch(`${TYPES_REGISTRY}/${dep.name}/`).then((res) => res.json())
+    );
+    if (!index || _err) {
+      log(`No suitable types found for ${dep.name}`);
+      continue;
+    }
 
     //* Find the best version
     const ordered = index.versions.sort((a, b) => semver.compare(a.version, b.version));
     const target = ordered.find((v) => semver.satisfies(v.version, dep.version));
     const latest = ordered.length > 0 ? ordered[ordered.length - 1] : undefined;
     const version = target || latest;
-    if (!version) throw new Error(`No suitable version found for ${dep.name}`);
+    if (!version) {
+      log(`No suitable version found for ${dep.name}`);
+      continue;
+    }
 
     //* If the version exists and matches the checksum we can skip downloading
     const localPath = path.join(types, version.path);
     const [err, type] = await to(fs.readFile(localPath, 'utf8'));
     if (!err && type) {
-
       if (version.checksum === createHash('md5').update(type).digest('hex')) {
         log(`Using cached types for ${dep.name}@${version.version}`);
         resolved.set(dep.name, { version: version.version, index });
