@@ -7,6 +7,10 @@
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
   },
+  "defold.zzfx": {
+    "name": "zzfx",
+    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  },
   "defold-yagames": {
     "name": "yagames",
     "url": "https://github.com/indiesoftby/defold-yagames"
