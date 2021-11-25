@@ -5,11 +5,11 @@ type ZzFXSample = LuaUserdata & {
 
 /** @noResolution */
 declare module 'zzfx.api' {
-export function play(...args: number[]): void;
+  export function play(...args: number[]): void;
 
-export function samplerate(rate: number): void;
+  export function samplerate(rate: number): void;
 
-export function play_sample(sample: ZzFXSample): void;
+  export function play_sample(sample: ZzFXSample): void;
 
-export function build_sample(...args: number[]): ZzFXSample;
+  export function build_sample(...args: number[]): ZzFXSample;
 }
