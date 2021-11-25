@@ -95,7 +95,7 @@ export default async function publish(src: string, dest: string) {
           }
         }
       } catch (e) {
-        console.warn(`Skipping ${path.basename(m)}, ${(e as Error).message}`);
+        throw new Error(`Skipping ${path.basename(m)}, ${(e as Error).message}`);
       }
     };
 
@@ -168,7 +168,7 @@ export default async function publish(src: string, dest: string) {
     await fs.writeFile(path.join(dest, "index.json"), JSON.stringify(registry, null, 2));
 
   } catch (e) {
-    console.error(PublishStep[step], e);
+    console.error(`${PublishStep[step]}:`, (e as Error).message);
     process.exit(1);
   }
 }
