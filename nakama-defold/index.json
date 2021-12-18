@@ -1,0 +1,13 @@
+{
+  "name": "nakama",
+  "url": "https://github.com/heroiclabs/nakama-defold",
+  "versions": [
+    {
+      "version": "2.1.2",
+      "url": "https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.2.zip",
+      "hash": "b1a5a311c33a78004922a921639eaeeb7bd122b5",
+      "path": "nakama-2.1.2.d.ts",
+      "checksum": "63f4a7ab9a52d5c44ea57f852c82e0c0"
+    }
+  ]
+}

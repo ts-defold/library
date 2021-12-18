@@ -1,15 +1,7 @@
 {
-  "defold-metrics": {
-    "name": "metrics",
-    "url": "https://github.com/britzl/defold-metrics"
-  },
   "defcon": {
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
-  },
-  "defold-zzfx": {
-    "name": "zzfx",
-    "url": "https://github.com/thejustinwalsh/defold-zzfx"
   },
   "defold-yagames": {
     "name": "yagames",
@@ -19,8 +11,20 @@
     "name": "lldebugger",
     "url": "https://github.com/ts-defold/defold-lldebugger"
   },
+  "defold-zzfx": {
+    "name": "zzfx",
+    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  },
   "defold-orthographic": {
     "name": "orthographic",
     "url": "https://github.com/britzl/defold-orthographic"
+  },
+  "nakama-defold": {
+    "name": "nakama",
+    "url": "https://github.com/heroiclabs/nakama-defold"
+  },
+  "defold-metrics": {
+    "name": "metrics",
+    "url": "https://github.com/britzl/defold-metrics"
   }
 }
