@@ -329,13 +329,13 @@ declare module 'nakama.nakama' {
     username_str: any,
     callback: any
   ): void;
-  export function authenticate_custom(
-    client: any,
-    body_api_account_custom: any,
-    create_bool: any,
-    username_str: any,
-    callback: any
-  ): void;
+  //export function authenticate_custom(
+  //  client: any,
+  //  body_api_account_custom: any,
+  //  create_bool: any,
+  //  username_str: any,
+  //  callback: any
+  //): void;
   export function authenticate_device(
     client: any,
     body_api_account_device: any,
