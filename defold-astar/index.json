@@ -1,0 +1,13 @@
+{
+  "name": "astar",
+  "url": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.1.zip",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/ts-defold/defold-lldebugger/archive/extension.zip",
+      "hash": "16d99aa56f63275866a7c6477d65ee5a53c693be",
+      "path": "astar-1.0.1.d.ts",
+      "checksum": "99e30f5e4a6461a8e723ce739abfbfd5"
+    }
+  ]
+}
