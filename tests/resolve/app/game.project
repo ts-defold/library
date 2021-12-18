@@ -7,4 +7,5 @@ dependencies#3 = https://github.com/britzl/defold-input/archive/master.zip
 dependencies#4 = https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.3.zip
 dependencies#5 = https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.4.zip
 dependencies#6 = https://github.com/thejustinwalsh/defold-zzfx/archive/main.zip
+dependencies#7 = https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.2.zip
 
