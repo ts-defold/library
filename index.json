@@ -27,6 +27,10 @@
     "name": "nakama",
     "url": "https://github.com/heroiclabs/nakama-defold"
   },
+  "defmath": {
+    "name": "defmath",
+    "url": "https://github.com/subsoap/defmath"
+  },
   "defold-metrics": {
     "name": "metrics",
     "url": "https://github.com/britzl/defold-metrics"

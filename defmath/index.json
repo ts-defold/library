@@ -1,0 +1,13 @@
+{
+  "name": "defmath",
+  "url": "https://github.com/subsoap/defmath",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/subsoap/defmath/archive/master.zip",
+      "hash": "dc5ce5b0637cf7ecc714a063d42b8f4728d0c2a3",
+      "path": "defmath-0.0.1.d.ts",
+      "checksum": "ec8606ad48d743872dde82b63bd4f141"
+    }
+  ]
+}
