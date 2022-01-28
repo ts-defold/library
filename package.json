@@ -3,10 +3,12 @@
   "version": "0.1.2",
   "description": "Type library for Defold",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "bin": "bin/library.js",
   "files": [
-    "lib/**/*.{js,d.ts}",
-    "bin/**/*.js"
+    "lib",
+    "bin",
+    "!/**/*.js.map"
   ],
   "scripts": {
     "resolve": "npm run build && ./bin/library.js resolve --src ./tests/resolve --out ./tests/resolve/@types",
