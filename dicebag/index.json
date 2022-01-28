@@ -1,0 +1,13 @@
+{
+  "name": "dicebag",
+  "url": "https://github.com/8bitskull/dicebag",
+  "versions": [
+    {
+      "version": "0.0.3",
+      "url": "https://github.com/8bitskull/dicebag/archive/refs/tags/0.3.zip",
+      "hash": "be86dd411ac0e6ad905fa664b3af9dff6b698b0f",
+      "path": "dicebag-0.0.3.d.ts",
+      "checksum": "9920bf2f136456ec13510adc5a4da6c0"
+    }
+  ]
+}
