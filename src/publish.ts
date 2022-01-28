@@ -33,9 +33,9 @@ enum PublishStep {
 
 //* Write a string to a file, creating the directory if it doesn't exist
 const writeFile = async (file: string, data: string|object) => {
-	const output = typeof data === "string" ? data : JSON.stringify(data, null, 2);
-	await fs.mkdir(path.dirname(file), { recursive: true });
-	await fs.writeFile(file, output + os.EOL, "utf8");
+  const output = typeof data === "string" ? data : JSON.stringify(data, null, 2);
+  await fs.mkdir(path.dirname(file), { recursive: true });
+  await fs.writeFile(file, output + os.EOL, "utf8");
 }
 
 export default async function publish(src: string, dest: string) {
