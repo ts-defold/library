@@ -1,7 +1,7 @@
 /** @noSelfInFile **/
 
 /** @noResolution */
-declare module "dicebag" {
+declare module "dicebag.dicebag" {
   /**
    * Sets up the randomseed and clears the first number of random rolls.
    * @param seed optional seed, if not specified a seed will be generated using socket.gettime().
