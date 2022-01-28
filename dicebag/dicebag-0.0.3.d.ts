@@ -35,13 +35,13 @@ declare module "dicebag.dicebag" {
    */
   export function roll_special_dice(num_sides: number, advantage: number, num_dice: number, num_results: number): number;
 
-  /**
+ /**
    * Roll custom dice. The dice can have sides with different weights and different values.
    * @param num_dice How many dice to roll.
-   * @param sides A table describing the sides of the die in the format `{{weight1, value1}, {weight2, value2} ...}`.
+   * @param sides A table describing the sides of the die in the format `[[weight1, value1], [weight2, value2], ...]`.
    * @returns The sum of the values as specified in the table `sides`.
    */
-  export function roll_custom_dice(num_dice: number, sides: Array<{weight: number, value: number}>): number;
+ export function roll_custom_dice(num_dice: number, sides: Array<[number, number]>): number;
 
   /**
    * Create a marble bag of green (success) and red (fails) 'marbles'. This allows you to, for example, make an unlikely event more and more likely the more fails are accumulated.
@@ -70,7 +70,7 @@ declare module "dicebag.dicebag" {
    * @param id A unique identifier for the rollable table.
    * @param rollable_table A table of weights, values and reset flags.
    */
-  export function table_create(id: string | number | hash, rollable_table: Array<{ weight: number, value: any, reset_on_roll?: boolean }>): void;
+  export function table_create(id: string | number | hash, rollable_table: Array<[number, any, boolean?]>): void;
 
   /**
    * Draw a random value from the rollable table created in `table_create`. The value will be removed from the table. If `reset_on_roll` is true, the table will reset. Otherwise, the table will reset when all values are drawn.
