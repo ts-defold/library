@@ -2,6 +2,7 @@ import { to } from "await-to-js";
 import { createHash } from "crypto";
 import fs from "fs/promises";
 import * as path from "path";
+import * as os from "os";
 import { parseStringPromise } from "xml2js";
 
 export interface Library {
@@ -30,6 +31,13 @@ enum PublishStep {
   Registry,
 }
 
+//* Write a string to a file, creating the directory if it doesn't exist
+const writeFile = async (file: string, data: string|object) => {
+	const output = typeof data === "string" ? data : JSON.stringify(data, null, 2);
+	await fs.mkdir(path.dirname(file), { recursive: true });
+	await fs.writeFile(file, output + os.EOL, "utf8");
+}
+
 export default async function publish(src: string, dest: string) {
   let step = PublishStep.Init;
   try {
@@ -41,7 +49,7 @@ export default async function publish(src: string, dest: string) {
     for await (const d of await fs.opendir(src)) {
       if (d.isDirectory()) packages.push( path.join(src, d.name) );
     }
-    
+
     //* Collect library metadata
     step = PublishStep.Libraries;
     //* ------------------------------------------------------------
@@ -51,7 +59,7 @@ export default async function publish(src: string, dest: string) {
         //* Parse and verify library.json
         const [err, libFile] = await to(fs.readFile(path.join(m, "library.json")));
         if (err || !libFile) throw new Error('Missing library.json');
-        
+
         const lib = JSON.parse(libFile.toString()) as Library;
         if (!lib.name) throw new Error('Missing library name');
         if (!lib.url) throw new Error('Missing library url');
@@ -82,7 +90,7 @@ export default async function publish(src: string, dest: string) {
               if (library.$ && library.$["version"] && library.$["src"]) {
                 var shasum = createHash('sha1');
                 shasum.update(library.$["src"])
-  
+
                 modules[key].versions.push({
                   version: library.$["version"],
                   url: library.$["src"],
@@ -140,8 +148,7 @@ export default async function publish(src: string, dest: string) {
 
         // Write typing file to out directory
         const output = path.join(dest, path.basename(key));
-        await fs.mkdir(output, { recursive: true });
-        await fs.writeFile(path.join(output, version.path), data);
+        await writeFile(path.join(output, version.path), data);
       }
     }
 
@@ -150,8 +157,7 @@ export default async function publish(src: string, dest: string) {
     //* ------------------------------------------------------------
     for (const key of Object.keys(modules)) {
       const lib = modules[key];
-      await fs.mkdir(path.join(dest, path.basename(key)), { recursive: true });
-      await fs.writeFile(path.join(dest, path.basename(key), "index.json"), JSON.stringify(lib, null, 2));
+      await writeFile(path.join(dest, path.basename(key), "index.json"), lib);
     }
 
     //* Generate a package registry index.json for each module
@@ -165,7 +171,7 @@ export default async function publish(src: string, dest: string) {
         url: lib.url!,
       }
     }
-    await fs.writeFile(path.join(dest, "index.json"), JSON.stringify(registry, null, 2));
+    await writeFile(path.join(dest, "index.json"), registry);
 
   } catch (e) {
     console.error(`${PublishStep[step]}:`, (e as Error).message);
