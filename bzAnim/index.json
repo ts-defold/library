@@ -1,0 +1,20 @@
+{
+  "name": "bzAnim",
+  "url": "https://github.com/jbp4444/bzAnim",
+  "versions": [
+    {
+      "version": "1.2.0",
+      "url": "https://github.com/jbp4444/bzAnim/archive/refs/tags/v.1.2.zip",
+      "hash": "1b568fd9a59d9dba56f11f99f68a9a9513a00007",
+      "path": "bzAnim.bzAnim.d.ts",
+      "checksum": "6a320cf5408b7a5fc42cbc93eb679a00"
+    },
+    {
+      "version": "1.2.0",
+      "url": "https://github.com/jbp4444/bzAnim/archive/refs/tags/v.1.2.zip",
+      "hash": "1b568fd9a59d9dba56f11f99f68a9a9513a00007",
+      "path": "bzAnim-1.2.0.d.ts",
+      "checksum": "381a6439a339c1311ed660cfeb4f29ef"
+    }
+  ]
+}
