@@ -22,7 +22,7 @@ declare module "in.cursor" {
   export function listen(
     cursor_url: hash | url | null,
     message_id: hash | url | null,
-    fn: () => boolean
+    fn: (message_id: any, message: any) => boolean
   ): boolean;
 
   export function init(): void;
