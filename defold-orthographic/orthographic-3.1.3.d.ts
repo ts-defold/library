@@ -44,7 +44,7 @@ declare module 'orthographic.camera' {
    * @param zoom  The new zoom level of the camera
    */
   export function set_zoom(camera_id: hash | url | null, zoom: number): void;
-  
+
   /**
    * Shake the camera.
    * @param camera_id (hash | url), null for the first camera
@@ -72,4 +72,20 @@ declare module 'orthographic.camera' {
    * @param window Window coordinates to convert
    */
   export function window_to_world(camera_id: hash | url | null, window: vmath.vector3): vmath.vector3;
+
+
+  /**
+   * Get the display size (ie from game.project).
+   */
+  export function get_display_size(): LuaMultiReturn<[number, number]>;
+
+  /**
+   * Get window size.
+   */
+  export function get_window_size(): LuaMultiReturn<[number, number]>;
+
+  /**
+   * Get list of camera ids.
+   */
+  export function get_cameras(): Array<hash | url | null>;
 }

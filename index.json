@@ -1,43 +1,43 @@
 {
-  "defmath": {
-    "name": "defmath",
-    "url": "https://github.com/subsoap/defmath"
-  },
-  "defcon": {
-    "name": "defcon",
-    "url": "https://github.com/britzl/defcon"
+  "defold-orthographic": {
+    "name": "orthographic",
+    "url": "https://github.com/britzl/defold-orthographic"
   },
   "defold-yagames": {
     "name": "yagames",
     "url": "https://github.com/indiesoftby/defold-yagames"
   },
-  "nakama-defold": {
-    "name": "nakama",
-    "url": "https://github.com/heroiclabs/nakama-defold"
-  },
   "defold-astar": {
     "name": "astar",
     "url": "https://github.com/selimanac/defold-astar"
-  },
-  "defold-orthographic": {
-    "name": "orthographic",
-    "url": "https://github.com/britzl/defold-orthographic"
-  },
-  "dicebag": {
-    "name": "dicebag",
-    "url": "https://github.com/8bitskull/dicebag"
   },
   "defold-zzfx": {
     "name": "zzfx",
     "url": "https://github.com/thejustinwalsh/defold-zzfx"
   },
+  "defold-lldebugger": {
+    "name": "lldebugger",
+    "url": "https://github.com/ts-defold/defold-lldebugger"
+  },
+  "dicebag": {
+    "name": "dicebag",
+    "url": "https://github.com/8bitskull/dicebag"
+  },
+  "defmath": {
+    "name": "defmath",
+    "url": "https://github.com/subsoap/defmath"
+  },
   "bzAnim": {
     "name": "bzAnim",
     "url": "https://github.com/jbp4444/bzAnim"
   },
-  "defold-lldebugger": {
-    "name": "lldebugger",
-    "url": "https://github.com/ts-defold/defold-lldebugger"
+  "nakama-defold": {
+    "name": "nakama",
+    "url": "https://github.com/heroiclabs/nakama-defold"
+  },
+  "defcon": {
+    "name": "defcon",
+    "url": "https://github.com/britzl/defcon"
   },
   "defold-metrics": {
     "name": "metrics",
