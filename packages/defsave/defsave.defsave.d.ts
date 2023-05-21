@@ -1,0 +1,38 @@
+/// <library version="1.2.4" src="https://github.com/subsoap/defsave/archive/master.zip" />
+/** @noSelfInFile **/
+
+/** @noResolution */
+declare module "defsave.defsave" {
+  // Example:
+  // ```
+  // import * as defsave from "defsave.defsave";
+  //
+  // // **please ts-ignore for appname to set to skip linter error**
+  // @ts-ignore
+  // defsave.appname = "MyGame";
+  // defsave.load("save1");
+  //
+  // defsave.set("save1", "player_name", "John");
+  // ```
+
+  export let appname: string;
+
+  export function load(config: string): any;
+
+  export function get(config: string, name: string): any;
+
+  export function set(config: string, name: string, value: any): void;
+
+  export function save(config: string): void;
+
+  /**
+   * You can save all files at once. By default, it will only actually save files with changes, but you can force saving all files by setting the force flag to true.
+   * @param all_files false only saves changed files and true saves all files
+   */
+  export function save_all(all_files?: boolean): void;
+
+  /**
+   * In your update, if you want autosave to be enabled, you will need to include
+   */
+  export function update(dt: number): void;
+}
