@@ -3,19 +3,9 @@
 
 /** @noResolution */
 declare module "defsave.defsave" {
-  // Example:
-  // ```
-  // import * as defsave from "defsave.defsave";
-  //
-  // // **please ts-ignore for appname to set to skip linter error**
-  // @ts-ignore
-  // defsave.appname = "MyGame";
-  // defsave.load("save1");
-  //
-  // defsave.set("save1", "player_name", "John");
-  // ```
-
   export let appname: string;
+
+  export function set_appname(name: string): void;
 
   export function load(config: string): any;
 
