@@ -27,11 +27,21 @@ declare module "ludobits.m.flow" {
      -- @param on_error Function to call if something goes wrong while
      -- running the flow
      -- @return The created flow instance
+
+     Example:
+
+     ```js
+      import * as flow from "ludobits.m.flow"
+
+      flow.start(() => {
+        // your flow code here.
+      });
+     ```
    */
   export function start(
     fn: () => void,
-    options: { parallel?: boolean },
-    on_error: () => void
+    options?: { parallel?: boolean },
+    on_error?: () => void
   ): FlowInstance;
 
   export function parallel(fn: () => void, on_error: () => void): FlowInstance;
@@ -213,10 +223,4 @@ declare module "ludobits.m.flow" {
   export function on_message(message_id: any, message: any, sender: any): void;
 
   export function on_input(action_id: any, action: any): void;
-
-  // TODO: how to do module call function
-  //
-  export function constructor(fn: () => void): FlowInstance;
-
-  export default constructor;
 }
