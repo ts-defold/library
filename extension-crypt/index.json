@@ -1,0 +1,13 @@
+{
+  "name": "crypt",
+  "url": "https://github.com/defold/extension-crypt",
+  "versions": [
+    {
+      "version": "1.0.2",
+      "url": "https://github.com/defold/extension-crypt/archive/master.zip",
+      "hash": "e712d3b9cdc891b58db51e6c963ca47bc4a1ebca",
+      "path": "crypt-1.0.2.d.ts",
+      "checksum": "032afe8dcfb59618051962b6fcf1add3"
+    }
+  ]
+}
