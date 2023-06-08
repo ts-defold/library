@@ -1,0 +1,13 @@
+{
+  "name": "defsave",
+  "url": "https://github.com/subsoap/defsave",
+  "versions": [
+    {
+      "version": "1.2.4",
+      "url": "https://github.com/subsoap/defsave/archive/master.zip",
+      "hash": "cf4792682c5c006dcf7a2c6bc57248ea7cd87378",
+      "path": "defsave-1.2.4.d.ts",
+      "checksum": "49e1e5186c2229240d95cba8d67403fd"
+    }
+  ]
+}
