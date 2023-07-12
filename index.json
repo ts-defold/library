@@ -1,7 +1,15 @@
 {
+  "extension-crypt": {
+    "name": "crypt",
+    "url": "https://github.com/defold/extension-crypt"
+  },
   "dicebag": {
     "name": "dicebag",
     "url": "https://github.com/8bitskull/dicebag"
+  },
+  "defold-metrics": {
+    "name": "metrics",
+    "url": "https://github.com/britzl/defold-metrics"
   },
   "nakama-defold": {
     "name": "nakama",
@@ -11,44 +19,36 @@
     "name": "yagames",
     "url": "https://github.com/indiesoftby/defold-yagames"
   },
-  "defold-orthographic": {
-    "name": "orthographic",
-    "url": "https://github.com/britzl/defold-orthographic"
+  "defold-lldebugger": {
+    "name": "lldebugger",
+    "url": "https://github.com/ts-defold/defold-lldebugger"
   },
   "defcon": {
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
   },
-  "extension-crypt": {
-    "name": "crypt",
-    "url": "https://github.com/defold/extension-crypt"
+  "defold-astar": {
+    "name": "astar",
+    "url": "https://github.com/selimanac/defold-astar"
   },
   "defold-zzfx": {
     "name": "zzfx",
     "url": "https://github.com/thejustinwalsh/defold-zzfx"
   },
-  "bzAnim": {
-    "name": "bzAnim",
-    "url": "https://github.com/jbp4444/bzAnim"
+  "defold-orthographic": {
+    "name": "orthographic",
+    "url": "https://github.com/britzl/defold-orthographic"
   },
-  "defold-lldebugger": {
-    "name": "lldebugger",
-    "url": "https://github.com/ts-defold/defold-lldebugger"
+  "defsave": {
+    "name": "defsave",
+    "url": "https://github.com/subsoap/defsave"
   },
   "defmath": {
     "name": "defmath",
     "url": "https://github.com/subsoap/defmath"
   },
-  "defold-metrics": {
-    "name": "metrics",
-    "url": "https://github.com/britzl/defold-metrics"
-  },
-  "defold-astar": {
-    "name": "astar",
-    "url": "https://github.com/selimanac/defold-astar"
-  },
-  "defsave": {
-    "name": "defsave",
-    "url": "https://github.com/subsoap/defsave"
+  "bzAnim": {
+    "name": "bzAnim",
+    "url": "https://github.com/jbp4444/bzAnim"
   }
 }
