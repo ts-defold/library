@@ -11,6 +11,7 @@
     "!/**/*.js.map"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "resolve": "npm run build && ./bin/library.js resolve --src ./tests/resolve --out ./tests/resolve/@types",
     "publish": "npm run build && ./bin/library.js publish --src ./packages",
     "build": "npm run clean && tsc",
