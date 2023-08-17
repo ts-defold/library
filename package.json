@@ -1,6 +1,6 @@
 {
   "name": "@ts-defold/library",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Type library for Defold",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,6 +11,7 @@
     "!/**/*.js.map"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "resolve": "npm run build && ./bin/library.js resolve --src ./tests/resolve --out ./tests/resolve/@types",
     "publish": "npm run build && ./bin/library.js publish --src ./packages",
     "build": "npm run clean && tsc",
@@ -39,7 +40,6 @@
     "typescript-to-lua": "1.1.1"
   },
   "peerDependencies": {
-    "typescript": "^4.4.4",
     "typescript-to-lua": "^1.1.1"
   }
 }
