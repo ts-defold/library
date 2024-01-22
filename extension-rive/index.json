@@ -1,0 +1,13 @@
+{
+  "name": "extension-rive",
+  "url": "https://github.com/defold/extension-rive",
+  "versions": [
+    {
+      "version": "1.3.0",
+      "url": "https://github.com/defold/extension-rive/archive/refs/tags/1.3.0.zip",
+      "hash": "a6387c105494b92620eeeeae3e212f1a121893a4",
+      "path": "rive-1.3.0.d.ts",
+      "checksum": "83d966bef735211a3681c1d1ea49f680"
+    }
+  ]
+}
