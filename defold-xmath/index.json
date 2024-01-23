@@ -1,0 +1,13 @@
+{
+  "name": "xmath",
+  "url": "https://github.com/thejustinwalsh/defold-xmath",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/thejustinwalsh/defold-xmath/archive/refs/heads/main.zip",
+      "hash": "69a5f36480a0b86050a222bca55aff7b19e6b329",
+      "path": "xmath-0.0.1.d.ts",
+      "checksum": "f0bcba9f2402e3d06fa44898d307a561"
+    }
+  ]
+}

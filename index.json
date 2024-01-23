@@ -62,5 +62,9 @@
   "bzAnim": {
     "name": "bzAnim",
     "url": "https://github.com/jbp4444/bzAnim"
+  },
+  "defold-xmath": {
+    "name": "xmath",
+    "url": "https://github.com/thejustinwalsh/defold-xmath"
   }
 }
