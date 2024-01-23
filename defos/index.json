@@ -1,0 +1,13 @@
+{
+  "name": "defos",
+  "url": "https://github.com/subsoap/defos",
+  "versions": [
+    {
+      "version": "2.7.1",
+      "url": "https://github.com/subsoap/defos/archive/refs/tags/v2.7.1.zip",
+      "hash": "847b5d950a441359ff1461fd9199769cdadb8caa",
+      "path": "defos-2.7.1.d.ts",
+      "checksum": "af3555e475a893b1dcc08c5f0ef9f816"
+    }
+  ]
+}
