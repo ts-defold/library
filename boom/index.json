@@ -1,0 +1,13 @@
+{
+  "name": "boom",
+  "url": "https://github.com/britzl/boom",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/britzl/boom/archive/refs/tags/1.0.0.zip",
+      "hash": "3894943eead7aa6c638c8fa2779259ed7619a364",
+      "path": "boom-1.0.0.d.ts",
+      "checksum": "e71486f99e99458dd4434eebfcb3fa06"
+    }
+  ]
+}

@@ -11,6 +11,10 @@
     "name": "zzfx",
     "url": "https://github.com/thejustinwalsh/defold-zzfx"
   },
+  "boom": {
+    "name": "boom",
+    "url": "https://github.com/britzl/boom"
+  },
   "dicebag": {
     "name": "dicebag",
     "url": "https://github.com/8bitskull/dicebag"
