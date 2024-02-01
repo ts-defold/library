@@ -1,27 +1,47 @@
 {
-  "nakama-defold": {
-    "name": "nakama",
-    "url": "https://github.com/heroiclabs/nakama-defold"
-  },
   "defold-yagames": {
     "name": "yagames",
     "url": "https://github.com/indiesoftby/defold-yagames"
   },
-  "defold-zzfx": {
-    "name": "zzfx",
-    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  "extension-rive": {
+    "name": "extension-rive",
+    "url": "https://github.com/defold/extension-rive"
   },
-  "boom": {
-    "name": "boom",
-    "url": "https://github.com/britzl/boom"
+  "webgl_memory": {
+    "name": "webgl_memory",
+    "url": "https://github.com/indiesoftby/defold-webgl-memory"
+  },
+  "defold-metrics": {
+    "name": "metrics",
+    "url": "https://github.com/britzl/defold-metrics"
+  },
+  "extension-crypt": {
+    "name": "crypt",
+    "url": "https://github.com/defold/extension-crypt"
   },
   "dicebag": {
     "name": "dicebag",
     "url": "https://github.com/8bitskull/dicebag"
   },
-  "defold-lldebugger": {
-    "name": "lldebugger",
-    "url": "https://github.com/ts-defold/defold-lldebugger"
+  "splitmix64": {
+    "name": "splitmix64",
+    "url": "https://github.com/indiesoftby/defold-splitmix64"
+  },
+  "JsToDef": {
+    "name": "jstodef",
+    "url": "https://github.com/AGulev/jstodef"
+  },
+  "pcgrandom": {
+    "name": "pcgrandom",
+    "url": "https://github.com/selimanac/defold-random"
+  },
+  "boom": {
+    "name": "boom",
+    "url": "https://github.com/britzl/boom"
+  },
+  "defold-xmath": {
+    "name": "xmath",
+    "url": "https://github.com/thejustinwalsh/defold-xmath"
   },
   "defcon": {
     "name": "defcon",
@@ -31,40 +51,44 @@
     "name": "astar",
     "url": "https://github.com/selimanac/defold-astar"
   },
-  "defsave": {
-    "name": "defsave",
-    "url": "https://github.com/subsoap/defsave"
+  "defold-lldebugger": {
+    "name": "lldebugger",
+    "url": "https://github.com/ts-defold/defold-lldebugger"
   },
-  "defold-metrics": {
-    "name": "metrics",
-    "url": "https://github.com/britzl/defold-metrics"
-  },
-  "defold-orthographic": {
-    "name": "orthographic",
-    "url": "https://github.com/britzl/defold-orthographic"
-  },
-  "defos": {
-    "name": "defos",
-    "url": "https://github.com/subsoap/defos"
-  },
-  "extension-rive": {
-    "name": "extension-rive",
-    "url": "https://github.com/defold/extension-rive"
-  },
-  "extension-crypt": {
-    "name": "crypt",
-    "url": "https://github.com/defold/extension-crypt"
+  "extension-vibrate": {
+    "name": "vibrate",
+    "url": "https://github.com/adamwestman/extension-vibrate"
   },
   "defmath": {
     "name": "defmath",
     "url": "https://github.com/subsoap/defmath"
   },
+  "review": {
+    "name": "review",
+    "url": "https://github.com/defold/extension-review"
+  },
+  "nakama-defold": {
+    "name": "nakama",
+    "url": "https://github.com/heroiclabs/nakama-defold"
+  },
+  "defsave": {
+    "name": "defsave",
+    "url": "https://github.com/subsoap/defsave"
+  },
+  "defos": {
+    "name": "defos",
+    "url": "https://github.com/subsoap/defos"
+  },
+  "defold-zzfx": {
+    "name": "zzfx",
+    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  },
+  "defold-orthographic": {
+    "name": "orthographic",
+    "url": "https://github.com/britzl/defold-orthographic"
+  },
   "bzAnim": {
     "name": "bzAnim",
     "url": "https://github.com/jbp4444/bzAnim"
-  },
-  "defold-xmath": {
-    "name": "xmath",
-    "url": "https://github.com/thejustinwalsh/defold-xmath"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "review",
+  "url": "https://github.com/defold/extension-review",
+  "versions": [
+    {
+      "version": "3.2.0",
+      "url": "https://github.com/defold/extension-review/archive/refs/tags/3.2.0.zip",
+      "hash": "5ee6935b2965150e810ff744d2d242c98a4074b5",
+      "path": "review-3.2.0.d.ts",
+      "checksum": "176a24c4c24feb41c90b1a80701e3ece"
+    }
+  ]
+}

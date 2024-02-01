@@ -1,0 +1,13 @@
+{
+  "name": "vibrate",
+  "url": "https://github.com/adamwestman/extension-vibrate",
+  "versions": [
+    {
+      "version": "0.2.1",
+      "url": "https://github.com/adamwestman/extension-vibrate/archive/refs/tags/0.2.1.zip",
+      "hash": "0e12c27fd9c281960265c7e07a060f0ef72e6395",
+      "path": "extension-vibrate-0.2.1.d.ts",
+      "checksum": "4125c506def5f7910a83a126ecfe6ad9"
+    }
+  ]
+}

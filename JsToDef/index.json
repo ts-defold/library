@@ -1,0 +1,13 @@
+{
+  "name": "jstodef",
+  "url": "https://github.com/AGulev/jstodef",
+  "versions": [
+    {
+      "version": "2.0.0",
+      "url": "https://github.com/AGulev/jstodef/archive/refs/tags/2.0.0.zip",
+      "hash": "7de43da32cca4db77846aa234fa035afcf389866",
+      "path": "JsToDef-2.0.0.d.ts",
+      "checksum": "08a7d395d5d5f9cdfe1f800d3242c968"
+    }
+  ]
+}
