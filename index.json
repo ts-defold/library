@@ -3,6 +3,10 @@
     "name": "yagames",
     "url": "https://github.com/indiesoftby/defold-yagames"
   },
+  "persist": {
+    "name": "persist",
+    "url": "https://github.com/klaytonkowalski/library-defold-persist"
+  },
   "extension-rive": {
     "name": "extension-rive",
     "url": "https://github.com/defold/extension-rive"
