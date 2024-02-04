@@ -47,6 +47,10 @@
     "name": "xmath",
     "url": "https://github.com/thejustinwalsh/defold-xmath"
   },
+  "TapticEngine": {
+    "name": "def_taptic_engine",
+    "url": "https://github.com/MaratGilyazov/def_taptic_engine"
+  },
   "defcon": {
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
@@ -71,6 +75,10 @@
     "name": "review",
     "url": "https://github.com/defold/extension-review"
   },
+  "poki-sdk": {
+    "name": "poki-sdk",
+    "url": "https://github.com/defold/extension-poki-sdk"
+  },
   "nakama-defold": {
     "name": "nakama",
     "url": "https://github.com/heroiclabs/nakama-defold"
@@ -82,6 +90,10 @@
   "defos": {
     "name": "defos",
     "url": "https://github.com/subsoap/defos"
+  },
+  "defold-clipboard": {
+    "name": "defold-clipboard",
+    "url": "https://github.com/britzl/defold-clipboard"
   },
   "defold-zzfx": {
     "name": "zzfx",

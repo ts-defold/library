@@ -1,0 +1,13 @@
+{
+  "name": "def_taptic_engine",
+  "url": "https://github.com/MaratGilyazov/def_taptic_engine",
+  "versions": [
+    {
+      "version": "1.2",
+      "url": "https://github.com/MaratGilyazov/def_taptic_engine/archive/refs/tags/v1.2.zip",
+      "hash": "0af90c7ca0610e5e8e58557c24f205606957ccfc",
+      "path": "TapticEngine-1.2.d.ts",
+      "checksum": "a1fc439ded21ff85f514015f8a44fc00"
+    }
+  ]
+}
