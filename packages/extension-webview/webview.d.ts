@@ -6,7 +6,7 @@
  * @noResolution
  */
 declare namespace webview {
-	type CallbackResult = number;
+	type CallbackResult = number & Readonly<{ __brand: 'webview' }>;
 
 	export const CALLBACK_RESULT_URL_OK: CallbackResult;
 	export const CALLBACK_RESULT_URL_ERROR: CallbackResult;
@@ -14,18 +14,11 @@ declare namespace webview {
 	export const CALLBACK_RESULT_EVAL_OK: CallbackResult;
 	export const CALLBACK_RESULT_EVAL_ERROR: CallbackResult;
 
-	type CallbackType =
-		| typeof CALLBACK_RESULT_EVAL_ERROR
-		| typeof CALLBACK_RESULT_EVAL_OK
-		| typeof CALLBACK_RESULT_URL_ERROR
-		| typeof CALLBACK_RESULT_URL_LOADING
-		| typeof CALLBACK_RESULT_URL_OK;
-
 	/**
 	 * Creates a webview instance. It can show HTML pages as well as evaluate Javascript. 
 	 * The view remains hidden until the first call. There can exist a maximum of 4 webviews at the same time.
 	 * On iOS, the callback will never get a `webview.CALLBACK_RESULT_EVAL_ERROR`, due to the iOS SDK implementation.
-	 * @param {function} callback A callback which receives info about finished requests taking the following parameters:
+	 * @param {function} callback A callback which receives info about finished requests
 	 * @returns {number} the web view id
 	 * @example ```lua
 		local function webview_callback(self, webview_id, request_id, type, data)
@@ -56,7 +49,7 @@ declare namespace webview {
 			this: any,
 			webview_id: number,
 			request_id: number,
-			type: CallbackType,
+			type: CallbackResult,
 			data: { url: string; result: string },
 		) => void,
 	): number;
@@ -72,7 +65,7 @@ declare namespace webview {
 	 * Opens a web page in the webview, using an URL. Once the request is done, the callback (registered in `webview.create()`) is invoked.
 	 * @param {number} webview_id The webview id
 	 * @param {string} url The URL to open
-	 * @param {object} options A table of options for the request. Currently it holds these options: {"name":"hidden","type":"boolean","desc":"If true, the webview will stay hidden (default=false)"}
+	 * @param {object} options A table of options for the request. Currently it holds these options: { boolean } hidden (If true, the webview will stay hidden (default=false))
 	 * @returns {number} the request id
 	 * @example ```lua
 	 local request_id = webview.open(webview_id, "http://www.defold.com", {hidden = true})
