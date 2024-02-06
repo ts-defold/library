@@ -1,0 +1,13 @@
+{
+  "name": "defold-prng",
+  "url": "https://github.com/thinknathan/defold-prng",
+  "versions": [
+    {
+      "version": "1.0.2",
+      "url": "https://github.com/thinknathan/defold-prng/archive/refs/tags/v1.0.2.zip",
+      "hash": "4fdd757166d063618368970435e37b4d827e039f",
+      "path": "prng-1.0.2.d.ts",
+      "checksum": "328d305d4c299da6019a7e42aed6e0f4"
+    }
+  ]
+}

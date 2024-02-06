@@ -35,6 +35,14 @@
     "name": "jstodef",
     "url": "https://github.com/AGulev/jstodef"
   },
+  "defold-prng": {
+    "name": "defold-prng",
+    "url": "https://github.com/thinknathan/defold-prng"
+  },
+  "extension-sfmtrandom": {
+    "name": "extension-sfmtrandom",
+    "url": "https://github.com/Lerg/extension-sfmtrandom"
+  },
   "pcgrandom": {
     "name": "pcgrandom",
     "url": "https://github.com/selimanac/defold-random"
@@ -106,5 +114,9 @@
   "bzAnim": {
     "name": "bzAnim",
     "url": "https://github.com/jbp4444/bzAnim"
+  },
+  "extension-pcgrandom": {
+    "name": "extension-pcgrandom",
+    "url": "https://github.com/Lerg/extension-pcgrandom"
   }
 }
