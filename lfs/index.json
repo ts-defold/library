@@ -1,0 +1,13 @@
+{
+  "name": "lfs",
+  "url": "https://github.com/britzl/defold-lfs",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "url": "https://github.com/britzl/defold-lfs/archive/refs/tags/1.1.0.zip",
+      "hash": "876e02cf3cf7f58f853cb01544eb39fb1e956e6e",
+      "path": "lfs-1.1.0.d.ts",
+      "checksum": "5b4c91e85360e55764cd662574a93f18"
+    }
+  ]
+}

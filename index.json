@@ -1,126 +1,142 @@
 {
-  "defold-yagames": {
-    "name": "yagames",
-    "url": "https://github.com/indiesoftby/defold-yagames"
-  },
-  "persist": {
-    "name": "persist",
-    "url": "https://github.com/klaytonkowalski/library-defold-persist"
+  "nakama-defold": {
+    "name": "nakama",
+    "url": "https://github.com/heroiclabs/nakama-defold"
   },
   "extension-rive": {
     "name": "extension-rive",
     "url": "https://github.com/defold/extension-rive"
   },
-  "webgl_memory": {
-    "name": "webgl_memory",
-    "url": "https://github.com/indiesoftby/defold-webgl-memory"
-  },
-  "defold-metrics": {
-    "name": "metrics",
-    "url": "https://github.com/britzl/defold-metrics"
-  },
-  "extension-crypt": {
-    "name": "crypt",
-    "url": "https://github.com/defold/extension-crypt"
-  },
-  "dicebag": {
-    "name": "dicebag",
-    "url": "https://github.com/8bitskull/dicebag"
-  },
-  "splitmix64": {
-    "name": "splitmix64",
-    "url": "https://github.com/indiesoftby/defold-splitmix64"
-  },
-  "JsToDef": {
-    "name": "jstodef",
-    "url": "https://github.com/AGulev/jstodef"
-  },
-  "defold-prng": {
-    "name": "defold-prng",
-    "url": "https://github.com/thinknathan/defold-prng"
-  },
-  "extension-sfmtrandom": {
-    "name": "extension-sfmtrandom",
-    "url": "https://github.com/Lerg/extension-sfmtrandom"
+  "extension-vibrate": {
+    "name": "vibrate",
+    "url": "https://github.com/adamwestman/extension-vibrate"
   },
   "pcgrandom": {
     "name": "pcgrandom",
     "url": "https://github.com/selimanac/defold-random"
   },
-  "boom": {
-    "name": "boom",
-    "url": "https://github.com/britzl/boom"
-  },
-  "defold-xmath": {
-    "name": "xmath",
-    "url": "https://github.com/thejustinwalsh/defold-xmath"
-  },
-  "TapticEngine": {
-    "name": "def_taptic_engine",
-    "url": "https://github.com/MaratGilyazov/def_taptic_engine"
-  },
-  "defcon": {
-    "name": "defcon",
-    "url": "https://github.com/britzl/defcon"
-  },
-  "defold-astar": {
-    "name": "astar",
-    "url": "https://github.com/selimanac/defold-astar"
-  },
   "defold-lldebugger": {
     "name": "lldebugger",
     "url": "https://github.com/ts-defold/defold-lldebugger"
   },
-  "extension-vibrate": {
-    "name": "vibrate",
-    "url": "https://github.com/adamwestman/extension-vibrate"
+  "extension-crypt": {
+    "name": "crypt",
+    "url": "https://github.com/defold/extension-crypt"
   },
-  "defmath": {
-    "name": "defmath",
-    "url": "https://github.com/subsoap/defmath"
+  "defold-metrics": {
+    "name": "metrics",
+    "url": "https://github.com/britzl/defold-metrics"
+  },
+  "imgui": {
+    "name": "imgui",
+    "url": "https://github.com/britzl/extension-imgui"
   },
   "review": {
     "name": "review",
     "url": "https://github.com/defold/extension-review"
   },
-  "poki-sdk": {
-    "name": "poki-sdk",
-    "url": "https://github.com/defold/extension-poki-sdk"
+  "dicebag": {
+    "name": "dicebag",
+    "url": "https://github.com/8bitskull/dicebag"
   },
-  "nakama-defold": {
-    "name": "nakama",
-    "url": "https://github.com/heroiclabs/nakama-defold"
+  "defold-astar": {
+    "name": "astar",
+    "url": "https://github.com/selimanac/defold-astar"
   },
-  "defsave": {
-    "name": "defsave",
-    "url": "https://github.com/subsoap/defsave"
+  "JsToDef": {
+    "name": "jstodef",
+    "url": "https://github.com/AGulev/jstodef"
   },
-  "defos": {
-    "name": "defos",
-    "url": "https://github.com/subsoap/defos"
+  "webrtc": {
+    "name": "extension-webrtc",
+    "url": "https://github.com/VitusVeit/extension-webrtc"
   },
-  "defold-clipboard": {
-    "name": "defold-clipboard",
-    "url": "https://github.com/britzl/defold-clipboard"
+  "splitmix64": {
+    "name": "splitmix64",
+    "url": "https://github.com/indiesoftby/defold-splitmix64"
+  },
+  "boom": {
+    "name": "boom",
+    "url": "https://github.com/britzl/boom"
+  },
+  "extension-sfmtrandom": {
+    "name": "extension-sfmtrandom",
+    "url": "https://github.com/Lerg/extension-sfmtrandom"
   },
   "scene3d": {
     "name": "scene3d",
     "url": "https://github.com/indiesoftby/defold-scene3d"
   },
-  "defold-zzfx": {
-    "name": "zzfx",
-    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  "defold-prng": {
+    "name": "defold-prng",
+    "url": "https://github.com/thinknathan/defold-prng"
   },
-  "defold-orthographic": {
-    "name": "orthographic",
-    "url": "https://github.com/britzl/defold-orthographic"
+  "netimgui": {
+    "name": "extension-netimgui",
+    "url": "https://github.com/DreamRealityInteractive/extension-netimgui"
+  },
+  "defold-clipboard": {
+    "name": "defold-clipboard",
+    "url": "https://github.com/britzl/defold-clipboard"
+  },
+  "webgl_memory": {
+    "name": "webgl_memory",
+    "url": "https://github.com/indiesoftby/defold-webgl-memory"
+  },
+  "extension-pcgrandom": {
+    "name": "extension-pcgrandom",
+    "url": "https://github.com/Lerg/extension-pcgrandom"
+  },
+  "defold-yagames": {
+    "name": "yagames",
+    "url": "https://github.com/indiesoftby/defold-yagames"
+  },
+  "defos": {
+    "name": "defos",
+    "url": "https://github.com/subsoap/defos"
+  },
+  "defmath": {
+    "name": "defmath",
+    "url": "https://github.com/subsoap/defmath"
   },
   "bzAnim": {
     "name": "bzAnim",
     "url": "https://github.com/jbp4444/bzAnim"
   },
-  "extension-pcgrandom": {
-    "name": "extension-pcgrandom",
-    "url": "https://github.com/Lerg/extension-pcgrandom"
+  "defold-xmath": {
+    "name": "xmath",
+    "url": "https://github.com/thejustinwalsh/defold-xmath"
+  },
+  "defsave": {
+    "name": "defsave",
+    "url": "https://github.com/subsoap/defsave"
+  },
+  "lfs": {
+    "name": "lfs",
+    "url": "https://github.com/britzl/defold-lfs"
+  },
+  "TapticEngine": {
+    "name": "def_taptic_engine",
+    "url": "https://github.com/MaratGilyazov/def_taptic_engine"
+  },
+  "defold-orthographic": {
+    "name": "orthographic",
+    "url": "https://github.com/britzl/defold-orthographic"
+  },
+  "persist": {
+    "name": "persist",
+    "url": "https://github.com/klaytonkowalski/library-defold-persist"
+  },
+  "poki-sdk": {
+    "name": "poki-sdk",
+    "url": "https://github.com/defold/extension-poki-sdk"
+  },
+  "defold-zzfx": {
+    "name": "zzfx",
+    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  },
+  "defcon": {
+    "name": "defcon",
+    "url": "https://github.com/britzl/defcon"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "name": "extension-webrtc",
+  "url": "https://github.com/VitusVeit/extension-webrtc",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/VitusVeit/extension-webrtc/archive/main.zip",
+      "hash": "2bfdc689d576d8443f80a2bba3308bc1e7976f19",
+      "path": "webrtc-0.0.1.d.ts",
+      "checksum": "11ab8b82a6a9d64d34a4e8b286ee6c58"
+    }
+  ]
+}
