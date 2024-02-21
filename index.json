@@ -27,6 +27,10 @@
     "name": "metrics",
     "url": "https://github.com/britzl/defold-metrics"
   },
+  "rendy": {
+    "name": "rendy",
+    "url": "https://github.com/klaytonkowalski/library-defold-rendy"
+  },
   "imgui": {
     "name": "imgui",
     "url": "https://github.com/britzl/extension-imgui"

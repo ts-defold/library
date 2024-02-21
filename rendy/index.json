@@ -1,0 +1,13 @@
+{
+  "name": "rendy",
+  "url": "https://github.com/klaytonkowalski/library-defold-rendy",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/klaytonkowalski/library-defold-rendy/archive/main.zip",
+      "hash": "903567d1795e421035a6aaf67da598d0849cca0c",
+      "path": "rendy-0.0.1.d.ts",
+      "checksum": "f68787b348fb491f750a3866f35522de"
+    }
+  ]
+}
