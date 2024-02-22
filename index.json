@@ -71,6 +71,10 @@
     "name": "scene3d",
     "url": "https://github.com/indiesoftby/defold-scene3d"
   },
+  "yametrica": {
+    "name": "yametrica",
+    "url": "https://github.com/indiesoftby/defold-yametrica"
+  },
   "defold-prng": {
     "name": "defold-prng",
     "url": "https://github.com/thinknathan/defold-prng"
@@ -134,6 +138,10 @@
   "poki-sdk": {
     "name": "poki-sdk",
     "url": "https://github.com/defold/extension-poki-sdk"
+  },
+  "ironsource": {
+    "name": "ironsource",
+    "url": "https://github.com/defold/extension-ironsource"
   },
   "defold-zzfx": {
     "name": "zzfx",

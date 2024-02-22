@@ -1,0 +1,13 @@
+{
+  "name": "ironsource",
+  "url": "https://github.com/defold/extension-ironsource",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/defold/extension-ironsource/archive/refs/tags/1.0.0.zip",
+      "hash": "465109a16f13d62a0781c423e5fc5ce6fdfc3b0d",
+      "path": "ironsource-1.0.0.d.ts",
+      "checksum": "a8b8cb57bebcbb876d5e80d87bb7d7e9"
+    }
+  ]
+}
