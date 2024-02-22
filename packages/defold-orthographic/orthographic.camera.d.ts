@@ -4,11 +4,11 @@
 declare module 'orthographic.camera' {
   /**
    * Follow a game object.
-   * @param camera_id null for the first camera
+   * @param camera_id undefined for the first camera
    * @param target Game object to follow
    * @param options Options
    */
-  export function follow(camera_id: hash | url | null, target: hash | url, options?: {
+  export function follow(camera_id: hash | url | undefined, target: hash | url, options?: {
     /**
      *  Lerp from current position to target position with lerp as t.
      */
@@ -33,44 +33,44 @@ declare module 'orthographic.camera' {
 
   /**
    * Get the current zoom level of the camera.
-   * @param camera_id (hash | url), null for the first camera
+   * @param camera_id (hash | url), undefined for the first camera
    */
-  export function get_zoom(camera_id: hash | url | null): number;
+  export function get_zoom(camera_id: hash | url | undefined): number;
 
   /**
    * Change the zoom level of the camera.
-   * @param camera_id  null for the first camera
+   * @param camera_id  undefined for the first camera
    * @param zoom  The new zoom level of the camera
    */
-  export function set_zoom(camera_id: hash | url | null, zoom: number): void;
+  export function set_zoom(camera_id: hash | url | undefined, zoom: number): void;
 
   /**
    * Shake the camera.
-   * @param camera_id (hash | url), null for the first camera
+   * @param camera_id (hash | url), undefined for the first camera
    * @param intensity Intensity of the shake, in percent of screen. Defaults to 0.05
    * @param duration Duration of the shake, in seconds. Defaults to 0.5
    */
-  export function shake(camera_id: hash | url | null, intensity?: number, duration?: number): void;
+  export function shake(camera_id: hash | url | undefined, intensity?: number, duration?: number): void;
 
   /**
    * Stop shaking the camera.
-   * @param camera_id (hash | url), null for the first camera
+   * @param camera_id (hash | url), undefined for the first camera
    */
-  export function stop_shaking(camera_id: hash | url | null): void;
+  export function stop_shaking(camera_id: hash | url | undefined): void;
 
   /**
    * Translate screen coordinates to world coordinates, based on the view and projection of the camera.
-   * @param camera_id (hash | url), null for the first camera
+   * @param camera_id (hash | url), undefined for the first camera
    * @param screen Screen coordinates to convert
    */
-  export function screen_to_world(camera_id: hash | url | null, screen: vmath.vector3): vmath.vector3;
+  export function screen_to_world(camera_id: hash | url | undefined, screen: vmath.vector3): vmath.vector3;
 
   /**
    * Translate window coordinates to world coordinates, based on the view and projection of the camera.
-   * @param camera_id (hash | url), null for the first camera
+   * @param camera_id (hash | url), undefined for the first camera
    * @param window Window coordinates to convert
    */
-  export function window_to_world(camera_id: hash | url | null, window: vmath.vector3): vmath.vector3;
+  export function window_to_world(camera_id: hash | url | undefined, window: vmath.vector3): vmath.vector3;
 
 
   /**
@@ -86,5 +86,5 @@ declare module 'orthographic.camera' {
   /**
    * Get list of camera ids.
    */
-  export function get_cameras(): Array<hash | url | null>;
+  export function get_cameras(): Array<hash | url | undefined>;
 }
