@@ -1,0 +1,13 @@
+{
+  "name": "extension-safearea",
+  "url": "https://github.com/defold/extension-safearea",
+  "versions": [
+    {
+      "version": "1.4.0",
+      "url": "https://github.com/defold/extension-safearea/archive/refs/tags/1.4.0.zip",
+      "hash": "67d1512601fbfcb87940c0b40029910b1cf61b40",
+      "path": "extension-safearea-1.4.0.d.ts",
+      "checksum": "f2fa85bf3d3214d5096084aa7dc30fca"
+    }
+  ]
+}

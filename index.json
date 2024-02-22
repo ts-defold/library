@@ -67,6 +67,10 @@
     "name": "extension-sfmtrandom",
     "url": "https://github.com/Lerg/extension-sfmtrandom"
   },
+  "defold-extension-unity-ads": {
+    "name": "defold-extension-unity-ads",
+    "url": "https://github.com/AGulev/defold-extension-unity-ads"
+  },
   "scene3d": {
     "name": "scene3d",
     "url": "https://github.com/indiesoftby/defold-scene3d"
@@ -103,6 +107,10 @@
     "name": "defos",
     "url": "https://github.com/subsoap/defos"
   },
+  "gd-defold": {
+    "name": "gd-defold",
+    "url": "https://github.com/GameDistribution/gd-defold"
+  },
   "defmath": {
     "name": "defmath",
     "url": "https://github.com/subsoap/defmath"
@@ -115,6 +123,10 @@
     "name": "xmath",
     "url": "https://github.com/thejustinwalsh/defold-xmath"
   },
+  "extension-iap": {
+    "name": "extension-iap",
+    "url": "https://github.com/defold/extension-iap"
+  },
   "defsave": {
     "name": "defsave",
     "url": "https://github.com/subsoap/defsave"
@@ -126,6 +138,10 @@
   "TapticEngine": {
     "name": "def_taptic_engine",
     "url": "https://github.com/MaratGilyazov/def_taptic_engine"
+  },
+  "extension-safearea": {
+    "name": "extension-safearea",
+    "url": "https://github.com/defold/extension-safearea"
   },
   "defold-orthographic": {
     "name": "orthographic",
@@ -150,5 +166,9 @@
   "defcon": {
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
+  },
+  "extension-nativetext": {
+    "name": "extension-nativetext",
+    "url": "https://github.com/Lerg/extension-nativetext"
   }
 }
