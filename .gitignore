@@ -107,3 +107,4 @@ dist
 tests/**/@types
 tests/**/dist
 /lib
+.DS_STORE
