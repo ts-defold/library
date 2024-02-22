@@ -1,4 +1,8 @@
 {
+  "extension-webview": {
+    "name": "webview",
+    "url": "https://github.com/defold/extension-webview"
+  },
   "nakama-defold": {
     "name": "nakama",
     "url": "https://github.com/heroiclabs/nakama-defold"
