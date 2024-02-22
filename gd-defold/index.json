@@ -1,12 +1,12 @@
 {
-  "name": "gd-defold",
+  "name": "gdsdk",
   "url": "https://github.com/GameDistribution/gd-defold",
   "versions": [
     {
       "version": "1.2.0",
       "url": "https://github.com/GameDistribution/gd-defold/releases/tag/1.2.0",
       "hash": "feb12e687c66aa1542cf82542a7a30bacd5ae280",
-      "path": "gd-defold-1.2.0.d.ts",
+      "path": "gdsdk-1.2.0.d.ts",
       "checksum": "a5fd5c3993d8e0f4e4f82494dc7f4060"
     }
   ]

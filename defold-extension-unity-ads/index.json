@@ -1,12 +1,12 @@
 {
-  "name": "defold-extension-unity-ads",
+  "name": "unityads",
   "url": "https://github.com/AGulev/defold-extension-unity-ads",
   "versions": [
     {
       "version": "4.9.2",
       "url": "https://github.com/AGulev/defold-extension-unity-ads/archive/refs/tags/4.9.2.zip",
       "hash": "9b5d3b5361c4d060955cb5f16b3fc49c7bc48717",
-      "path": "defold-extension-unity-ads-4.9.2.d.ts",
+      "path": "unityads-4.9.2.d.ts",
       "checksum": "0e0a0f864617f07b54f222b64fe22a8b"
     }
   ]

@@ -7,9 +7,9 @@ declare module "defsave.defsave" {
 
   export function set_appname(name: string): void;
 
-  export function load(config: string): any;
+  export function load(config: string): unknown;
 
-  export function get(config: string, name: string): any;
+  export function get(config: string, name: string): unknown;
 
   export function set(config: string, name: string, value: any): void;
 

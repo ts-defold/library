@@ -1,12 +1,12 @@
 {
-  "name": "extension-nativetext",
+  "name": "nativetext",
   "url": "https://github.com/Lerg/extension-nativetext",
   "versions": [
     {
       "version": "0.0.1",
       "url": "https://github.com/Lerg/extension-nativetext/archive/master.zip",
       "hash": "6160b5b74328bc6028351fc87762f6d81f624cfc",
-      "path": "extension-nativetext-0.0.1.d.ts",
+      "path": "nativetext-0.0.1.d.ts",
       "checksum": "7bae330e20d17da3abcd7d76ade91727"
     }
   ]

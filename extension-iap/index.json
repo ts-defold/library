@@ -1,12 +1,12 @@
 {
-  "name": "extension-iap",
+  "name": "iap",
   "url": "https://github.com/defold/extension-iap",
   "versions": [
     {
       "version": "5.1.0",
       "url": "https://github.com/defold/extension-iap/archive/refs/tags/5.1.0.zip",
       "hash": "324a3cc965eb5fca02889728efa2a986b9cf1761",
-      "path": "extension-iap-5.1.0.d.ts",
+      "path": "iap-5.1.0.d.ts",
       "checksum": "8fb6511a98aedfd1d90a787a8576acff"
     }
   ]

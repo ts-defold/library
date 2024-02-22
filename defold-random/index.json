@@ -1,12 +1,12 @@
 {
-  "name": "pcgrandom",
+  "name": "rnd",
   "url": "https://github.com/selimanac/defold-random",
   "versions": [
     {
       "version": "1.2.6",
       "url": "https://github.com/selimanac/defold-random/archive/refs/tags/v1.2.6.zip",
       "hash": "6a3305bf3797e885649ee65fda519192e77869fd",
-      "path": "pcgrandom-1.2.6.d.ts",
+      "path": "rnd-1.2.6.d.ts",
       "checksum": "7ed9338b7ef1b55065572a83d8ad6b61"
     }
   ]

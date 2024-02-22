@@ -1,12 +1,12 @@
 {
-  "name": "defold-clipboard",
+  "name": "clipboard",
   "url": "https://github.com/britzl/defold-clipboard",
   "versions": [
     {
       "version": "1.24.0",
       "url": "https://github.com/britzl/defold-clipboard/archive/refs/tags/1.24.0.zip",
       "hash": "15eb02936dbde5200dd18e245fc42bc50f74173c",
-      "path": "defold-clipboard-1.24.0.d.ts",
+      "path": "clipboard-1.24.0.d.ts",
       "checksum": "d8a67b0f4e4e28fd2135675ed5cedb9a"
     }
   ]

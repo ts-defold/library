@@ -11,10 +11,6 @@
     "name": "vibrate",
     "url": "https://github.com/adamwestman/extension-vibrate"
   },
-  "pcgrandom": {
-    "name": "pcgrandom",
-    "url": "https://github.com/selimanac/defold-random"
-  },
   "defold-lldebugger": {
     "name": "lldebugger",
     "url": "https://github.com/ts-defold/defold-lldebugger"
@@ -27,17 +23,17 @@
     "name": "metrics",
     "url": "https://github.com/britzl/defold-metrics"
   },
-  "rendy": {
-    "name": "rendy",
-    "url": "https://github.com/klaytonkowalski/library-defold-rendy"
+  "extension-ironsource": {
+    "name": "ironsource",
+    "url": "https://github.com/defold/extension-ironsource"
   },
-  "imgui": {
-    "name": "imgui",
-    "url": "https://github.com/britzl/extension-imgui"
+  "defold-webgl-memory": {
+    "name": "webgl_memory",
+    "url": "https://github.com/indiesoftby/defold-webgl-memory"
   },
-  "review": {
-    "name": "review",
-    "url": "https://github.com/defold/extension-review"
+  "jstodef": {
+    "name": "jstodef",
+    "url": "https://github.com/AGulev/jstodef"
   },
   "dicebag": {
     "name": "dicebag",
@@ -47,15 +43,7 @@
     "name": "astar",
     "url": "https://github.com/selimanac/defold-astar"
   },
-  "JsToDef": {
-    "name": "jstodef",
-    "url": "https://github.com/AGulev/jstodef"
-  },
-  "webrtc": {
-    "name": "extension-webrtc",
-    "url": "https://github.com/VitusVeit/extension-webrtc"
-  },
-  "splitmix64": {
+  "defold-splitmix64": {
     "name": "splitmix64",
     "url": "https://github.com/indiesoftby/defold-splitmix64"
   },
@@ -64,39 +52,31 @@
     "url": "https://github.com/britzl/boom"
   },
   "extension-sfmtrandom": {
-    "name": "extension-sfmtrandom",
+    "name": "sfmtrandom",
     "url": "https://github.com/Lerg/extension-sfmtrandom"
   },
+  "library-defold-persist": {
+    "name": "persist",
+    "url": "https://github.com/klaytonkowalski/library-defold-persist"
+  },
   "defold-extension-unity-ads": {
-    "name": "defold-extension-unity-ads",
+    "name": "unityads",
     "url": "https://github.com/AGulev/defold-extension-unity-ads"
   },
-  "scene3d": {
-    "name": "scene3d",
-    "url": "https://github.com/indiesoftby/defold-scene3d"
-  },
-  "yametrica": {
-    "name": "yametrica",
-    "url": "https://github.com/indiesoftby/defold-yametrica"
-  },
   "defold-prng": {
-    "name": "defold-prng",
+    "name": "prng",
     "url": "https://github.com/thinknathan/defold-prng"
   },
-  "netimgui": {
-    "name": "extension-netimgui",
-    "url": "https://github.com/DreamRealityInteractive/extension-netimgui"
+  "extension-poki-sdk": {
+    "name": "poki_sdk",
+    "url": "https://github.com/defold/extension-poki-sdk"
   },
   "defold-clipboard": {
-    "name": "defold-clipboard",
+    "name": "clipboard",
     "url": "https://github.com/britzl/defold-clipboard"
   },
-  "webgl_memory": {
-    "name": "webgl_memory",
-    "url": "https://github.com/indiesoftby/defold-webgl-memory"
-  },
   "extension-pcgrandom": {
-    "name": "extension-pcgrandom",
+    "name": "pcgrandom",
     "url": "https://github.com/Lerg/extension-pcgrandom"
   },
   "defold-yagames": {
@@ -107,8 +87,12 @@
     "name": "defos",
     "url": "https://github.com/subsoap/defos"
   },
+  "library-defold-rendy": {
+    "name": "rendy",
+    "url": "https://github.com/klaytonkowalski/library-defold-rendy"
+  },
   "gd-defold": {
-    "name": "gd-defold",
+    "name": "gdsdk",
     "url": "https://github.com/GameDistribution/gd-defold"
   },
   "defmath": {
@@ -123,41 +107,53 @@
     "name": "xmath",
     "url": "https://github.com/thejustinwalsh/defold-xmath"
   },
+  "defold-random": {
+    "name": "rnd",
+    "url": "https://github.com/selimanac/defold-random"
+  },
+  "extension-webrtc": {
+    "name": "webrtc",
+    "url": "https://github.com/VitusVeit/extension-webrtc"
+  },
   "extension-iap": {
-    "name": "extension-iap",
+    "name": "iap",
     "url": "https://github.com/defold/extension-iap"
   },
   "defsave": {
     "name": "defsave",
     "url": "https://github.com/subsoap/defsave"
   },
-  "lfs": {
-    "name": "lfs",
-    "url": "https://github.com/britzl/defold-lfs"
-  },
-  "TapticEngine": {
-    "name": "def_taptic_engine",
-    "url": "https://github.com/MaratGilyazov/def_taptic_engine"
-  },
   "extension-safearea": {
-    "name": "extension-safearea",
+    "name": "safearea",
     "url": "https://github.com/defold/extension-safearea"
+  },
+  "defold-yametrica": {
+    "name": "yametrica",
+    "url": "https://github.com/indiesoftby/defold-yametrica"
+  },
+  "extension-review": {
+    "name": "review",
+    "url": "https://github.com/defold/extension-review"
   },
   "defold-orthographic": {
     "name": "orthographic",
     "url": "https://github.com/britzl/defold-orthographic"
   },
-  "persist": {
-    "name": "persist",
-    "url": "https://github.com/klaytonkowalski/library-defold-persist"
+  "extension-imgui": {
+    "name": "imgui",
+    "url": "https://github.com/britzl/extension-imgui"
   },
-  "poki-sdk": {
-    "name": "poki-sdk",
-    "url": "https://github.com/defold/extension-poki-sdk"
+  "def_taptic_engine": {
+    "name": "taptic_engine",
+    "url": "https://github.com/MaratGilyazov/def_taptic_engine"
   },
-  "ironsource": {
-    "name": "ironsource",
-    "url": "https://github.com/defold/extension-ironsource"
+  "extension-netimgui": {
+    "name": "netimgui",
+    "url": "https://github.com/DreamRealityInteractive/extension-netimgui"
+  },
+  "defold-scene3d": {
+    "name": "scene3d",
+    "url": "https://github.com/indiesoftby/defold-scene3d"
   },
   "defold-zzfx": {
     "name": "zzfx",
@@ -167,8 +163,12 @@
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
   },
+  "defold-lfs": {
+    "name": "lfs",
+    "url": "https://github.com/britzl/defold-lfs"
+  },
   "extension-nativetext": {
-    "name": "extension-nativetext",
+    "name": "nativetext",
     "url": "https://github.com/Lerg/extension-nativetext"
   }
 }
