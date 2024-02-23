@@ -54,8 +54,8 @@ declare namespace push {
 	```
 	*/
 	export function register(
-		notifications: {},
-		callback: (this: any, token: string, error: {}) => void,
+		notifications: number[] | undefined,
+		callback: (this: any, token: string, error: { error: string }) => void,
 	): void;
 
 	/**
@@ -88,7 +88,7 @@ declare namespace push {
 		listener: (
 			this: any,
 			payload: {},
-			origin: any,
+			origin: number,
 			activated: boolean,
 		) => void,
 	): void;
@@ -125,7 +125,7 @@ declare namespace push {
 		alert: string,
 		payload: string,
 		notification_settings: {},
-	): LuaMultiReturn<[number, string]>;
+	): LuaMultiReturn<[number, string | undefined]>;
 
 	/**
 	 * Use this function to cancel a previously scheduled local push notification.
