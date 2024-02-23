@@ -232,7 +232,7 @@ declare namespace gpgs {
 	end
 	```
 	*/
-	export function snapshot_get_data(): LuaMultiReturn<[string, string]>;
+	export function snapshot_get_data(): LuaMultiReturn<[string | undefined, string]>;
 
 	/**
 	 * Sets the data for the currently opened snapshot.
@@ -300,7 +300,7 @@ declare namespace gpgs {
 	```
 	*/
 	export function snapshot_get_conflicting_data(): LuaMultiReturn<
-		[string, boolean]
+		[string | undefined, boolean]
 	>;
 
 	/**
