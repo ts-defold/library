@@ -156,6 +156,7 @@ declare namespace gpgs {
 	export function set_callback(
 		callback: (this: any, message_id: number, message: {}) => void,
 	): void;
+	export function set_callback(): void;
 
 	/**
 	 * Provides a default saved games selection user interface.
