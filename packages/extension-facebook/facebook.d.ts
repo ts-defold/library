@@ -45,7 +45,7 @@ declare namespace facebook {
 	```
 	*/
 	export function login_with_permissions(
-		permissions: {},
+		permissions: string[],
 		audience: number,
 		callback: (this: any, data: {}) => void,
 	): void;
@@ -117,7 +117,7 @@ declare namespace facebook {
 	export function post_event(
 		event: number | string,
 		value: number,
-		params?: {},
+		params?: { [key: number | string]: number },
 	): void;
 
 	/**
