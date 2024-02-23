@@ -177,55 +177,58 @@ declare namespace yoga {
 	export function get_layout_margin(node: node): void;
 
 	export function get_layout_padding(node: node): void;
+
 	/**
 	 * Sets whether the coordinate system should be inverted on the Y axis.
 	 * @param {boolean} invert
 	 */
 	export function set_invert_y(invert: boolean): void;
+
 	/**
 	 * Sets the underlying capacity of the yoga node cache
 	 * @param {number} capacity
 	 */
 	export function set_capacity(capacity: number): void;
-	export const ALIGN_AUTO: unknown;
-	export const ALIGN_START: unknown;
-	export const ALIGN_CENTER: unknown;
-	export const ALIGN_END: unknown;
-	export const ALIGN_STRETCH: unknown;
-	export const ALIGN_BASELINE: unknown;
-	export const ALIGN_SPACE_BETWEEN: unknown;
-	export const ALIGN_SPACE_AROUND: unknown;
-	export const DISPLAY_FLEX: unknown;
-	export const DISPLAY_NONE: unknown;
-	export const DIRECTION_INHERIT: unknown;
-	export const DIRECTION_LTR: unknown;
-	export const DIRECTION_RTL: unknown;
-	export const EDGE_LEFT: unknown;
-	export const EDGE_TOP: unknown;
-	export const EDGE_RIGHT: unknown;
-	export const EDGE_BOTTOM: unknown;
-	export const EDGE_START: unknown;
-	export const EDGE_END: unknown;
-	export const EDGE_HORIZONTAL: unknown;
-	export const EDGE_VERTICAL: unknown;
-	export const EDGE_ALL: unknown;
-	export const FLEX_DIRECTION_COLUMN: unknown;
-	export const FLEX_DIRECTION_COLUMN_REVERSE: unknown;
-	export const FLEX_DIRECTION_ROW: unknown;
-	export const FLEX_DIRECTION_ROW_REVERSE: unknown;
-	export const JUSTIFY_START: unknown;
-	export const JUSTIFY_CENTER: unknown;
-	export const JUSTIFY_END: unknown;
-	export const JUSTIFY_SPACE_BETWEEN: unknown;
-	export const JUSTIFY_SPACE_AROUND: unknown;
-	export const JUSTIFY_SPACE_EVENLY: unknown;
-	export const OVERFLOW_VISIBLE: unknown;
-	export const OVERFLOW_HIDDEN: unknown;
-	export const OVERFLOW_SCROLL: unknown;
-	export const POSITION_TYPE_STATIC: unknown;
-	export const POSITION_TYPE_RELATIVE: unknown;
-	export const POSITION_TYPE_ABSOLUTE: unknown;
-	export const WRAP_NOWRAP: unknown;
-	export const WRAP_WRAP: unknown;
-	export const WRAP_WRAP_REVERSE: unknown;
+
+	export const ALIGN_AUTO: number;
+	export const ALIGN_START: number;
+	export const ALIGN_CENTER: number;
+	export const ALIGN_END: number;
+	export const ALIGN_STRETCH: number;
+	export const ALIGN_BASELINE: number;
+	export const ALIGN_SPACE_BETWEEN: number;
+	export const ALIGN_SPACE_AROUND: number;
+	export const DISPLAY_FLEX: number;
+	export const DISPLAY_NONE: number;
+	export const DIRECTION_INHERIT: number;
+	export const DIRECTION_LTR: number;
+	export const DIRECTION_RTL: number;
+	export const EDGE_LEFT: number;
+	export const EDGE_TOP: number;
+	export const EDGE_RIGHT: number;
+	export const EDGE_BOTTOM: number;
+	export const EDGE_START: number;
+	export const EDGE_END: number;
+	export const EDGE_HORIZONTAL: number;
+	export const EDGE_VERTICAL: number;
+	export const EDGE_ALL: number;
+	export const FLEX_DIRECTION_COLUMN: number;
+	export const FLEX_DIRECTION_COLUMN_REVERSE: number;
+	export const FLEX_DIRECTION_ROW: number;
+	export const FLEX_DIRECTION_ROW_REVERSE: number;
+	export const JUSTIFY_START: number;
+	export const JUSTIFY_CENTER: number;
+	export const JUSTIFY_END: number;
+	export const JUSTIFY_SPACE_BETWEEN: number;
+	export const JUSTIFY_SPACE_AROUND: number;
+	export const JUSTIFY_SPACE_EVENLY: number;
+	export const OVERFLOW_VISIBLE: number;
+	export const OVERFLOW_HIDDEN: number;
+	export const OVERFLOW_SCROLL: number;
+	export const POSITION_TYPE_STATIC: number;
+	export const POSITION_TYPE_RELATIVE: number;
+	export const POSITION_TYPE_ABSOLUTE: number;
+	export const WRAP_NOWRAP: number;
+	export const WRAP_WRAP: number;
+	export const WRAP_WRAP_REVERSE: number;
 }
