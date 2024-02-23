@@ -5,10 +5,13 @@
  * @noResolution
  */
 declare namespace websocket {
+	type Connection = Readonly<{ __brand: 'websocketConnection' }>;
+	type WsEvent = number & Readonly<{ __brand: 'websocketEvent' }>;
+
 	/**
 	 * Connects to a remote address
 	 * @param {string} url url of the remote connection
-	 * @param {table} params optional parameters as properties. The following parameters can be set
+	 * @param {table} params optional parameters as properties.
 	 * @param {function} callback callback that receives all messages from the connection
 	 * @returns {object} the connection
 	 * @example ```lua
@@ -45,15 +48,19 @@ declare namespace websocket {
 	*/
 	export function connect(
 		url: string,
-		params: {},
-		callback: (this: any, connection: any, data: {}) => void,
-	): unknown;
+		params: {
+			timeout?: number,
+			protocol?: string,
+			headers?: string,
+		},
+		callback: (this: any, connection: Connection, data: { event: WsEvent, message?: string }) => void,
+	): Connection;
 
 	/**
 	 * Explicitly close a websocket
 	 * @param {object} connection the websocket connection
 	 */
-	export function disconnect(connection: any): void;
+	export function disconnect(connection: Connection): void;
 
 	/**
 	 * Send data on a websocket
@@ -74,22 +81,22 @@ declare namespace websocket {
 		end
 	```
 	*/
-	export function send(connection: any, message: string, options: {}): void;
+	export function send(connection: Connection, message: string, options?: {}): void;
 
 	/**
 	 * The websocket was connected
 	 */
-	export const EVENT_CONNECTED: number;
+	export const EVENT_CONNECTED: WsEvent;
 	/**
 	 * The websocket disconnected
 	 */
-	export const EVENT_DISCONNECTED: number;
+	export const EVENT_DISCONNECTED: WsEvent;
 	/**
 	 * The websocket received data
 	 */
-	export const EVENT_MESSAGE: number;
+	export const EVENT_MESSAGE: WsEvent;
 	/**
 	 * The websocket encountered an error
 	 */
-	export const EVENT_ERROR: number;
+	export const EVENT_ERROR: WsEvent;
 }
