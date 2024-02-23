@@ -9,7 +9,7 @@ declare namespace steam {
 	 * Initialize Steamworks.
 	 * @returns {LuaMultiReturn<[Boolean, String]>} True if successful | Error message if unsuccessful.
 	 */
-	export function init(): LuaMultiReturn<[boolean, string]>;
+	export function init(): LuaMultiReturn<[boolean, string | undefined]>;
 
 	/**
 	 * Update Steamworks. Call this from a script component.
@@ -30,67 +30,67 @@ declare namespace steam {
 	/**
 	 * Requests rows in the leaderboard from the full table
 	 */
-	export let ELeaderboardDataRequestGlobal: number;
+	export const ELeaderboardDataRequestGlobal: number;
 	/**
 	 * Requests rows in the leaderboard from rows around the user
 	 */
-	export let ELeaderboardDataRequestGlobalAroundUser: number;
+	export const ELeaderboardDataRequestGlobalAroundUser: number;
 	/**
 	 * Requests all the rows for friends of the current user
 	 */
-	export let ELeaderboardDataRequestFriends: number;
+	export const ELeaderboardDataRequestFriends: number;
 	/**
 	 * Passed as parameter to the store
 	 */
-	export let EOverlayToStoreFlag_None: number;
+	export const EOverlayToStoreFlag_None: number;
 	/**
 	 * Passed as parameter to the store
 	 */
-	export let EOverlayToStoreFlag_AddToCart: number;
+	export const EOverlayToStoreFlag_AddToCart: number;
 	/**
 	 * Passed as parameter to the store
 	 */
-	export let EOverlayToStoreFlag_AddToCartAndShow: number;
+	export const EOverlayToStoreFlag_AddToCartAndShow: number;
 	/**
 	 * Passed as parameter to ActivateGameOverlayToWebPage
 	 */
-	export let EActivateGameOverlayToWebPageMode_Default: number;
+	export const EActivateGameOverlayToWebPageMode_Default: number;
 	/**
 	 * Passed as parameter to ActivateGameOverlayToWebPage
 	 */
-	export let EActivateGameOverlayToWebPageMode_Modal: number;
+	export const EActivateGameOverlayToWebPageMode_Modal: number;
 	/**
 	 * Friend is not currently logged on
 	 */
-	export let EPersonaStateOffline: number;
+	export const EPersonaStateOffline: number;
 	/**
 	 * Friend is logged on
 	 */
-	export let EPersonaStateOnline: number;
+	export const EPersonaStateOnline: number;
 	/**
 	 * User is on, but busy
 	 */
-	export let EPersonaStateBusy: number;
+	export const EPersonaStateBusy: number;
 	/**
 	 * Auto-away feature
 	 */
-	export let EPersonaStateAway: number;
+	export const EPersonaStateAway: number;
 	/**
 	 * Auto-away for a long time
 	 */
-	export let EPersonaStateSnooze: number;
+	export const EPersonaStateSnooze: number;
 	/**
 	 * Online, trading
 	 */
-	export let EPersonaStateLookingToTrade: number;
+	export const EPersonaStateLookingToTrade: number;
 	/**
 	 * Online, wanting to play
 	 */
-	export let EPersonaStateLookingToPlay: number;
+	export const EPersonaStateLookingToPlay: number;
 	/**
 	 * Online, but appears offline to friends.  This status is never published to clients.
 	 */
-	export let EPersonaStateInvisible: number;
+	export const EPersonaStateInvisible: number;
 
 	/**
 	 * Takes AppID of DLC and checks if the user owns the DLC &amp; if the DLC is installed.
@@ -104,19 +104,19 @@ declare namespace steam {
 	 * @param {friendId} CSteamID
 	 * @returns {name} Name of user
 	 */
-	export function friends_get_friend_persona_name(CSteamID: any): unknown;
+	export function friends_get_friend_persona_name(CSteamID: number): string;
 
 	/**
 	 * Returns the local players name - guaranteed to not be NULL. This is the same name as on the users community profile page. This is stored in UTF-8 format.
 	 * @returns {name} Name of user
 	 */
-	export function friends_get_persona_name(): unknown;
+	export function friends_get_persona_name(): string;
 
 	/**
 	 * Gets the status of the current user. Returned as EPersonaState.
 	 * @returns {state} Status of user.
 	 */
-	export function friends_get_persona_state(): unknown;
+	export function friends_get_persona_state(): number;
 
 	/**
 	 * Returns the current status of the specified user. This will only be known by the local user if steamIDFriend is in their friends list; on the same game server; in a chat room or lobby; or in a small group with the local user.
@@ -125,7 +125,7 @@ declare namespace steam {
 	 */
 	export function friends_get_friend_persona_state(
 		steamIDFriend: number,
-	): unknown;
+	): number;
 
 	/**
 	 * Get friends steam level.
@@ -134,7 +134,7 @@ declare namespace steam {
 	 */
 	export function friends_get_friend_steam_level(
 		steamIDFriend: number,
-	): unknown;
+	): number;
 
 	/**
 	 * Returns a relationship to a user.
@@ -143,7 +143,7 @@ declare namespace steam {
 	 */
 	export function friends_get_friend_relationship(
 		steamIDFriend: number,
-	): unknown;
+	): number;
 
 	/**
 	 * Activates game overlay to store page for app.
@@ -169,13 +169,13 @@ declare namespace steam {
 	 * Set a listener.
 	 * @param {function} listener Listener function to call
 	 */
-	export function set_listener(listener: () => void): void;
+	export function set_listener(listener: (...args: any[]) => void): void;
 
 	/**
 	 * Returns the CSteamID of the account currently logged into the Steam client. A CSteamID is a unique identifier for an account, and used to differentiate users in all parts of the Steamworks API.
 	 * @returns {CSteamID}
 	 */
-	export function user_get_steam_id(): unknown;
+	export function user_get_steam_id(): number;
 
 	/**
 	 * Gets the Steam Level of the user, as shown on their profile.
@@ -234,7 +234,7 @@ declare namespace steam {
 	 */
 	export function user_stats_get_stat_int(
 		id: string,
-	): LuaMultiReturn<[unknown, unknown]>;
+	): LuaMultiReturn<[boolean, number | undefined]>;
 
 	/**
 	 * Set user stat.
@@ -251,7 +251,7 @@ declare namespace steam {
 	 */
 	export function user_stats_get_stat_float(
 		id: string,
-	): LuaMultiReturn<[boolean, number]>;
+	): LuaMultiReturn<[boolean, number | undefined]>;
 
 	/**
 	 * Set user stat.
@@ -341,7 +341,7 @@ declare namespace steam {
 	 * @returns {LuaMultiReturn<[Boolean, Number]>}
 	 */
 	export function user_stats_get_achievement_achieved_percent(): LuaMultiReturn<
-		[boolean, number]
+		[boolean, number | undefined]
 	>;
 
 	/**
@@ -354,7 +354,7 @@ declare namespace steam {
 	 */
 	export function user_stats_download_leaderboard_entries(
 		leaderboard: string,
-		request: any,
+		request: number,
 		start: number,
 		end: number,
 	): string;
@@ -368,7 +368,7 @@ declare namespace steam {
 	export function user_stats_get_downloaded_leaderboard_entry(
 		leaderboard: string,
 		index: number,
-	): LuaMultiReturn<[boolean, {}]>;
+	): LuaMultiReturn<[boolean, {} | undefined]>;
 
 	/**
 	 * Returns the appID of the current process.
@@ -395,7 +395,7 @@ declare namespace steam {
 	 */
 	export function utils_get_image_size(
 		image: number,
-	): LuaMultiReturn<[boolean, number, number]>;
+	): LuaMultiReturn<[boolean, number | undefined, number | undefined]>;
 
 	/**
 	 * Get image in RGBA format.
@@ -406,5 +406,5 @@ declare namespace steam {
 	export function utils_get_image_rgba(
 		image: number,
 		size: number,
-	): LuaMultiReturn<[boolean, string]>;
+	): LuaMultiReturn<[boolean, string | undefined]>;
 }
