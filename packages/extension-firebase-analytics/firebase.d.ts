@@ -10,6 +10,7 @@ declare namespace firebase {
 		 * Initialise analytics
 		 */
 		export function initialize(): void;
+
 		/**
 		 * Sets a callback function for receiving events from the SDK. Call `firebase.analytics.set_callback(nil)` to remove callback
 		 * @param {function} callback Callback function that is executed on any event in the SDK.
@@ -21,11 +22,13 @@ declare namespace firebase {
 				message: { error?: string; instance_id?: string },
 			) => void,
 		): void;
+
 		/**
 		 * Log an event without parameters.
 		 * @param {string} name Event name
 		 */
 		export function log(name: string): void;
+
 		/**
 		 * Log an event with one string parameter.
 		 * @param {string} name Event name
@@ -37,6 +40,7 @@ declare namespace firebase {
 			PARAMeter_name: string,
 			PARAMeter_value: string,
 		): void;
+
 		/**
 		 * Log an event with one integer parameter.
 		 * @param {string} name Event name
@@ -48,6 +52,7 @@ declare namespace firebase {
 			PARAMeter_name: string,
 			PARAMeter_value: number,
 		): void;
+
 		/**
 		 * Log an event with one float parameter.
 		 * @param {string} name Event name
@@ -59,36 +64,43 @@ declare namespace firebase {
 			PARAMeter_name: string,
 			PARAMeter_value: number,
 		): void;
+
 		/**
 		 * Log an event with table parameters.
 		 * @param {string} name Event name
 		 * @param {table} PARAMeters_table Table with parameters (key-value pairs)
 		 */
 		export function log_table(name: string, PARAMeters_table: {}): void;
+
 		/**
 		 * Sets the user ID property.
 		 * @param {string} user_id User ID property
 		 */
 		export function set_user_id(user_id: string): void;
+
 		/**
 		 * Set a user property to the given value.
 		 * @param {string} name User property name
 		 * @param {string} property User property value
 		 */
 		export function set_user_property(name: string, property: string): void;
+
 		/**
 		 * Clears all data for this app from the device and resets the app instance id.
 		 */
 		export function reset(): void;
+
 		/**
 		 * Get the instance ID from the service. Returned in callback with MSG_INSTANCE_ID message_id.
 		 */
 		export function get_id(): void;
+
 		/**
 		 * Sets whether analytics collection is enabled for this app on this device.
 		 * @param {boolean} key The value
 		 */
 		export function set_enabled(key: boolean): void;
+
 		/**
 		 * Event generated when an error occurred.
 		 */
