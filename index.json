@@ -23,6 +23,14 @@
     "name": "crypt",
     "url": "https://github.com/defold/extension-crypt"
   },
+  "extension-push": {
+    "name": "push",
+    "url": "https://github.com/defold/extension-push"
+  },
+  "extension-admob": {
+    "name": "admob",
+    "url": "https://github.com/defold/extension-admob"
+  },
   "defold-metrics": {
     "name": "metrics",
     "url": "https://github.com/britzl/defold-metrics"
@@ -34,6 +42,10 @@
   "defold-webgl-memory": {
     "name": "webgl_memory",
     "url": "https://github.com/indiesoftby/defold-webgl-memory"
+  },
+  "extension-firebase-analytics": {
+    "name": "firebase",
+    "url": "https://github.com/defold/extension-firebase-analytics"
   },
   "jstodef": {
     "name": "jstodef",
@@ -79,6 +91,10 @@
     "name": "clipboard",
     "url": "https://github.com/britzl/defold-clipboard"
   },
+  "defold-yoga": {
+    "name": "yoga",
+    "url": "https://github.com/farism/defold-yoga"
+  },
   "extension-pcgrandom": {
     "name": "pcgrandom",
     "url": "https://github.com/Lerg/extension-pcgrandom"
@@ -87,9 +103,17 @@
     "name": "yagames",
     "url": "https://github.com/indiesoftby/defold-yagames"
   },
+  "extension-facebook": {
+    "name": "facebook",
+    "url": "https://github.com/defold/extension-facebook"
+  },
   "defos": {
     "name": "defos",
     "url": "https://github.com/subsoap/defos"
+  },
+  "extension-steam": {
+    "name": "steam",
+    "url": "https://github.com/defold/extension-steam"
   },
   "library-defold-rendy": {
     "name": "rendy",
@@ -143,6 +167,10 @@
     "name": "orthographic",
     "url": "https://github.com/britzl/defold-orthographic"
   },
+  "extension-gpgs": {
+    "name": "gpgs",
+    "url": "https://github.com/defold/extension-gpgs"
+  },
   "extension-imgui": {
     "name": "imgui",
     "url": "https://github.com/britzl/extension-imgui"
@@ -166,6 +194,14 @@
   "defcon": {
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
+  },
+  "defold-playable-ads": {
+    "name": "mraid",
+    "url": "https://github.com/indiesoftby/defold-playable-ads"
+  },
+  "extension-websocket": {
+    "name": "websocket",
+    "url": "https://github.com/defold/extension-websocket"
   },
   "defold-lfs": {
     "name": "lfs",

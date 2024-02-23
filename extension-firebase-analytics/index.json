@@ -1,0 +1,13 @@
+{
+  "name": "firebase",
+  "url": "https://github.com/defold/extension-firebase-analytics",
+  "versions": [
+    {
+      "version": "3.0.0",
+      "url": "https://github.com/defold/extension-firebase-analytics/archive/refs/tags/3.0.0.zip",
+      "hash": "08daddbfaed538a811811efc8bc2b84feb85c85c",
+      "path": "firebase-3.0.0.d.ts",
+      "checksum": "6b67ce3a02c8e27f90f711d2ffd747b9"
+    }
+  ]
+}

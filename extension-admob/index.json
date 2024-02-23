@@ -1,0 +1,13 @@
+{
+  "name": "admob",
+  "url": "https://github.com/defold/extension-admob",
+  "versions": [
+    {
+      "version": "3.4.1",
+      "url": "https://github.com/defold/extension-admob/archive/refs/tags/3.4.1.zip",
+      "hash": "1dd1de5cd8649d0dd7d0441d8028f1e95a099e46",
+      "path": "admob-3.4.1.d.ts",
+      "checksum": "cfb3e64a2fbba6951b814dd77a21cdec"
+    }
+  ]
+}

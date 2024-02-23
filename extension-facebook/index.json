@@ -1,0 +1,13 @@
+{
+  "name": "facebook",
+  "url": "https://github.com/defold/extension-facebook",
+  "versions": [
+    {
+      "version": "7.2.1",
+      "url": "https://github.com/defold/extension-facebook/archive/refs/tags/7.2.1.zip",
+      "hash": "3374c37a4698a2078b44b0169e778ad24a337f9e",
+      "path": "facebook-7.2.1.d.ts",
+      "checksum": "2b38d017927c52b3f2e6c5993b286680"
+    }
+  ]
+}

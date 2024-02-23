@@ -1,0 +1,13 @@
+{
+  "name": "steam",
+  "url": "https://github.com/defold/extension-steam",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/defold/extension-steam/archive/master.zip",
+      "hash": "33bbbd5370c58762b9a20e8ceee88ab6da218c0d",
+      "path": "steam-0.0.1.d.ts",
+      "checksum": "e164a63e3eb3e69fce253f7bc7bf8725"
+    }
+  ]
+}

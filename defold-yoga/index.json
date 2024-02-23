@@ -1,0 +1,13 @@
+{
+  "name": "yoga",
+  "url": "https://github.com/farism/defold-yoga",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "url": "https://github.com/farism/defold-yoga/archive/refs/tags/v0.2.0.zip",
+      "hash": "ff0e8dc563cfb483518f329daf99f3b7640f52e2",
+      "path": "yoga-0.2.0.d.ts",
+      "checksum": "8548ab8a11389e576bc1ddc0ec8f2970"
+    }
+  ]
+}
