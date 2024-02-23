@@ -233,7 +233,7 @@ declare namespace gpgs {
 	end
 	```
 	*/
-	export function snapshot_get_data(): LuaMultiReturn<[string | undefined, string]>;
+	export function snapshot_get_data(): LuaMultiReturn<[string | undefined, string | undefined]>;
 
 	/**
 	 * Sets the data for the currently opened snapshot.
@@ -250,7 +250,7 @@ declare namespace gpgs {
 	*/
 	export function snapshot_set_data(
 		data: string,
-	): LuaMultiReturn<[boolean, string]>;
+	): LuaMultiReturn<[boolean, string | undefined]>;
 
 	/**
 	 * Check if a snapshot was opened.
