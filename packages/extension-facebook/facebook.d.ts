@@ -245,7 +245,15 @@ declare namespace facebook {
 	```
 	*/
 	export function deferred_deep_link(
-		callback: (this: any, result: {}, error: {}) => void,
+		callback: (
+			this: any,
+			result: {
+				ref: string,
+				extras: {},
+				target_url: string,
+			},
+			error: {} | undefined
+		) => void,
 	): void;
 
 	/**
