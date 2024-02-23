@@ -32,36 +32,30 @@ declare namespace firebase {
 		/**
 		 * Log an event with one string parameter.
 		 * @param {string} name Event name
-		 * @param {string} PARAMeter_name Parameter name
 		 * @param {string} PARAMeter_value Parameter value
 		 */
 		export function log_string(
 			name: string,
-			PARAMeter_name: string,
 			PARAMeter_value: string,
 		): void;
 
 		/**
 		 * Log an event with one integer parameter.
 		 * @param {string} name Event name
-		 * @param {string} PARAMeter_name Parameter name
 		 * @param {number} PARAMeter_value Parameter value
 		 */
 		export function log_int(
 			name: string,
-			PARAMeter_name: string,
 			PARAMeter_value: number,
 		): void;
 
 		/**
 		 * Log an event with one float parameter.
 		 * @param {string} name Event name
-		 * @param {string} PARAMeter_name Parameter name
 		 * @param {number} PARAMeter_value Parameter value
 		 */
 		export function log_number(
 			name: string,
-			PARAMeter_name: string,
 			PARAMeter_value: number,
 		): void;
 
