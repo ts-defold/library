@@ -60,7 +60,7 @@ declare namespace iap {
 	/**
 	 * Get a list of all avaliable iap products.
 	 * @param {table} ids table (array) of identifiers to get products from
-	 * @param {function} callback result callback taking the following parameters
+	 * @param {function} callback
 	 * @example ```lua
 		local function iap_callback(self, products, error)
 			if error == nil then

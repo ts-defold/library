@@ -130,7 +130,7 @@ declare namespace gpgs {
 
 	/**
 	 * Set callback for receiving messages from GPGS.
-	 * @param {function} callback A callback taking the following parameters
+	 * @param {function} callback
 	 * @example ```lua
 	function callback(self, message_id, message)
 		if message_id == gpgs.MSG_SIGN_IN or message_id == gpgs.MSG_SILENT_SIGN_IN then
