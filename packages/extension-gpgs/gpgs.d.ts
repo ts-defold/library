@@ -154,7 +154,7 @@ declare namespace gpgs {
 	```
 	*/
 	export function set_callback(
-		callback: (this_: any, message_id: number, message: {}) => void,
+		callback: (this: any, message_id: number, message: {}) => void,
 	): void;
 
 	/**

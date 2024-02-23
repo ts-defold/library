@@ -104,7 +104,7 @@ declare namespace admob {
 	*/
 	export function set_callback(
 		callback: (
-			this_: any,
+			this: any,
 			message_id: number,
 			message: { event: number; code?: number; message?: string },
 		) => void,

@@ -47,7 +47,7 @@ declare namespace facebook {
 	export function login_with_permissions(
 		permissions: {},
 		audience: number,
-		callback: (this_: any, data: {}) => void,
+		callback: (this: any, data: {}) => void,
 	): void;
 
 	/**
@@ -215,7 +215,7 @@ declare namespace facebook {
 	export function show_dialog(
 		dialog: string,
 		param: {},
-		callback: (this_: any, result: {}, error: {}) => void,
+		callback: (this: any, result: {}, error: {}) => void,
 	): void;
 
 	/**
@@ -245,7 +245,7 @@ declare namespace facebook {
 	```
 	*/
 	export function deferred_deep_link(
-		callback: (this_: any, result: {}, error: {}) => void,
+		callback: (this: any, result: {}, error: {}) => void,
 	): void;
 
 	/**

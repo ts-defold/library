@@ -55,7 +55,7 @@ declare namespace push {
 	*/
 	export function register(
 		notifications: {},
-		callback: (this_: any, token: string, error: {}) => void,
+		callback: (this: any, token: string, error: {}) => void,
 	): void;
 
 	/**
@@ -86,7 +86,7 @@ declare namespace push {
 	*/
 	export function set_listener(
 		listener: (
-			this_: any,
+			this: any,
 			payload: {},
 			origin: any,
 			activated: boolean,

@@ -16,7 +16,7 @@ declare namespace firebase {
 		 */
 		export function set_callback(
 			callback: (
-				this_: any,
+				this: any,
 				message_id: number,
 				message: { error?: string; instance_id?: string },
 			) => void,
