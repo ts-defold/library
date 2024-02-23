@@ -53,7 +53,12 @@ declare namespace websocket {
 			protocol?: string,
 			headers?: string,
 		},
-		callback: (this: any, connection: Connection, data: { event: WsEvent, message?: string }) => void,
+		callback: (this: any, connection: Connection, data: {
+			event: WsEvent,
+			message?: string,
+			handshake_response?: {}
+			code?: number,
+		}) => void,
 	): Connection;
 
 	/**
@@ -81,7 +86,9 @@ declare namespace websocket {
 		end
 	```
 	*/
-	export function send(connection: Connection, message: string, options?: {}): void;
+	export function send(connection: Connection, message: string, options?: {
+		type: number
+	}): void;
 
 	/**
 	 * The websocket was connected
