@@ -154,7 +154,14 @@ declare namespace gpgs {
 	```
 	*/
 	export function set_callback(
-		callback: (this: any, message_id: number, message: {}) => void,
+		callback: (this: any, message_id: number, message: {
+			status: number,
+			error?: string,
+			error_status?: number,
+			metadata?: {},
+			conflictId?: string,
+			conflictMetadata?: {},
+		}) => void,
 	): void;
 	export function set_callback(): void;
 
@@ -203,7 +210,7 @@ declare namespace gpgs {
 
 	/**
 	 * Save the currently opened save on the server and close it.
-	 * @param {table} metadata A table with metadata for a save. It contains the fields below
+	 * @param {table} metadata A table with metadata for a save
 	 * @example ```lua
 	if gpgs then
 		local png_img, w, h = screenshot.png()
@@ -216,7 +223,12 @@ declare namespace gpgs {
 	end
 	```
 	*/
-	export function snapshot_commit_and_close(metadata?: {}): void;
+	export function snapshot_commit_and_close(metadata?: {
+		playedTime?: number,
+		progressValue?: number,
+		description?: string,
+		coverImage?: unknown,
+	}): void;
 
 	/**
 	 * Returns the currently opened snapshot data.
