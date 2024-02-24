@@ -1,0 +1,13 @@
+{
+  "name": "spine",
+  "url": "https://github.com/defold/extension-spine",
+  "versions": [
+    {
+      "version": "2.14.4",
+      "url": "https://github.com/defold/extension-spine/archive/refs/tags/2.14.4.zip",
+      "hash": "227a89ee6ae2af9ed4a8e0e90d7c663440bdf757",
+      "path": "spine-2.14.4.d.ts",
+      "checksum": "a0ea4652cf4f11fe14ade1dc1e347c3f"
+    }
+  ]
+}

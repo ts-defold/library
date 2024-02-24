@@ -155,6 +155,10 @@
     "name": "safearea",
     "url": "https://github.com/defold/extension-safearea"
   },
+  "extension-spine": {
+    "name": "spine",
+    "url": "https://github.com/defold/extension-spine"
+  },
   "defold-yametrica": {
     "name": "yametrica",
     "url": "https://github.com/indiesoftby/defold-yametrica"
