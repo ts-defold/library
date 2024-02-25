@@ -256,7 +256,7 @@ declare module 'orthographic.camera' {
 	 */
 	export function add_projector(
 		projector_id: hash,
-		projector_fn: (id: string, near_z: number, far_z: number) => void,
+		projector_fn: (id: hash, near_z: number, far_z: number) => void,
 	): void;
 
 	/**
@@ -274,4 +274,32 @@ declare module 'orthographic.camera' {
 	 * @param scaling_factor Current window scaling factor
 	 */
 	export function set_window_scaling_factor(scaling_factor: number): void;
+
+	export const PROJECTOR: {
+		FIXED_ZOOM: hash;
+		DEFAULT: hash;
+		FIXED_AUTO: hash;
+	};
+
+	export const SHAKE_BOTH: hash;
+	export const SHAKE_VERTICAL: hash;
+	export const SHAKE_HORIZONTAL: hash;
+
+	export const ORTHOGRAPHIC_RENDER_SCRIPT_USED: boolean;
+
+	export const MSG_DISABLE: hash;
+	export const MSG_UNFOLLOW: hash;
+	export const MSG_FOLLOW: hash;
+	export const MSG_FOLLOW_OFFSET: hash;
+	export const MSG_RECOIL: hash;
+	export const MSG_SHAKE: hash;
+	export const MSG_SHAKE_COMPLETED: hash;
+	export const MSG_STOP_SHAKING: hash;
+	export const MSG_DEADZONE: hash;
+	export const MSG_BOUNDS: hash;
+	export const MSG_UPDATE_CAMERA: hash;
+	export const MSG_ZOOM_TO: hash;
+	export const MSG_USE_PROJECTION: hash;
+	export const MSG_VIEWPORT: hash;
+	export const MSG_ENABLE: hash;
 }
