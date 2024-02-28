@@ -1,0 +1,13 @@
+{
+  "name": "kaiads",
+  "url": "https://github.com/defold/extension-kaiads",
+  "versions": [
+    {
+      "version": "1.1.2",
+      "url": "https://github.com/defold/extension-kaiads/archive/refs/tags/1.1.2.zip",
+      "hash": "2288f46946613facff79477ed19350c79d660416",
+      "path": "kaiads-1.1.2.d.ts",
+      "checksum": "e1234c68b314c32f8438478f23490a10"
+    }
+  ]
+}

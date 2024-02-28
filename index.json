@@ -19,6 +19,10 @@
     "name": "lldebugger",
     "url": "https://github.com/ts-defold/defold-lldebugger"
   },
+  "extension-zendesk": {
+    "name": "zendesk",
+    "url": "https://github.com/defold/extension-zendesk"
+  },
   "extension-crypt": {
     "name": "crypt",
     "url": "https://github.com/defold/extension-crypt"
@@ -31,6 +35,10 @@
     "name": "admob",
     "url": "https://github.com/defold/extension-admob"
   },
+  "extension-siwa": {
+    "name": "siwa",
+    "url": "https://github.com/defold/extension-siwa"
+  },
   "defold-metrics": {
     "name": "metrics",
     "url": "https://github.com/britzl/defold-metrics"
@@ -38,6 +46,10 @@
   "extension-ironsource": {
     "name": "ironsource",
     "url": "https://github.com/defold/extension-ironsource"
+  },
+  "extension-cas": {
+    "name": "cas",
+    "url": "https://github.com/Lerg/extension-cas/"
   },
   "defold-webgl-memory": {
     "name": "webgl_memory",
@@ -50,6 +62,10 @@
   "jstodef": {
     "name": "jstodef",
     "url": "https://github.com/AGulev/jstodef"
+  },
+  "extension-adinfo": {
+    "name": "adinfo",
+    "url": "https://github.com/defold/extension-adinfo"
   },
   "dicebag": {
     "name": "dicebag",
@@ -74,6 +90,10 @@
   "library-defold-persist": {
     "name": "persist",
     "url": "https://github.com/klaytonkowalski/library-defold-persist"
+  },
+  "extension-kaiads": {
+    "name": "kaiads",
+    "url": "https://github.com/defold/extension-kaiads"
   },
   "defold-extension-unity-ads": {
     "name": "unityads",
@@ -151,6 +171,10 @@
     "name": "defsave",
     "url": "https://github.com/subsoap/defsave"
   },
+  "extension-googleplayinstant": {
+    "name": "instantapp",
+    "url": "https://github.com/defold/extension-googleplayinstant"
+  },
   "extension-safearea": {
     "name": "safearea",
     "url": "https://github.com/defold/extension-safearea"
@@ -194,6 +218,10 @@
   "defold-zzfx": {
     "name": "zzfx",
     "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  },
+  "extension-iac": {
+    "name": "iac",
+    "url": "https://github.com/defold/extension-iac"
   },
   "defcon": {
     "name": "defcon",

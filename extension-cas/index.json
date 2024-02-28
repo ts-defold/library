@@ -1,0 +1,13 @@
+{
+  "name": "cas",
+  "url": "https://github.com/Lerg/extension-cas/",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/Lerg/extension-cas/archive/master.zip",
+      "hash": "6d9b21d4d7b2c7b3f9adaaac4216fe4df86b4fda",
+      "path": "cas-0.0.1.d.ts",
+      "checksum": "64afa8298d6f61a40e8abf6deda30e1d"
+    }
+  ]
+}
