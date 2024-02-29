@@ -235,6 +235,10 @@
     "name": "websocket",
     "url": "https://github.com/defold/extension-websocket"
   },
+  "monarch": {
+    "name": "monarch",
+    "url": "https://github.com/britzl/monarch"
+  },
   "defold-lfs": {
     "name": "lfs",
     "url": "https://github.com/britzl/defold-lfs"
