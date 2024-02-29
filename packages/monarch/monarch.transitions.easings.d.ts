@@ -1,7 +1,6 @@
 /**
- *
  * @url https://github.com/britzl/monarch
- * @example `import * as transitions from 'monarch.transitions.easings'`
+ * @example `import * as transitions_easings from 'monarch.transitions.easings'`
  * @noResolution
  */
 declare module 'monarch.transitions.easings' {

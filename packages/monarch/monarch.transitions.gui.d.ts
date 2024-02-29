@@ -4,7 +4,7 @@
  * Monarch comes with a system for setting up transitions easily
  * in a gui_script using the `monarch.transitions.gui` module.
  * @url https://github.com/britzl/monarch
- * @example `import * as transitions from 'monarch.transitions.gui'`
+ * @example `import * as transitions_gui from 'monarch.transitions.gui'`
  * @noResolution
  */
 declare module 'monarch.transitions.gui' {
