@@ -15,6 +15,10 @@
     "name": "vibrate",
     "url": "https://github.com/adamwestman/extension-vibrate"
   },
+  "defold-input": {
+    "name": "in",
+    "url": "https://github.com/britzl/defold-input"
+  },
   "defold-lldebugger": {
     "name": "lldebugger",
     "url": "https://github.com/ts-defold/defold-lldebugger"
@@ -115,6 +119,10 @@
     "name": "yoga",
     "url": "https://github.com/farism/defold-yoga"
   },
+  "narrator": {
+    "name": "narrator",
+    "url": "https://github.com/astrochili/narrator"
+  },
   "extension-pcgrandom": {
     "name": "pcgrandom",
     "url": "https://github.com/Lerg/extension-pcgrandom"
@@ -171,6 +179,10 @@
     "name": "defsave",
     "url": "https://github.com/subsoap/defsave"
   },
+  "drawpixels": {
+    "name": "drawpixels",
+    "url": "https://github.com/AGulev/drawpixels"
+  },
   "extension-googleplayinstant": {
     "name": "instantapp",
     "url": "https://github.com/defold/extension-googleplayinstant"
@@ -218,6 +230,10 @@
   "defold-zzfx": {
     "name": "zzfx",
     "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  },
+  "gooey": {
+    "name": "gooey",
+    "url": "https://github.com/britzl/gooey"
   },
   "extension-iac": {
     "name": "iac",

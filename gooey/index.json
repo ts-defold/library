@@ -1,0 +1,13 @@
+{
+  "name": "gooey",
+  "url": "https://github.com/britzl/gooey",
+  "versions": [
+    {
+      "version": "10.4.1",
+      "url": "https://github.com/britzl/gooey/archive/refs/tags/10.4.1.zip",
+      "hash": "5ad080a6ff32721a6895ae145db9e31959aa2659",
+      "path": "gooey-10.4.1.d.ts",
+      "checksum": "1cd714919fde78993c75f1503fb9c03b"
+    }
+  ]
+}
