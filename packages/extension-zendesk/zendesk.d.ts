@@ -1,8 +1,9 @@
 /** @noSelfInFile */
 
 /**
- * Parameters and return values are missing from the API docs.
- * @url https://github.com/defold/extension-zendesk
+ * This is a definition stub with incomplete or untested signatures.
+ * Contributions to improve the accuracy of these types are welcome.
+ * @url https://github.com/ts-defold/library
  * @noResolution
  */
 declare namespace zendesk {
