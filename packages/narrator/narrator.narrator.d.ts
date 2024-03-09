@@ -19,7 +19,7 @@ declare module 'narrator.narrator' {
 
 	type SaveState = {};
 
-	export class Story {
+	class Story {
 		begin(): void;
 		can_continue(): boolean;
 		continue(steps?: number): Paragraph[] | Paragraph;
