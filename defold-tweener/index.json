@@ -1,0 +1,13 @@
+{
+  "name": "tweener",
+  "url": "https://github.com/Insality/defold-tweener",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/Insality/defold-tweener/archive/refs/tags/1.zip",
+      "hash": "11c7016e5ce192e3d5a2bdbcc9692aac66dfabfa",
+      "path": "tweener-0.0.1.d.ts",
+      "checksum": "971033abd74090a2e6a17879ee71de14"
+    }
+  ]
+}

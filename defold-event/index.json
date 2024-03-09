@@ -1,0 +1,13 @@
+{
+  "name": "event",
+  "url": "https://github.com/Insality/defold-event",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/Insality/defold-event/archive/refs/tags/1.zip",
+      "hash": "596af4eebd078529e79e1897366b9f1fb3f04f97",
+      "path": "event-0.0.1.d.ts",
+      "checksum": "3b3c512d61919d1008d04704cbef9b12"
+    }
+  ]
+}
