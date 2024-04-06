@@ -1,0 +1,13 @@
+{
+  "name": "sharing",
+  "url": "https://github.com/britzl/defold-sharing",
+  "versions": [
+    {
+      "version": "4.3.1",
+      "url": "https://github.com/britzl/defold-sharing/archive/refs/tags/4.3.1.zip",
+      "hash": "8edd95013b2bc18a41f165d6d686588f9e1cc752",
+      "path": "share-4.3.1.d.ts",
+      "checksum": "b69b58ac484faa35c3c72da7cf86b017"
+    }
+  ]
+}
