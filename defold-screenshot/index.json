@@ -1,0 +1,13 @@
+{
+  "name": "screenshot",
+  "url": "https://github.com/britzl/defold-screenshot",
+  "versions": [
+    {
+      "version": "1.9.1",
+      "url": "https://github.com/britzl/defold-screenshot/archive/refs/tags/1.9.1.zip",
+      "hash": "f278170539667e7d3dff6ef755b57d52e5c4ccf3",
+      "path": "screenshot-1.9.1.d.ts",
+      "checksum": "3e3411d9c639235f412e9ab7870fa87f"
+    }
+  ]
+}
