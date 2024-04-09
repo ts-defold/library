@@ -1,0 +1,13 @@
+{
+  "name": "permissions",
+  "url": "https://github.com/defold/extension-permissions",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/defold/extension-permissions/archive/refs/tags/1.0.0.zip",
+      "hash": "05596d690dbb5d08a3984c3ea6197c5e6ecda89c",
+      "path": "permissions-1.0.0.d.ts",
+      "checksum": "9fef2575c992cbdd82f122eb05c2209a"
+    }
+  ]
+}

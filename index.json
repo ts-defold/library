@@ -31,6 +31,10 @@
     "name": "defsave",
     "url": "https://github.com/subsoap/defsave"
   },
+  "extension-permissions": {
+    "name": "permissions",
+    "url": "https://github.com/defold/extension-permissions"
+  },
   "defcon": {
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
