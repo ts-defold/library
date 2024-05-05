@@ -1,9 +1,14 @@
 /// <library version="0.0.1" src="https://github.com/klaytonkowalski/library-defold-rendy/archive/main.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/** 
+ * A versatile camera suite and render pipeline
+ * @url https://github.com/klaytonkowalski/library-defold-rendy
+ * @noResolution
+ * @example import * as rendy from 'rendy.rendy'
+ */
 declare module 'rendy.rendy' {
-	type CameraId = string;
+	type CameraId = hash | string;
 
 	/**
 	 * Creates a camera. This function is called automatically by the rendy.go game object.
