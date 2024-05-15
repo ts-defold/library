@@ -17,11 +17,3 @@ When declaring ambient module types using `declare module` any files that are in
 `undefined` is used to represent Lua's `nil` type, as recommended by [TypeScriptToLua](https://typescripttolua.github.io/docs/caveats/#undefined-and-null).
 
 If a broad type is necessary, `AnyNotNil` (defined in [@typescript-to-lua/language-extensions](https://github.com/TypeScriptToLua/TypeScriptToLua)) means any non-null type, and `unknown` means any unknown value. Use of the `any` type is discouraged.
-
-## Contributing
-Your contributions are welcome! We appreciate the help.
-
-Here are a couple things to be aware of before opening a pull request:
-
-- All commits to this repo must be [signed](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
-- Your fork must be up-to-date with the main branch before your PR can be merged.
