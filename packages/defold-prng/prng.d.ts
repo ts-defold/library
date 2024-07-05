@@ -1,26 +1,24 @@
 /** @noSelfInFile */
 
 /**
- * Defold native extension seeded psuedo-random number generator using the Mulberry32 method.
+ * Defold psuedo-random number generator extension using the Mulberry32 method.
  * @see {@link https://github.com/thinknathan/defold-prng|Github Source}
  */
 declare namespace prng {
 	/**
-	 * Requests a floating point number between 0 and 1.
-	 * @returns {number}
+	 * Sets `s` as the seed for the pseudo-random number generator. The resulting sequences of numbers will be identical when the seeds are identical.
+	 * @param s Must be an integer.
 	 */
-	export function rand_float(): number;
+	export function set_seed(s: number): void;
 
 	/**
-	 * Requests an integer between 0 and "max".
-	 * @param {number} max
-	 * @returns {number}
+	 * Requests an integer between 0 and `max`.
+	 * @param max
 	 */
 	export function rand_int(max: number): number;
 
 	/**
-	 * Sets "s" as the seed for the pseudo-random number generator. The resulting sequences of numbers will be identical when the seeds are identical.
-	 * @param {number} s
+	 * Requests a floating point number between 0 and 1.
 	 */
-	export function set_seed(s: number): void;
+	export function rand_float(): number;
 }
