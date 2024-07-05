@@ -1,8 +1,8 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/farism/defold-yoga
- * @noResolution
+ * Defold bindings for Facebook's Yoga layout engine
+ * @see {@link https://github.com/farism/defold-yoga|Github Source}
  */
 declare namespace yoga {
 	export function update(node: node): void;

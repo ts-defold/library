@@ -2,8 +2,7 @@
 
 /**
  * SplitMix64 PRNG for Defold: get the same random numbers from the same seeds on all platforms supported by Defold.
- * @url https://github.com/indiesoftby/defold-splitmix64
- * @noResolution
+ * @see {@link https://github.com/indiesoftby/defold-splitmix64|Github Source}
  */
 declare namespace splitmix64 {
 	/**

@@ -2,8 +2,7 @@
 
 /**
  * This project adds support for Dear ImGUI in Defold.
- * @url https://github.com/britzl/extension-imgui
- * @noResolution
+ * @see {@link https://github.com/britzl/extension-imgui|Github Source}
  */
 declare namespace imgui {
 	type ImguiConstant = number;

@@ -3,8 +3,7 @@
 /**
  * Extra native OS functions for games written using the Defold game engine.
  * Currently supports macOS, Windows, Linux and HTML5.
- * @url https://github.com/subsoap/defos
- * @noResolution
+ * @see {@link https://github.com/subsoap/defos|Github Source}
  */
 declare namespace defos {
 	type DisplayId = number & LuaUserdata;

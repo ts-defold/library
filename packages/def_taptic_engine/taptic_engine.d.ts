@@ -2,8 +2,7 @@
 
 /**
  * Native extension for Defold with Taptic Engine implementation for iOS
- * @url https://github.com/MaratGilyazov/def_taptic_engine
- * @noResolution
+ * @see {@link https://github.com/MaratGilyazov/def_taptic_engine|Github Source}
  */
 declare namespace taptic_engine {
 	export const IMPACT_LIGHT: number;

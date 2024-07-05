@@ -2,8 +2,7 @@
 
 /**
  * PCG Random Number Generator Native Extension for the Defold Game Engine
- * @url https://github.com/selimanac/defold-random
- * @noResolution
+ * @see {@link https://github.com/selimanac/defold-random|Github Source}
  */
 declare namespace rnd {
 	/**

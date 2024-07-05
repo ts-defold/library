@@ -1,6 +1,10 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * Save and load config and user data persistently between a Defold project's sessions
+ * @see {@link https://github.com/subsoap/defsave|Github Source}
+ * @noResolution
+ */
 declare module "defsave.defsave" {
   export let appname: string;
 

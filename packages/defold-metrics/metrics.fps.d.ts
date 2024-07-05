@@ -1,6 +1,9 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/** 
+ * @see {@link https://github.com/britzl/defold-metrics|Github Source}
+ * @noResolution
+ */
 declare module 'metrics.fps' {
   /** @noSelf */
   export interface Metrics {
