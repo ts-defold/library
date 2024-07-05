@@ -1,8 +1,8 @@
 /**
  * This is a definition stub with incomplete or untested signatures.
  * Contributions are welcome to improve the accuracy of these types.
- * @url https://github.com/ts-defold/library
- * @url https://insality.github.io/druid/modules/Druid.html
+ * @see {@link https://github.com/ts-defold/library|Github Source}
+ * @see {@link https://insality.github.io/druid/modules/Druid.html|Documentation}
  * @noResolution
  */
 declare module 'druid.extended.checkbox' {
