@@ -2,8 +2,7 @@
 
 /**
  * Yandex.Metrica for Defold
- * @url https://github.com/indiesoftby/defold-yametrica
- * @noResolution
+ * @see {@link https://github.com/indiesoftby/defold-yametrica|Github Source}
  */
 declare namespace yametrica {
 	/**

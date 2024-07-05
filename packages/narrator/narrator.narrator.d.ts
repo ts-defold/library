@@ -1,7 +1,7 @@
 /**
  * This is a definition stub with incomplete or untested signatures.
  * Contributions to improve the accuracy of these types are welcome.
- * @url https://github.com/ts-defold/library
+ * @see {@link https://github.com/astrochili/narrator|Github Source}
  * @noResolution
  */
 declare module 'narrator.narrator' {

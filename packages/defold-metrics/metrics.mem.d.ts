@@ -1,6 +1,9 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/** 
+ * @see {@link https://github.com/britzl/defold-metrics|Github Source}
+ * @noResolution
+ */
 declare module 'metrics.mem' {
   /** @noSelf */
   export interface Metrics {

@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/Lerg/extension-cas
- * @noResolution
+ * @see {@link https://github.com/Lerg/extension-cas|Github Source}
  */
 declare namespace cas {
 	/**

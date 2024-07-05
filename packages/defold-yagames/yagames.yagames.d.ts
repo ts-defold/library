@@ -1,6 +1,9 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/indiesoftby/defold-yagames|Github Source}
+ * @noResolution
+ */
 declare module 'yagames.yagames' {
   export type Context = unknown;
 

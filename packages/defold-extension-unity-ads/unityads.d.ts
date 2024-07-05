@@ -1,8 +1,8 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/AGulev/defold-extension-unity-ads
- * @noResolution
+ * UnityAds native extension for Defold engine.
+ * @see {@link https://github.com/AGulev/defold-extension-unity-ads|Github Source}
  */
 declare namespace unityads {
 	type Callback = (

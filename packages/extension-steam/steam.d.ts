@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-steam
- * @noResolution
+ * @see {@link https://github.com/defold/extension-steam|Github Source}
  */
 declare namespace steam {
 	/**

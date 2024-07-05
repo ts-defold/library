@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-firebase-analytics
- * @noResolution
+ * @see {@link https://github.com/defold/extension-firebase-analytics|Github Source}
  */
 declare namespace firebase {
 	export namespace analytics {

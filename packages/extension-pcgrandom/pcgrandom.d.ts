@@ -2,8 +2,7 @@
 
 /**
  * PCG Random Extension for Defold
- * @url https://github.com/Lerg/extension-pcgrandom
- * @noResolution
+ * @see {@link https://github.com/Lerg/extension-pcgrandom|Github Source}
  */
 declare namespace pcgrandom {
 	type lightuserdata = LuaUserdata & Readonly<{ __brand: 'pcgrandom' }>;

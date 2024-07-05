@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
-/**
- * @url https://github.com/GameDistribution/gd-defold
- * @noResolution
+/** 
+ * @see {@link https://github.com/GameDistribution/gd-defold|Github Source}
  */
 declare namespace gdsdk {
 	/**

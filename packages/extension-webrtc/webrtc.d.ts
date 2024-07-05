@@ -2,8 +2,7 @@
 
 /**
  * A quick and easy C++ library that adds support for WebRTC to Defold
- * @url https://github.com/VitusVeit/extension-webrtc
- * @noResolution
+ * @see {@link https://github.com/VitusVeit/extension-webrtc|Github Source}
  */
 declare namespace webrtc {
 	type WebRtcType = Readonly<{ __brand: 'webrtc_type' }> & number;

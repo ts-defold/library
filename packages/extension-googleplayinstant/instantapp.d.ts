@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-googleplayinstant
- * @noResolution
+ * @see {@link https://github.com/defold/extension-googleplayinstant|Github Source}
  */
 declare namespace instantapp {
 	/**

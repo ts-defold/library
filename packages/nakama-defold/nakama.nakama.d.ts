@@ -1,6 +1,9 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/heroiclabs/nakama-defold|Github Source}
+ * @noResolution
+ */
 declare module 'nakama.nakama' {
   export type Client = symbol;
 
