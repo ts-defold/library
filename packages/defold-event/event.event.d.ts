@@ -1,5 +1,6 @@
 /**
- * @url https://github.com/Insality/defold-event
+ * Cross-Context Defold Event System
+ * @see {@link https://github.com/Insality/defold-event|Github Source}
  * @noResolution
  */
 declare module 'event.event' {

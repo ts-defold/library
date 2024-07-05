@@ -1,7 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.keyboard' {

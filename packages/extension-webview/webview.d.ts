@@ -2,8 +2,7 @@
 
 /**
  * Defold extension for creating and controlling webviews to show html pages or evaluate javascript.
- * @url https://github.com/defold/extension-webview
- * @noResolution
+ * @see {@link https://github.com/defold/extension-webview|Github Source}
  */
 declare namespace webview {
 	type CallbackResult = number & Readonly<{ __brand: 'webview' }>;

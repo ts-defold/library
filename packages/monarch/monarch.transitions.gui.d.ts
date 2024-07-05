@@ -2,8 +2,9 @@
 
 /**
  * Monarch comes with a system for setting up transitions easily
- * in a gui_script using the `monarch.transitions.gui` module.
- * @url https://github.com/britzl/monarch
+ * in a `gui_script` using the `monarch.transitions.gui` module.
+ * @see {@link https://github.com/britzl/monarch|Github Source}
+ * @see {@link https://github.com/britzl/monarch/blob/master/README_API.md|Documentation}
  * @example `import * as transitions_gui from 'monarch.transitions.gui'`
  * @noResolution
  */

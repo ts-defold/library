@@ -3,7 +3,7 @@
 /**
  * Defold native extension to share data
  * from a Defold application using native dialogs
- * @url https://github.com/britzl/defold-sharing
+ * @see {@link https://github.com/britzl/defold-sharing|Github Source}
  */
 declare namespace share {
 	/**

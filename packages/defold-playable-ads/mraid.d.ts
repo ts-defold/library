@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/indiesoftby/defold-playable-ads
- * @noResolution
+ * @see {@link https://github.com/indiesoftby/defold-playable-ads|Github Source}
  */
 declare namespace mraid {
 	export function set_listener(

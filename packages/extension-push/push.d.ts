@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-push
- * @noResolution
+ * @see {@link https://github.com/defold/extension-push|Github Source}
  */
 declare namespace push {
 	/**

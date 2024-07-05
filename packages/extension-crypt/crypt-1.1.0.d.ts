@@ -3,15 +3,12 @@
 
 /** @noSelfInFile */
 
-/**
- * @url https://github.com/defold/extension-crypt
- * @noResolution
- */
 declare namespace crypt {
 	/**
 	 * @param {string} source
 	 * @param {string} key key should be <=16
 	 * @returns {string}
+	 * @since 1.1.0
 	 */
 	export function encrypt_xtea(source: string, key: string): string;
 
@@ -19,6 +16,7 @@ declare namespace crypt {
 	 * @param {string} source
 	 * @param {string} key key should be <=16
 	 * @returns {string}
+	 * @since 1.1.0
 	 */
 	export function decrypt_xtea(source: string, key: string): string;
 }

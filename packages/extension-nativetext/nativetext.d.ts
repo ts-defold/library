@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/Lerg/extension-nativetext
- * @noResolution
+ * @see {@link https://github.com/Lerg/extension-nativetext|Github Source}
  */
 declare namespace nativetext {
 	/**
