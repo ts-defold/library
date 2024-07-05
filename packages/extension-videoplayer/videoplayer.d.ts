@@ -2,7 +2,7 @@
 
 /**
  * Videoplayer for the Defold engine
- * @url https://github.com/defold/extension-videoplayer
+ * @see {@link https://github.com/defold/extension-videoplayer|Github Source}
  */
 declare namespace videoplayer {
 	type VideoHandle = Readonly<{ __brand: 'videoplayerHandle' }>;

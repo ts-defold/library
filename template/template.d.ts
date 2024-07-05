@@ -1,4 +1,4 @@
-// @noSelfInFIle is typically used to avoid requiring self as the first param of a function
+// @noSelfInFile is typically used to avoid requiring self as the first param of a function
 /** @noSelfInFile **/
 
 // @noResolution is used as we are exporting the exact module path in the declaration

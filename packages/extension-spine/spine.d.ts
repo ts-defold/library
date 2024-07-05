@@ -9,8 +9,7 @@ type PlaybackMode =
 	| typeof gui.PLAYBACK_ONCE_PINGPONG;
 
 /**
- * @url https://github.com/defold/extension-spine
- * @noResolution
+ * @see {@link https://github.com/defold/extension-spine|Github Source}
  */
 declare namespace spine {
 	/**

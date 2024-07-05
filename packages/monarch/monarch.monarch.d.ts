@@ -2,7 +2,8 @@
 
 /**
  * Monarch is a screen manager for the Defold game engine.
- * @url https://github.com/britzl/monarch
+ * @see {@link https://github.com/britzl/monarch|Github Source}
+ * @see {@link https://github.com/britzl/monarch/blob/master/README_API.md|Documentation}
  * @example `import * as monarch from 'monarch.monarch'`
  * @noResolution
  */

@@ -1,5 +1,6 @@
 /**
- * @url https://github.com/britzl/monarch
+ * @see {@link https://github.com/britzl/monarch|Github Source}
+ * @see {@link https://github.com/britzl/monarch/blob/master/README_API.md|Documentation}
  * @example `import * as transitions_easings from 'monarch.transitions.easings'`
  * @noResolution
  */

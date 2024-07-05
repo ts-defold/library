@@ -192,7 +192,7 @@ declare type BoomEasing =
 
 /**
  * Boom is a game framework built on top of Defold.
- * @url https://github.com/britzl/boom/
+ * @see {@link https://github.com/britzl/boom|Github Source}
  * @noResolution
  */
 declare module 'boom.boom' {
@@ -230,10 +230,14 @@ type ObjectUnion<T extends Array<BoomComponent | BoomTag>> = Extract<
 type ObjectIntersection<T extends Array<BoomComponent | BoomTag>> =
 	ObjectProperties<ObjectUnion<T>>;
 
-// Create an intersection type from the union of object types
-// This type is copied from kaboom
-// @link https://github.com/replit/kaboom
-// @license MIT Copyright (c) 2021 Replit
+/**
+ * Create an intersection type from the union of object types.
+ * This type is copied from kaboom.
+ * @see {@link https://github.com/replit/kaboom|kaboom Source}
+ * @license MIT
+ * @copyright 2021 Replit
+ */
+// Begin Copied Section
 type UnionToIntersection<U> = (U extends any ? (k: U) => void : never) extends (
 	k: infer I,
 ) => void

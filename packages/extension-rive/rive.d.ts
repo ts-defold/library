@@ -1,6 +1,8 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/defold/extension-rive|Github Source}
+ */
 declare namespace rive {
   /**
    * Plays the specified animation on a Rive model

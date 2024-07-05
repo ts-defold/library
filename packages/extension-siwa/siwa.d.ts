@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-siwa
- * @noResolution
+ * @see {@link https://github.com/defold/extension-siwa|Github Source}
  */
 declare namespace siwa {
 	/**
