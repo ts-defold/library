@@ -163,6 +163,10 @@
     "name": "in",
     "url": "https://github.com/britzl/defold-input"
   },
+  "defold-richtext": {
+    "name": "richtext",
+    "url": "https://github.com/britzl/defold-richtext"
+  },
   "defold-astar": {
     "name": "astar",
     "url": "https://github.com/selimanac/defold-astar"

@@ -1,0 +1,13 @@
+{
+  "name": "richtext",
+  "url": "https://github.com/britzl/defold-richtext",
+  "versions": [
+    {
+      "version": "5.21.1",
+      "url": "https://github.com/britzl/defold-richtext/archive/refs/tags/5.21.1.zip",
+      "hash": "7d61b2c632b7b1ca1730c02d6c6d1b17d1160c9a",
+      "path": "richtext-5.21.1.d.ts",
+      "checksum": "aa9b4b5c04d7f8f41149b6515f38ba9b"
+    }
+  ]
+}
