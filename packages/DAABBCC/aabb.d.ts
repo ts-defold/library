@@ -2,7 +2,7 @@
 
 /**
  * Dynamic AABB Tree native extension with Branch and Bound Algorithm for Defold Engine
- * @url https://github.com/selimanac/DAABBCC
+ * @see {@link https://github.com/selimanac/DAABBCC|Github Source}
  */
 declare namespace aabb {
 	type DistanceResult =
