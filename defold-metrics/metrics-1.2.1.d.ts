@@ -1,7 +1,10 @@
 /// <library version="1.2.1" src="https://github.com/britzl/defold-metrics/archive/refs/tags/1.2.1.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/** 
+ * @see {@link https://github.com/britzl/defold-metrics|Github Source}
+ * @noResolution
+ */
 declare module 'metrics.fps' {
   /** @noSelf */
   export interface Metrics {
@@ -15,7 +18,10 @@ declare module 'metrics.fps' {
 
 /** @noSelfInFile **/
 
-/** @noResolution */
+/** 
+ * @see {@link https://github.com/britzl/defold-metrics|Github Source}
+ * @noResolution
+ */
 declare module 'metrics.mem' {
   /** @noSelf */
   export interface Metrics {

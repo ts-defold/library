@@ -3,7 +3,7 @@
 
 /**
  * Videoplayer extension using native views
- * @url https://github.com/defold/extension-videoplayer-native
+ * @see {@link https://github.com/defold/extension-videoplayer-native|Github Source}
  */
 declare namespace videoplayer {
 	type VnHandle = Readonly<{ __brand: 'videoplayer.create' }>;

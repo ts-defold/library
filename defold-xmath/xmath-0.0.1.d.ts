@@ -5,7 +5,7 @@
  * Defold Math eXtention Library that avoids allocations
  * @license MIT
  * @author thejustinwalsh
- * @link https://github.com/thejustinwalsh/defold-xmath/
+ * @see {@link https://github.com/subsoap/defos|Github Source}
  */
 declare namespace xmath {
 	//

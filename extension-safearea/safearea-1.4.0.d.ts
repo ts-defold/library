@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-safearea
- * @noResolution
+ * @see {@link https://github.com/defold/extension-safearea|Github Source}
  */
 declare namespace safearea {
 	/**

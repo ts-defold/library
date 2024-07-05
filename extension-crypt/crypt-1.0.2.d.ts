@@ -1,7 +1,9 @@
 /// <library version="1.0.2" src="https://github.com/defold/extension-crypt/archive/master.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/defold/extension-crypt|Github Source}
+ */
 declare namespace crypt {
   export function hash_sha1(source: string): string;
 

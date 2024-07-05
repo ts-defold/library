@@ -1,7 +1,10 @@
 /// <library version="0.6.4" src="https://github.com/indiesoftby/defold-yagames/archive/refs/tags/0.6.4.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/indiesoftby/defold-yagames|Github Source}
+ * @noResolution
+ */
 declare module 'yagames.yagames' {
   export type Context = unknown;
 

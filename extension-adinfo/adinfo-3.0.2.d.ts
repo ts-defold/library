@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-adinfo
- * @noResolution
+ * @see {@link https://github.com/defold/extension-adinfo|Github Source}
  */
 declare namespace adinfo {
 	/**

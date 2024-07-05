@@ -1,6 +1,10 @@
 /// <library version="1.0.1" src="https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.1.zip" />
 /** @noSelfInFile **/
 
+/**
+ * A module with a set of math functions for Defold
+ * @see {@link https://github.com/selimanac/defold-astar|Github Source}
+ */
 declare namespace astar {
   
   type DIRECTION = number & { __brand: 'astar.DIRECTION' };

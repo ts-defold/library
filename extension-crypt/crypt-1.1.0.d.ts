@@ -1,7 +1,9 @@
 /// <library version="1.1.0" src="https://github.com/defold/extension-crypt/archive/refs/tags/1.1.0.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/defold/extension-crypt|Github Source}
+ */
 declare namespace crypt {
   export function hash_sha1(source: string): string;
 
@@ -19,15 +21,12 @@ declare namespace crypt {
 
 /** @noSelfInFile */
 
-/**
- * @url https://github.com/defold/extension-crypt
- * @noResolution
- */
 declare namespace crypt {
 	/**
 	 * @param {string} source
 	 * @param {string} key key should be <=16
 	 * @returns {string}
+	 * @since 1.1.0
 	 */
 	export function encrypt_xtea(source: string, key: string): string;
 
@@ -35,6 +34,7 @@ declare namespace crypt {
 	 * @param {string} source
 	 * @param {string} key key should be <=16
 	 * @returns {string}
+	 * @since 1.1.0
 	 */
 	export function decrypt_xtea(source: string, key: string): string;
 }

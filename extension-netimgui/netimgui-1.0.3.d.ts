@@ -3,8 +3,7 @@
 
 /**
  * NetImgui is a library for remotely displaying and controlling Dear Imgui content in a different application (called the Server).
- * @url https://github.com/DreamRealityInteractive/extension-netimgui
- * @noResolution
+ * @see {@link https://github.com/DreamRealityInteractive/extension-netimgui|Github Source}
  */
 declare namespace netimgui {
 	/**

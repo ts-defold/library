@@ -1,7 +1,11 @@
 /// <library version="0.0.3" src="https://github.com/8bitskull/dicebag/archive/refs/tags/0.3.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * Dicebag is a Defold extension containing probability functions designed specifically for games.
+ * @see {@link https://github.com/8bitskull/dicebag|Github Source}
+ * @noResolution
+ */
 declare module "dicebag.dicebag" {
   /**
    * Sets up the randomseed and clears the first number of random rolls.

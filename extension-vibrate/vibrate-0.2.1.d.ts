@@ -3,8 +3,7 @@
 
 /**
  * Adds support for device vibration service in Defold.
- * @url https://github.com/adamwestman/extension-vibrate
- * @noResolution
+ * @see {@link https://github.com/adamwestman/extension-vibrate|Github Source}
  */
 declare namespace vibrate {
 	/**

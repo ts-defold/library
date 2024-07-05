@@ -3,8 +3,7 @@
 
 /**
  * Defold native extension seeded psuedo-random number generator using the Mulberry32 method.
- * @url https://github.com/thinknathan/defold-prng
- * @noResolution
+ * @see {@link https://github.com/thinknathan/defold-prng|Github Source}
  */
 declare namespace prng {
 	/**

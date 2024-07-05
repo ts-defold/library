@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-facebook
- * @noResolution
+ * @see {@link https://github.com/defold/extension-facebook|Github Source}
  */
 declare namespace facebook {
 	/**

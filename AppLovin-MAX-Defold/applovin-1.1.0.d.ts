@@ -2,8 +2,8 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/AppLovin/AppLovin-MAX-Defold
- * @noResolution
+ * AppLovin MAX Defold Plugin for Android and iOS
+ * @see {@link https://github.com/AppLovin/AppLovin-MAX-Defold|Github Source}
  */
 declare namespace applovin {
 	/**

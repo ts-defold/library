@@ -1,10 +1,15 @@
 /// <library version="0.0.1" src="https://github.com/thejustinwalsh/defold-zzfx/archive/main.zip" />
 /** @noSelfInFile **/
+
 type ZzFXSample = LuaUserdata & {
   readonly __index: 'zzfx_ext_sample';
 };
 
-/** @noResolution */
+/**
+ * ZzFX extension for Defold
+ * @see {@link https://github.com/thejustinwalsh/defold-zzfx|Github Source}
+ * @noResolution
+ */
 declare module 'zzfx.api' {
   export function play(...args: number[]): void;
 

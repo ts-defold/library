@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-kaiads
- * @noResolution
+ * @see {@link https://github.com/defold/extension-kaiads|Github Source}
  */
 declare namespace kaiads {
 	/**

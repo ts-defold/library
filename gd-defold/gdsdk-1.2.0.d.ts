@@ -1,9 +1,8 @@
 /// <library version="1.2.0" src="https://github.com/GameDistribution/gd-defold/releases/tag/1.2.0" />
 /** @noSelfInFile */
 
-/**
- * @url https://github.com/GameDistribution/gd-defold
- * @noResolution
+/** 
+ * @see {@link https://github.com/GameDistribution/gd-defold|Github Source}
  */
 declare namespace gdsdk {
 	/**

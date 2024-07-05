@@ -3,8 +3,7 @@
 
 /**
  * LuaFileSystem port to a Defold native extension
- * @url https://github.com/britzl/defold-lfs
- * @noResolution
+ * @see {@link https://github.com/britzl/defold-lfs|Github Source}
  */
 declare namespace lfs {
 	type ResultOrError<T> = LuaMultiReturn<[undefined, string]> | T;

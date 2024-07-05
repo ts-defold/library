@@ -1,7 +1,10 @@
 /// <library version="2.4.0" src="https://github.com/britzl/defcon/archive/refs/tags/2.4.0.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution **/
+/** 
+ * @see {@link https://github.com/britzl/defcon|Github Source}
+ * @noResolution 
+ */
 declare module 'defcon.console' {
   /** @noSelf */
   export interface CommandCallback {

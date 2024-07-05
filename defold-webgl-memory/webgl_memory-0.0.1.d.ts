@@ -3,8 +3,7 @@
 
 /**
  * A quick and easy way to find out the GPU and CPU memory usage of your Defold game on HTML5 platform.
- * @url https://github.com/indiesoftby/defold-webgl-memory
- * @noResolution
+ * @see {@link https://github.com/indiesoftby/defold-webgl-memory|Github Source}
  */
 declare namespace webgl_memory {
 	type memory = {

@@ -45,9 +45,10 @@ declare type EASING_TYPES =
   | "TYPE_OUTINBOUNCE";
 
 
-/** @noSelfInFile **/
-/** @noResolution */
-
+/** 
+ * @see {@link https://github.com/jbp4444/bzAnim|Github Source}
+ * @noResolution
+ */
 declare module "bzAnim.bzLibrary" {
   export const INFO_LEVEL = 1;
   export const DEBUG_LEVEL = 2;

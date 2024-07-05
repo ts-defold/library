@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-gpgs
- * @noResolution
+ * @see {@link https://github.com/defold/extension-gpgs|Github Source}
  */
 declare namespace gpgs {
 	/**

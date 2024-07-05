@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-websocket
- * @noResolution
+ * @see {@link https://github.com/defold/extension-websocket|Github Source}
  */
 declare namespace websocket {
 	type Connection = Readonly<{ __brand: 'websocketConnection' }>;

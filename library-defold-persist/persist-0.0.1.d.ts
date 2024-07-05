@@ -3,7 +3,7 @@
 
 /**
  * A simple interface for saving and loading data.
- * @url https://github.com/klaytonkowalski/library-defold-persist
+ * @see {@link https://github.com/klaytonkowalski/library-defold-persist|Github Source}
  * @example `import * as persist from 'persist.persist'`
  * @noResolution
  */

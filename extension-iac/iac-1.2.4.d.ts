@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-iac
- * @noResolution
+ * @see {@link https://github.com/defold/extension-iac|Github Source}
  */
 declare namespace iac {
 	/**

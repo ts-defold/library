@@ -2,7 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.accelerometer' {
@@ -40,7 +40,7 @@ declare module 'in.accelerometer' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.button' {
@@ -61,7 +61,7 @@ declare module 'in.button' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.cursor' {
@@ -95,7 +95,7 @@ declare module 'in.cursor' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.gesture' {
@@ -160,7 +160,7 @@ declare module 'in.gesture' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.keyboard' {
@@ -181,7 +181,7 @@ declare module 'in.keyboard' {
 /**
  * This is a definition stub with incomplete or untested signatures.
  * Contributions to improve the accuracy of these types are welcome.
- * @url https://github.com/ts-defold/library
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.mapper' {
@@ -203,7 +203,7 @@ declare module 'in.mapper' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.onscreen' {
@@ -262,7 +262,7 @@ declare module 'in.onscreen' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.state' {
@@ -297,7 +297,7 @@ declare module 'in.state' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.textbox' {
@@ -324,7 +324,7 @@ declare module 'in.textbox' {
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/britzl/defold-input
+ * @see {@link https://github.com/britzl/defold-input|Github Source}
  * @noResolution
  */
 declare module 'in.triggers' {

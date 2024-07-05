@@ -1,6 +1,7 @@
 /// <library version="0.0.2" src="https://github.com/Insality/defold-log/archive/refs/tags/2.zip" />
 /**
- * @url https://github.com/Insality/defold-log
+ * Context logger with performance metrics for Defold
+ * @see {@link https://github.com/Insality/defold-log|Github Source}
  * @noResolution
  */
 declare module 'log.log' {

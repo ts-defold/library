@@ -1,7 +1,10 @@
 /// <library version="3.1.3" src="https://github.com/britzl/defold-orthographic/archive/refs/tags/3.1.3.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/britzl/defold-orthographic|Github Source}
+ * @noResolution
+ */
 declare module 'orthographic.camera' {
 	/**
 	 * Follow a game object.

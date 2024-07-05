@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/AGulev/drawpixels
- * @noResolution
+ * @see {@link https://github.com/AGulev/drawpixels|Github Source}
  */
 declare namespace drawpixels {
 	interface BufferInfo {

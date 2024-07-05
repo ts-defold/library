@@ -3,7 +3,8 @@
 
 /**
  * Monarch is a screen manager for the Defold game engine.
- * @url https://github.com/britzl/monarch
+ * @see {@link https://github.com/britzl/monarch|Github Source}
+ * @see {@link https://github.com/britzl/monarch/blob/master/README_API.md|Documentation}
  * @example `import * as monarch from 'monarch.monarch'`
  * @noResolution
  */
@@ -415,8 +416,9 @@ declare module 'monarch.monarch' {
 
 /**
  * Monarch comes with a system for setting up transitions easily
- * in a gui_script using the `monarch.transitions.gui` module.
- * @url https://github.com/britzl/monarch
+ * in a `gui_script` using the `monarch.transitions.gui` module.
+ * @see {@link https://github.com/britzl/monarch|Github Source}
+ * @see {@link https://github.com/britzl/monarch/blob/master/README_API.md|Documentation}
  * @example `import * as transitions_gui from 'monarch.transitions.gui'`
  * @noResolution
  */
@@ -609,7 +611,8 @@ declare module 'monarch.transitions.gui' {
 }
 
 /**
- * @url https://github.com/britzl/monarch
+ * @see {@link https://github.com/britzl/monarch|Github Source}
+ * @see {@link https://github.com/britzl/monarch/blob/master/README_API.md|Documentation}
  * @example `import * as transitions_easings from 'monarch.transitions.easings'`
  * @noResolution
  */

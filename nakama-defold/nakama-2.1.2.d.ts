@@ -1,7 +1,10 @@
 /// <library version="2.1.2" src="https://github.com/heroiclabs/nakama-defold/archive/refs/tags/2.1.2.zip" />
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/heroiclabs/nakama-defold|Github Source}
+ * @noResolution
+ */
 declare module 'nakama.nakama' {
   export type Client = symbol;
 
@@ -593,7 +596,10 @@ declare module 'nakama.nakama' {
 
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/heroiclabs/nakama-defold|Github Source}
+ * @noResolution
+ */
 declare module 'nakama.engine.defold' {
   export function uuid(): string;
 
@@ -615,7 +621,10 @@ declare module 'nakama.engine.defold' {
 
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/heroiclabs/nakama-defold|Github Source}
+ * @noResolution
+ */
 declare module 'nakama.util.log' {
   function print(): void;
   function silent(): void;

@@ -3,8 +3,7 @@
 
 /**
  * Defold native extension to access the clipboard
- * @url https://github.com/britzl/defold-clipboard
- * @noResolution
+ * @see {@link https://github.com/britzl/defold-clipboard|Github Source}
  */
 declare namespace clipboard {
 	/**

@@ -3,7 +3,7 @@
 
 /**
  * Screenshot extension for the Defold game engine
- * @url https://github.com/britzl/defold-screenshot
+ * @see {@link https://github.com/britzl/defold-screenshot|Github Source}
  */
 declare namespace screenshot {
 	/**

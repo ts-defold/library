@@ -2,8 +2,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-iap
- * @noResolution
+ * @see {@link https://github.com/defold/extension-iap|Github Source}
  */
 declare namespace iap {
 	/**
