@@ -2,8 +2,7 @@
 
 /**
  * SFMT Random Extension for Defold
- * @url https://github.com/Lerg/extension-sfmtrandom
- * @noResolution
+ * @see {@link https://github.com/Lerg/extension-sfmtrandom|Github Source}
  */
 declare namespace sfmtrandom {
 	type lightuserdata = LuaUserdata & Readonly<{ __brand: 'sfmtrandom' }>;

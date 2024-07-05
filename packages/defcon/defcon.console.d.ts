@@ -1,6 +1,9 @@
 /** @noSelfInFile **/
 
-/** @noResolution **/
+/** 
+ * @see {@link https://github.com/britzl/defcon|Github Source}
+ * @noResolution 
+ */
 declare module 'defcon.console' {
   /** @noSelf */
   export interface CommandCallback {

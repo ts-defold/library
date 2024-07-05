@@ -2,8 +2,7 @@
 
 /**
  * Tools to help you develop 3D games with the Defold game engine
- * @url https://github.com/indiesoftby/defold-scene3d
- * @noResolution
+ * @see {@link https://github.com/indiesoftby/defold-scene3d|Github Source}
  */
 declare namespace scene3d {
 	/**
@@ -233,7 +232,7 @@ declare namespace scene3d {
 
 /**
  * Helper math functions
- * @url https://github.com/indiesoftby/defold-scene3d
+ * @see {@link https://github.com/indiesoftby/defold-scene3d|Github Source}
  * @example `import * as math3d from 'scene3d.helpers.math3d'`
  * @noResolution
  */
@@ -436,7 +435,7 @@ declare module 'scene3d.helpers.math3d' {
 }
 
 /**
- * @url https://github.com/indiesoftby/defold-scene3d
+ * @see {@link https://github.com/indiesoftby/defold-scene3d|Github Source}
  * @example `import * as gui_helper from 'scene3d.helpers.gui'`
  * @noResolution
  */
@@ -474,7 +473,7 @@ declare module 'scene3d.helpers.gui' {
 }
 
 /**
- * @url https://github.com/indiesoftby/defold-scene3d
+ * @see {@link https://github.com/indiesoftby/defold-scene3d|Github Source}
  * @example `import * as system_util from 'scene3d.helpers.system_util'`
  * @noResolution
  */
@@ -490,8 +489,8 @@ declare module 'scene3d.helpers.system_util' {
 
 	/**
 	 * Resizes game window to fit screen size. Use it to simplify your development process.
-	 * `defos` is required:
-	 * @link https://github.com/subsoap/defos
+	 * @requires defos
+	 * @see {@link https://github.com/subsoap/defos|DefOS Source}
 	 */
 	export function resize_window(): void;
 

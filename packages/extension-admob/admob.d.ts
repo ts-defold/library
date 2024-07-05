@@ -1,8 +1,7 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/defold/extension-admob
- * @noResolution
+ * @see {@link https://github.com/defold/extension-admob|Github Source}
  */
 declare namespace admob {
 	/**

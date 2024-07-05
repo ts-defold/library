@@ -1,6 +1,9 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/** 
+ * @see {@link https://github.com/subsoap/defmath|Github Source}
+ * @noResolution
+ */
 declare module "defmath.defmath" {
   /**
    * Angle-Diff (gets the smallest angle between two angles, using radians)

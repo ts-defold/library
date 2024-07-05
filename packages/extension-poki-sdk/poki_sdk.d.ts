@@ -2,8 +2,7 @@
 
 /**
  * Poki SDK native extension for Defold game engine
- * @url https://github.com/defold/extension-poki-sdk
- * @noResolution
+ * @see {@link https://github.com/defold/extension-poki-sdk|Github Source}
  */
 declare namespace poki_sdk {
 	/**

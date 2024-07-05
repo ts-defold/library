@@ -1,5 +1,9 @@
 /** @noSelfInFile **/
 
+/**
+ * A module with a set of math functions for Defold
+ * @see {@link https://github.com/selimanac/defold-astar|Github Source}
+ */
 declare namespace astar {
   
   type DIRECTION = number & { __brand: 'astar.DIRECTION' };

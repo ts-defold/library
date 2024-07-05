@@ -1,7 +1,8 @@
 /** @noSelfInFile */
 
 /**
- * @url https://github.com/Insality/defold-tweener
+ * Timer Based Defold Tween Library
+ * @see {@link https://github.com/Insality/defold-tweener|Github Source}
  * @noResolution
  */
 declare module 'tweener.tweener' {

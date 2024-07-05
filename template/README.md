@@ -12,3 +12,8 @@ i.e. `require('template.thing')` would be listed as 'template'.
 
 ## Caveats
 When declaring ambient module types using `declare module` any files that are in the scope of the project's `tsconfig.json` will be automatically included. This is why we amalgamate the types when publishing as importing ambient types is done globally and not automatically by tsc.
+
+## Style
+`undefined` is used to represent Lua's `nil` type, as recommended by [TypeScriptToLua](https://typescripttolua.github.io/docs/caveats/#undefined-and-null).
+
+If a broad type is necessary, `AnyNotNil` (defined in [@typescript-to-lua/language-extensions](https://github.com/TypeScriptToLua/TypeScriptToLua)) means any non-null type, and `unknown` means any unknown value. Use of the `any` type is discouraged.

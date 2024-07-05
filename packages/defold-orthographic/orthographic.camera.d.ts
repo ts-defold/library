@@ -1,6 +1,9 @@
 /** @noSelfInFile **/
 
-/** @noResolution */
+/**
+ * @see {@link https://github.com/britzl/defold-orthographic|Github Source}
+ * @noResolution
+ */
 declare module 'orthographic.camera' {
 	/**
 	 * Follow a game object.

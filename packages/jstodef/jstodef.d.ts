@@ -2,8 +2,7 @@
 
 /**
  * Library for sending messages from JavaScript to Defold (Lua)
- * @url https://github.com/AGulev/jstodef
- * @noResolution
+ * @see {@link https://github.com/AGulev/jstodef|Github Source}
  */
 declare namespace jstodef {
 	type callbackFn = (this: any, message_id: string, message: any) => void;

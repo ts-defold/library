@@ -2,8 +2,7 @@
 
 /**
  * Native iOS and Android ratings and reviews window for Defold
- * @url https://github.com/defold/extension-review
- * @noResolution
+ * @see {@link https://github.com/defold/extension-review|Github Source}
  */
 declare namespace review {
 	/**
