@@ -1,5 +1,5 @@
 /**
- * @url https://github.com/britzl/defold-richtext
+ * @see {@link https://github.com/britzl/defold-richtext|Github Source}
  * @example `import * as color from 'richtext.color'`
  * @noResolution
  */
