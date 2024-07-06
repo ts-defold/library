@@ -215,6 +215,10 @@
     "name": "defos",
     "url": "https://github.com/subsoap/defos"
   },
+  "defold-uuid4": {
+    "name": "uuid4",
+    "url": "https://github.com/selimanac/defold-uuid4"
+  },
   "defold-tweener": {
     "name": "tweener",
     "url": "https://github.com/Insality/defold-tweener"

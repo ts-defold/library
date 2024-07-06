@@ -1,0 +1,13 @@
+{
+  "name": "uuid4",
+  "url": "https://github.com/selimanac/defold-uuid4",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/selimanac/defold-uuid4/archive/refs/heads/master.zip",
+      "hash": "c57d05f74018dd80c744228a69e7b91d536b6098",
+      "path": "uuid4-0.0.1.d.ts",
+      "checksum": "34c87f8c94255edb87e2a235dbcada7d"
+    }
+  ]
+}
