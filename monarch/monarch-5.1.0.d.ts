@@ -70,35 +70,35 @@ declare module 'monarch.monarch' {
 	/**
 	 * Check if a screen exists in the current screen stack
 	 * @param {string|hash} screen_id
-	 * @return true of the screen is in the stack
+	 * @returns true of the screen is in the stack
 	 */
 	export function in_stack(screen_id: ScreenId): boolean;
 
 	/**
 	 * Check if a Monarch screen is at the top of the view stack.
 	 * @param {string|hash} screen_id
-	 * @return true if the screen is at the top of the stack
+	 * @returns true if the screen is at the top of the stack
 	 */
 	export function is_top(screen_id: ScreenId): boolean;
 
 	/**
 	 * Check if a Monarch screen is visible.
 	 * @param {string|hash} screen_id
-	 * @return true if the screen is visible
+	 * @returns true if the screen is visible
 	 */
 	export function is_visible(screen_id: ScreenId): boolean;
 
 	/**
 	 * Check if a screen is loaded
 	 * @param {string|hash} screen_id
-	 * @return true if the screen is loaded
+	 * @returns true if the screen is loaded
 	 */
 	export function is_loaded(screen_id: ScreenId): boolean;
 
 	/**
 	 * Check if a screen is a popup
 	 * @param {string|hash} screen_id
-	 * @return true if the screen is a popup
+	 * @returns true if the screen is a popup
 	 */
 	export function is_popup(screen_id: ScreenId): boolean;
 
