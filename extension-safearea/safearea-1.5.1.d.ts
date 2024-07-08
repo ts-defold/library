@@ -1,4 +1,4 @@
-/// <library version="1.4.0" src="https://github.com/defold/extension-safearea/archive/refs/tags/1.4.0.zip" />
+/// <library version="1.5.1" src="https://github.com/defold/extension-safearea/archive/refs/tags/1.5.1.zip" />
 /** @noSelfInFile */
 
 /**
@@ -36,4 +36,26 @@ declare namespace safearea {
 	export const STATUS_NOT_AVAILABLE: StatusType;
 	/** values aren't ready yet. Depends on platform and OS it may take a while (usually up to 200ms) to be ready, check later. Values will be 0 */
 	export const STATUS_NOT_READY_YET: StatusType;
+}
+
+
+/** @noSelfInFile */
+
+declare namespace safearea {
+	/**
+	 * Android 12.0+ only
+	 * @since 1.5.0
+	 * @returns table with radius for rounded corners of the device screen
+	 */
+	export function get_corners_radius(): LuaMultiReturn<
+		[
+			{
+				bottom_left: number;
+				bottom_right: number;
+				top_left: number;
+				top_right: number;
+			},
+			StatusType,
+		]
+	>;
 }
