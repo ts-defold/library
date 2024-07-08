@@ -2,17 +2,19 @@
 
 /**
  * @see {@link https://github.com/defold/extension-safearea|Github Source}
+ * @see {@link https://defold.com/extension-safearea/|Documentation}
  */
 declare namespace safearea {
 	/**
 	 * iOS only
-	 * set background color in runtime
+	 * Set background color in runtime
 	 * @param {vector4} color Color will be used as background color.
+	 * @since 1.4.0
 	 */
 	export function set_background_color(color: vmath.vector4): void;
 
 	/**
-	 * returns table with top, left, right, bottom values of insets and status
+	 * @returns table with top, left, right, bottom values of insets and status
 	 */
 	export function get_insets(): LuaMultiReturn<
 		[

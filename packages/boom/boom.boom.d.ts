@@ -917,7 +917,7 @@ interface ZComp {
 /**
  * Anchor point for render.
  * @param anchor
- * @return The anchor component
+ * @returns The anchor component
  */
 declare function anchor(
 	anchor:
