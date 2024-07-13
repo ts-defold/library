@@ -3,11 +3,18 @@
   "url": "https://github.com/selimanac/defold-astar",
   "versions": [
     {
+      "version": "1.1.0",
+      "url": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.1.0.zip",
+      "hash": "28dd06638e3477638686c8de4c0b66c8e83b4635",
+      "path": "astar-1.1.0.d.ts",
+      "checksum": "f1acfff17ed9950cc4a149bff84b91b9"
+    },
+    {
       "version": "1.0.1",
       "url": "https://github.com/selimanac/defold-astar/archive/refs/tags/v1.0.1.zip",
       "hash": "f869fe944bcd5dded774f90b85663efb6a5003e9",
       "path": "astar-1.0.1.d.ts",
-      "checksum": "197245a409fed6fb18b5cf5505215517"
+      "checksum": "0372ac667ac12369e8ff15ff0c502c2e"
     }
   ]
 }
