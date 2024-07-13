@@ -1,0 +1,13 @@
+{
+  "name": "imagepicker",
+  "url": "https://github.com/baochungit/defold-imagepicker",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/baochungit/defold-imagepicker/archive/refs/heads/main.zip",
+      "hash": "3c414ab5129e248a1cc36c30393a19b821760c11",
+      "path": "imagepicker-0.0.1.d.ts",
+      "checksum": "17231a8d147a8b5d6ea25d7bf87b3cbc"
+    }
+  ]
+}

@@ -3,18 +3,18 @@
   "url": "https://github.com/defold/extension-safearea",
   "versions": [
     {
-      "version": "1.5.1",
-      "url": "https://github.com/defold/extension-safearea/archive/refs/tags/1.5.1.zip",
-      "hash": "99eaa159c5fa4842aee61766f65788b31d9e3fda",
-      "path": "safearea-1.5.1.d.ts",
-      "checksum": "d449ae674df3912c4b8a087771a570f7"
-    },
-    {
       "version": "1.4.0",
       "url": "https://github.com/defold/extension-safearea/archive/refs/tags/1.4.0.zip",
       "hash": "67d1512601fbfcb87940c0b40029910b1cf61b40",
       "path": "safearea-1.4.0.d.ts",
       "checksum": "9972acb5b3c17dec25f74d1f5a26821b"
+    },
+    {
+      "version": "1.5.1",
+      "url": "https://github.com/defold/extension-safearea/archive/refs/tags/1.5.1.zip",
+      "hash": "99eaa159c5fa4842aee61766f65788b31d9e3fda",
+      "path": "safearea-1.5.1.d.ts",
+      "checksum": "d449ae674df3912c4b8a087771a570f7"
     }
   ]
 }
