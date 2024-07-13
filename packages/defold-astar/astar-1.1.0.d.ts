@@ -1,5 +1,5 @@
 /// <library version="1.1.0" src="https://github.com/selimanac/defold-astar/archive/refs/tags/v1.1.0.zip" />
-/// <reference path="./astar-1.0.1.d.ts" />
+/// <reference path="./astar.d.ts" />
 
 /** @noSelfInFile **/
 
