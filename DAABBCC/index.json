@@ -1,0 +1,13 @@
+{
+  "name": "aabb",
+  "url": "https://github.com/selimanac/DAABBCC",
+  "versions": [
+    {
+      "version": "2.1.2",
+      "url": "https://github.com/selimanac/DAABBCC/archive/refs/tags/v2.1.2.zip",
+      "hash": "893a834ce7acf0b32d9594d28070f9f22d271808",
+      "path": "aabb-2.1.2.d.ts",
+      "checksum": "b40dcf25465f9bbda02364b80cdf2abf"
+    }
+  ]
+}

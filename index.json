@@ -135,6 +135,10 @@
     "name": "jstodef",
     "url": "https://github.com/AGulev/jstodef"
   },
+  "DAABBCC": {
+    "name": "aabb",
+    "url": "https://github.com/selimanac/DAABBCC"
+  },
   "defold-uuid4": {
     "name": "uuid4",
     "url": "https://github.com/selimanac/defold-uuid4"
