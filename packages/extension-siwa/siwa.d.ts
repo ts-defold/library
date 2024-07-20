@@ -2,6 +2,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-siwa|Github Source}
+ * @see {@link https://defold.com/extension-siwa/|Documentation}
  */
 declare namespace siwa {
 	/**

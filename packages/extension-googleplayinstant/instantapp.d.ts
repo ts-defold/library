@@ -2,6 +2,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-googleplayinstant|Github Source}
+ * @see {@link https://defold.com/extension-googleplayinstant/|Documentation}
  */
 declare namespace instantapp {
 	/**
