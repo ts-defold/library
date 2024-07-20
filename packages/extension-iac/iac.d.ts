@@ -2,6 +2,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-iac|Github Source}
+ * @see {@link https://defold.com/extension-iac/|Documentation}
  */
 declare namespace iac {
 	/**

@@ -2,6 +2,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-gpgs|Github Source}
+ * @see {@link https://defold.com/extension-gpgs/|Documentation}
  */
 declare namespace gpgs {
 	/**
