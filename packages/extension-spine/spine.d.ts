@@ -10,6 +10,7 @@ type PlaybackMode =
 
 /**
  * @see {@link https://github.com/defold/extension-spine|Github Source}
+ * @see {@link https://defold.com/extension-spine/|Documentation}
  */
 declare namespace spine {
 	/**

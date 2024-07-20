@@ -4,6 +4,7 @@
  * This is a definition stub with incomplete or untested signatures.
  * Contributions to improve the accuracy of these types are welcome.
  * @see {@link https://github.com/defold/extension-zendesk|Github Source}
+ * @see {@link https://defold.com/extension-zendesk/|Documentation}
  */
 declare namespace zendesk {
 	/**

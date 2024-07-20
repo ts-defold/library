@@ -2,6 +2,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-iap|Github Source}
+ * @see {@link https://defold.com/extension-iap/|Documentation}
  */
 declare namespace iap {
 	/**

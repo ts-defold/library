@@ -2,6 +2,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-steam|Github Source}
+ * @see {@link https://defold.com/extension-steam/|Documentation}
  */
 declare namespace steam {
 	/**

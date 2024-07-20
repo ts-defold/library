@@ -2,6 +2,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-firebase-analytics|Github Source}
+ * @see {@link https://defold.com/extension-firebase-analytics/|Documentation}
  */
 declare namespace firebase {
 	export namespace analytics {
