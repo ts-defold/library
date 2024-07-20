@@ -3,6 +3,7 @@
 /**
  * Defold native extension which provides access to IronSource ad mediation on Android and iOS.
  * @see {@link https://github.com/defold/extension-ironsource|Github Source}
+ * @see {@link https://defold.com/extension-ironsource/|Documentation}
  */
 declare namespace ironsource {
 	/**
@@ -113,7 +114,7 @@ declare namespace ironsource {
  */
 	export function set_callback(
 		callback: (
-			self: any,
+			this: any,
 			message_id: number,
 			message: { event: number },
 		) => void,

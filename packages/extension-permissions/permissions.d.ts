@@ -4,6 +4,7 @@
  * This is a definition stub with incomplete or untested signatures.
  * Contributions to improve the accuracy of these types are welcome.
  * @see {@link https://github.com/defold/extension-permissions|Github Source}
+ * @see {@link https://defold.com/extension-permissions/|Documentation}
  */
 declare namespace permissions {
 	type PermissionResponse = number & { __brand: 'permissions' };
