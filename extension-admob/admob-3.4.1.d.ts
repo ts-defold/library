@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-admob|Github Source}
+ * @see {@link https://defold.com/extension-admob/|Documentation}
  */
 declare namespace admob {
 	/**

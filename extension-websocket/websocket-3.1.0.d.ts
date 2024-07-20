@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-websocket|Github Source}
+ * @see {@link https://defold.com/extension-websocket/|Documentation}
  */
 declare namespace websocket {
 	type Connection = Readonly<{ __brand: 'websocketConnection' }>;

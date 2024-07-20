@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-rive|Github Source}
+ * @see {@link https://defold.com/extension-rive/|Documentation}
  */
 declare namespace rive {
   /**

@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-crypt|Github Source}
+ * @see {@link https://defold.com/extension-crypt/|Documentation}
  */
 declare namespace crypt {
   export function hash_sha1(source: string): string;

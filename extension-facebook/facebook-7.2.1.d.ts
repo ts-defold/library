@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-facebook|Github Source}
+ * @see {@link https://defold.com/extension-facebook/|Documentation}
  */
 declare namespace facebook {
 	/**

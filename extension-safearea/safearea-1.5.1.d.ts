@@ -46,6 +46,7 @@ declare namespace safearea {
 	 * Android 12.0+ only
 	 * @since 1.5.0
 	 * @returns table with radius for rounded corners of the device screen
+	 * @see {@link https://developer.android.com/develop/ui/views/layout/insets/rounded-corners|Android Documentation}
 	 */
 	export function get_corners_radius(): LuaMultiReturn<
 		[

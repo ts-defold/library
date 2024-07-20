@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-adinfo|Github Source}
+ * @see {@link https://defold.com/extension-adinfo/|Documentation}
  */
 declare namespace adinfo {
 	/**

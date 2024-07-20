@@ -7,14 +7,14 @@
       "url": "https://github.com/defold/extension-crypt/archive/refs/tags/1.1.0.zip",
       "hash": "56f0330e6756d95323b7cde74598eb9b62aaf4f7",
       "path": "crypt-1.1.0.d.ts",
-      "checksum": "f2a4eda33ea6e60759eac85967040214"
+      "checksum": "615fba76a61b7b359caafab78a77183a"
     },
     {
       "version": "1.0.2",
       "url": "https://github.com/defold/extension-crypt/archive/master.zip",
       "hash": "e712d3b9cdc891b58db51e6c963ca47bc4a1ebca",
       "path": "crypt-1.0.2.d.ts",
-      "checksum": "52c4aa5a6a66ddd5432874b60aa58ce2"
+      "checksum": "8271ece487a6992ff97cf38eb0dd6ed4"
     }
   ]
 }

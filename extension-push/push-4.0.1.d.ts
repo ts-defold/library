@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/defold/extension-push|Github Source}
+ * @see {@link https://defold.com/extension-push/|Documentation}
  */
 declare namespace push {
 	/**

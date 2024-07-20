@@ -4,6 +4,7 @@
 /**
  * Defold native extension which provides access to IronSource ad mediation on Android and iOS.
  * @see {@link https://github.com/defold/extension-ironsource|Github Source}
+ * @see {@link https://defold.com/extension-ironsource/|Documentation}
  */
 declare namespace ironsource {
 	/**
