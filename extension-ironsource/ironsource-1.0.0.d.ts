@@ -114,7 +114,7 @@ declare namespace ironsource {
  */
 	export function set_callback(
 		callback: (
-			self: any,
+			this: any,
 			message_id: number,
 			message: { event: number },
 		) => void,
