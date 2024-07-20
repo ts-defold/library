@@ -226,7 +226,7 @@ declare module 'druid.druid' {
 	}
 	class Text {
 		get_text_adjust(this: Text, adjust_type: any): number;
-		get_text_size(this: Text, text?: string): [number, number];
+		get_text_size(this: Text, text?: string): LuaMultiReturn<[number, number]>;
 		init(
 			this: Text,
 			node: node | string,
@@ -308,7 +308,7 @@ declare module 'druid.druid' {
 				data: any,
 				index: number,
 				data_list: DataList,
-			) => [node, Component],
+			) => LuaMultiReturn<[node, Component | undefined]>,
 		): DataList;
 		new_drag(
 			node: node,
