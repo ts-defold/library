@@ -99,5 +99,6 @@ declare namespace aabb {
 	): void;
 	export function run(state: boolean): void;
 	export function clear(): void;
+	/** @since 2.1.2 */
 	export function update_frequency(frequency: number): void;
 }
