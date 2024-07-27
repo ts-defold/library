@@ -1,0 +1,13 @@
+{
+  "name": "textinput",
+  "url": "https://github.com/baochungit/defold-textinput",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "url": "https://github.com/baochungit/defold-textinput/archive/refs/tags/1.1.0.zip",
+      "hash": "fe072b3177ed994ab52f9dfd6909950fb1e44583",
+      "path": "textinput-1.1.0.d.ts",
+      "checksum": "243fec5144f78158b8ffe45c122153f9"
+    }
+  ]
+}
