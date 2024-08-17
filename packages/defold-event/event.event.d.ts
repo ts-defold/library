@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 /**
  * Cross-Context Defold Event System
  * @see {@link https://github.com/Insality/defold-event|Github Source}
@@ -5,11 +7,11 @@
  */
 declare module 'event.event' {
 	interface LoggerInstance {
-		trace(message: string, data?: {}): void;
-		debug(message: string, data?: {}): void;
-		info(message: string, data?: {}): void;
-		warn(message: string, data?: {}): void;
-		error(message: string, data?: {}): void;
+		trace(this: any, message: string, data?: {}): void;
+		debug(this: any, message: string, data?: {}): void;
+		info(this: any, message: string, data?: {}): void;
+		warn(this: any, message: string, data?: {}): void;
+		error(this: any, message: string, data?: {}): void;
 	}
 	export function set_logger(logger: LoggerInstance): void;
 	/**
