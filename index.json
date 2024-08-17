@@ -207,6 +207,10 @@
     "name": "apkx",
     "url": "https://github.com/dapetcu21/defold-apkx"
   },
+  "deftest": {
+    "name": "deftest",
+    "url": "https://github.com/britzl/deftest"
+  },
   "LuaScriptInstance": {
     "name": "lua_script_instance",
     "url": "https://github.com/DanEngelbrecht/LuaScriptInstance"

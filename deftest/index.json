@@ -1,0 +1,13 @@
+{
+  "name": "deftest",
+  "url": "https://github.com/britzl/deftest",
+  "versions": [
+    {
+      "version": "2.8.0",
+      "url": "https://github.com/britzl/deftest/archive/refs/tags/2.8.0.zip",
+      "hash": "408f5ad35fcf872ae9d0e6ac5f8d61b37e8c04c3",
+      "path": "deftest-2.8.0.d.ts",
+      "checksum": "f97adfee9b695b683ed0aeb15a1abe4b"
+    }
+  ]
+}
