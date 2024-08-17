@@ -19,6 +19,10 @@
     "name": "unityads",
     "url": "https://github.com/AGulev/defold-extension-unity-ads"
   },
+  "defold-proto": {
+    "name": "proto",
+    "url": "https://github.com/Insality/defold-proto"
+  },
   "defold-random": {
     "name": "rnd",
     "url": "https://github.com/selimanac/defold-random"
@@ -75,6 +79,10 @@
     "name": "defcon",
     "url": "https://github.com/britzl/defcon"
   },
+  "defold-saver": {
+    "name": "saver",
+    "url": "https://github.com/Insality/defold-saver"
+  },
   "extension-pcgrandom": {
     "name": "pcgrandom",
     "url": "https://github.com/Lerg/extension-pcgrandom"
@@ -114,6 +122,10 @@
   "extension-admob": {
     "name": "admob",
     "url": "https://github.com/defold/extension-admob"
+  },
+  "extension-videoplayer-mpeg": {
+    "name": "mpeg",
+    "url": "https://github.com/defold/extension-videoplayer-mpeg"
   },
   "gooey": {
     "name": "gooey",
@@ -199,6 +211,10 @@
     "name": "lua_script_instance",
     "url": "https://github.com/DanEngelbrecht/LuaScriptInstance"
   },
+  "defold-lang": {
+    "name": "lang",
+    "url": "https://github.com/Insality/defold-lang"
+  },
   "nakama-defold": {
     "name": "nakama",
     "url": "https://github.com/heroiclabs/nakama-defold"
@@ -210,6 +226,10 @@
   "defold-sharing": {
     "name": "sharing",
     "url": "https://github.com/britzl/defold-sharing"
+  },
+  "defold-playdeck": {
+    "name": "playdeck",
+    "url": "https://github.com/d954mas/defold-playdeck"
   },
   "extension-webrtc": {
     "name": "webrtc",
@@ -246,6 +266,10 @@
   "extension-iap": {
     "name": "iap",
     "url": "https://github.com/defold/extension-iap"
+  },
+  "defold-coolmathgames-sdk": {
+    "name": "coolmath_games",
+    "url": "https://github.com/fabtjar/defold-coolmathgames-sdk"
   },
   "extension-siwa": {
     "name": "siwa",

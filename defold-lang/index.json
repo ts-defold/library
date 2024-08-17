@@ -1,0 +1,13 @@
+{
+  "name": "lang",
+  "url": "https://github.com/Insality/defold-lang",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/Insality/defold-lang/archive/refs/tags/1.zip",
+      "hash": "d68c348114dc1c7b54552f41a478e1c0d2ab5b8b",
+      "path": "lang-0.0.1.d.ts",
+      "checksum": "23c9c22f8054ace6fe1792ec1b8230ea"
+    }
+  ]
+}

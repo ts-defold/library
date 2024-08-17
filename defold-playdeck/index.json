@@ -1,0 +1,13 @@
+{
+  "name": "playdeck",
+  "url": "https://github.com/d954mas/defold-playdeck",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/d954mas/defold-playdeck/archive/refs/tags/1.0.0.zip",
+      "hash": "3cbf89029ec2f0c4f8a7d78ff02a6e2042572b8f",
+      "path": "playdeck-1.0.0.d.ts",
+      "checksum": "f386085df278edb426c56f524309986a"
+    }
+  ]
+}

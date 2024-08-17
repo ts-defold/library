@@ -1,0 +1,13 @@
+{
+  "name": "mpeg",
+  "url": "https://github.com/defold/extension-videoplayer-mpeg",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "url": "https://github.com/defold/extension-videoplayer-mpeg/archive/refs/heads/master.zip",
+      "hash": "8c3ef3b0110d0256faf18ea20039908ea0ee419d",
+      "path": "mpeg-0.0.1.d.ts",
+      "checksum": "ed3dfba0364a8c2c2a86ec6016253faa"
+    }
+  ]
+}
