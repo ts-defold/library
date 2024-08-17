@@ -327,6 +327,10 @@
     "name": "richtext",
     "url": "https://github.com/britzl/defold-richtext"
   },
+  "def-setv": {
+    "name": "setv",
+    "url": "https://github.com/thinknathan/def-setv"
+  },
   "defold-lfs": {
     "name": "lfs",
     "url": "https://github.com/britzl/defold-lfs"

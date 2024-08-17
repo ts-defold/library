@@ -1,0 +1,13 @@
+{
+  "name": "setv",
+  "url": "https://github.com/thinknathan/def-setv",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "url": "https://github.com/thinknathan/def-setv/archive/refs/tags/v1.1.0.zip",
+      "hash": "bfcb2133dbc3ddde24045b8dece15b8a72a4ca71",
+      "path": "setv-1.1.0.d.ts",
+      "checksum": "863549fef789e487813bdae5b2041c84"
+    }
+  ]
+}
