@@ -3,18 +3,18 @@
   "url": "https://github.com/thinknathan/defold-prng",
   "versions": [
     {
-      "version": "1.1.0",
-      "url": "https://github.com/thinknathan/defold-prng/archive/refs/tags/v1.1.0.zip",
-      "hash": "c76f2ecabf602a21c7f6a99e72edd25e808eebc8",
-      "path": "prng-1.1.0.d.ts",
-      "checksum": "a9a436338acc10972d3b1556088387e9"
-    },
-    {
       "version": "1.2.0",
       "url": "https://github.com/thinknathan/defold-prng/archive/refs/tags/v1.2.0.zip",
       "hash": "06119b122dd8aeb76a9ce17d5e3f66cac8781e3f",
       "path": "prng-1.2.0.d.ts",
       "checksum": "379d407623082e6661738b1e8f598482"
+    },
+    {
+      "version": "1.1.0",
+      "url": "https://github.com/thinknathan/defold-prng/archive/refs/tags/v1.1.0.zip",
+      "hash": "c76f2ecabf602a21c7f6a99e72edd25e808eebc8",
+      "path": "prng-1.1.0.d.ts",
+      "checksum": "a9a436338acc10972d3b1556088387e9"
     },
     {
       "version": "1.0.2",

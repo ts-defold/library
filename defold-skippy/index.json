@@ -1,0 +1,13 @@
+{
+  "name": "skippy",
+  "url": "https://github.com/NaakkaDev/defold-skippy",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/NaakkaDev/defold-skippy/archive/refs/tags/1.0.zip",
+      "hash": "a7a6827118161331883336d59c4ee79ad8da83a6",
+      "path": "skippy-1.0.0.d.ts",
+      "checksum": "a78c70be0afec0fd8b6eddf37064b7f2"
+    }
+  ]
+}
