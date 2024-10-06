@@ -163,6 +163,10 @@
     "name": "bzAnim",
     "url": "https://github.com/jbp4444/bzAnim"
   },
+  "starly": {
+    "name": "starly",
+    "url": "https://github.com/VowSoftware/starly"
+  },
   "AppLovin-MAX-Defold": {
     "name": "applovin",
     "url": "https://github.com/AppLovin/AppLovin-MAX-Defold"
