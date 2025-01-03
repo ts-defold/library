@@ -1,0 +1,13 @@
+{
+  "name": "platypus",
+  "url": "https://github.com/britzl/platypus",
+  "versions": [
+    {
+      "version": "4.3.1",
+      "url": "https://github.com/britzl/platypus/archive/refs/tags/4.3.1.zip",
+      "hash": "18d1e8e609e9d421b3f880293aca58a76eac311b",
+      "path": "platypus-4.3.1.d.ts",
+      "checksum": "2ee43d69b0118ef04df20983c0be65e5"
+    }
+  ]
+}

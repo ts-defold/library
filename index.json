@@ -235,6 +235,10 @@
     "name": "lfs",
     "url": "https://github.com/britzl/defold-lfs"
   },
+  "platypus": {
+    "name": "platypus",
+    "url": "https://github.com/britzl/platypus"
+  },
   "gooey": {
     "name": "gooey",
     "url": "https://github.com/britzl/gooey"
