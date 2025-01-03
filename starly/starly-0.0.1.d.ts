@@ -3,6 +3,7 @@
 
 /**
  * @see {@link https://github.com/VowSoftware/starly|Github Source}
+ * @example `import * as starly from 'starly.starly'`
  * @noResolution
  */
 declare module 'starly.starly' {
@@ -111,6 +112,22 @@ declare module 'starly.starly' {
 			worldPosition: vmath.vector3,
 			visible?: boolean,
 		): vmath.vector3 | undefined;
+		/**
+		 * Gets the viewport of a camera, in screen coordinates.
+		 * @param id Camera game object id.
+		 * @returns x, y, width, height
+		 */
+		get_viewport(id: hash): LuaMultiReturn<[number, number, number, number]>;
+		/**
+		 * Gets the view of a camera.
+		 * @param id Camera game object id.
+		 */
+		get_view(id: hash): vmath.matrix4;
+		/**
+		 * Gets the projection of a camera.
+		 * @param id Camera game object id.
+		 */
+		get_projection(id: hash): vmath.matrix4;
 	}
 	type CameraMap = LuaMap<
 		hash,
