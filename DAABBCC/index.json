@@ -15,6 +15,13 @@
       "hash": "9e6c32ab3014f867386284292d3977a970e6a556",
       "path": "aabb-3.0.0.d.ts",
       "checksum": "909707c9703592f28adcfaea143c379c"
+    },
+    {
+      "version": "3.0.1",
+      "url": "https://github.com/selimanac/defold-daabbcc/archive/refs/tags/v3.0.1.zip",
+      "hash": "597d5a9ce22c5ef7d985ad44971d989b9ddc152d",
+      "path": "aabb-3.0.1.d.ts",
+      "checksum": "b3bf2c48b772bf2be07b4aa414931326"
     }
   ]
 }
