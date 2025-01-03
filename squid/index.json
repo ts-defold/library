@@ -1,0 +1,13 @@
+{
+  "name": "squid",
+  "url": "https://github.com/paweljarosz/squid",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "url": "https://github.com/paweljarosz/squid/archive/refs/tags/1.1.zip",
+      "hash": "e84c4dbb8afaf1204f6cb46204fb639d7aceec1b",
+      "path": "squid-1.1.0.d.ts",
+      "checksum": "b830092ad53c7abe987df7e82b0b10a1"
+    }
+  ]
+}

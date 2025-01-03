@@ -167,6 +167,10 @@
     "name": "yagames",
     "url": "https://github.com/indiesoftby/defold-yagames"
   },
+  "squid": {
+    "name": "squid",
+    "url": "https://github.com/paweljarosz/squid"
+  },
   "defold-proto": {
     "name": "proto",
     "url": "https://github.com/Insality/defold-proto"
