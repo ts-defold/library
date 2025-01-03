@@ -1,0 +1,13 @@
+{
+  "name": "immutable",
+  "url": "https://github.com/paweljarosz/lua-immutable",
+  "versions": [
+    {
+      "version": "1.1.0",
+      "url": "https://github.com/paweljarosz/lua-immutable/archive/refs/tags/v1.1.zip",
+      "hash": "1b6620d971c0410382bb5200193d4a3f813f6ba1",
+      "path": "immutable-1.1.0.d.ts",
+      "checksum": "15855d3e0f18b91f85783b69cca6c58b"
+    }
+  ]
+}
