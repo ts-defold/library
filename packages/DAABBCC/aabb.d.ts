@@ -2,6 +2,7 @@
 
 /**
  * Dynamic AABB Tree native extension with Branch and Bound Algorithm for Defold Engine
+ * @version <= 2.1.3
  * @see {@link https://github.com/selimanac/DAABBCC|Github Source}
  */
 declare namespace aabb {
