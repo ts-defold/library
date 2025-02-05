@@ -357,83 +357,134 @@ declare module 'druid.druid' {
 		| typeof import('druid.extended.timer');
 
 	class DruidInstance {
-		final(): void;
-		new(component: Component, ...args: any[]): void;
+		final(this: DruidInstance): void;
 		new_back_handler(
+			this: DruidInstance,
 			callback: (...args: any[]) => void,
 			params?: any,
 		): BackHandler;
-		new_blocker(node: node): Blocker;
+		new_blocker(this: DruidInstance, node: node | string): Blocker;
 		new_button(
-			node: node,
+			this: DruidInstance,
+			node: node | string,
 			callback: (...args: any[]) => void,
 			params?: any[],
-			anim_node?: node,
+			anim_node?: node | string,
 		): Button;
 		new_data_list(
+			this: DruidInstance,
 			druid_scroll: Scroll,
 			druid_grid: StaticGrid,
 			create_function: (
+				this: DruidInstance,
 				data: any,
 				index: number,
 				data_list: typeof import('druid.extended.data_list'),
 			) => LuaMultiReturn<[node, Component | undefined]>,
 		): typeof import('druid.extended.data_list');
 		new_drag(
-			node: node,
+			this: DruidInstance,
+			node: node | string,
 			on_drag_callback: (dx: number, dy: number) => void,
 		): Drag;
-		// new_dynamic_grid(parent: node): DynamicGrid;
 		new_hotkey(
+			this: DruidInstance,
 			keys_array: string[] | string,
 			callback: (...args: any[]) => void,
-			params?: any,
+			callback_argument?: any,
 		): typeof import('druid.extended.hotkey');
-		new_hover(node: node, on_hover_callback: (...args: any[]) => void): Hover;
+		new_hover(
+			this: DruidInstance,
+			node: node | string,
+			on_hover_callback: (...args: any[]) => void,
+			on_mouse_hover_callback: (...args: any[]) => void,
+		): Hover;
 		new_input(
-			click_node: node,
-			text_node: node,
+			this: DruidInstance,
+			click_node: node | string,
+			text_node: node | string | Text,
 			keyboard_type?: number,
 		): typeof import('druid.extended.input');
 		new_lang_text(
-			node: node,
-			locale_id: string,
-			no_adjust: boolean,
+			this: DruidInstance,
+			node: node | string,
+			locale_id?: string,
+			adjust_type?: TEXT_ADJUST,
 		): typeof import('druid.extended.lang_text');
 		new_layout(
+			this: DruidInstance,
 			node: node | string,
 			mode: string,
 		): typeof import('druid.extended.layout');
 		new_progress(
+			this: DruidInstance,
 			node: node | string,
-			key: string,
+			key: (typeof import('druid.const').SIDE)[keyof typeof import('druid.const').SIDE],
 			init_value?: number,
 		): typeof import('druid.extended.progress');
-		// new_rich_text(template?: string, nodes?: any): RichText;
-		new_scroll(view_node: node, content_node: node): Scroll;
+		new_rich_input(
+			this: DruidInstance,
+			template: string,
+			nodes: ReturnType<typeof gui.clone_tree>,
+		): typeof import('druid.custom.rich_input.rich_input');
+		new_rich_text(
+			this: DruidInstance,
+			text_node: node | string,
+			value?: string,
+		): typeof import('druid.custom.rich_text.rich_text');
+		new_scroll(
+			this: DruidInstance,
+			view_node: node | string,
+			content_node: node | string,
+		): Scroll;
 		new_slider(
-			node: node,
+			this: DruidInstance,
+			node: node | string,
 			end_pos: vmath.vector3,
 			callback?: (...args: any[]) => void,
 		): typeof import('druid.extended.slider');
-		new_static_grid(parent: node, element: node, in_row?: number): StaticGrid;
+		new_static_grid(
+			this: DruidInstance,
+			parent_node: node | string,
+			item: node | string,
+			in_row?: number,
+		): StaticGrid;
 		new_swipe(
-			node: node,
+			this: DruidInstance,
+			node: node | string,
 			on_swipe_callback: (...args: any[]) => void,
 		): typeof import('druid.extended.swipe');
-		new_text(node: node, value?: string, no_adjust?: boolean): Text;
+		new_text(
+			this: DruidInstance,
+			node: node | string,
+			value?: string,
+			no_adjust?: boolean,
+		): Text;
 		new_timer(
-			node: node,
+			this: DruidInstance,
+			node: node | string,
 			seconds_from: number,
 			seconds_to?: number,
 			callback?: (...args: any[]) => void,
 		): typeof import('druid.extended.timer');
-		on_input(action_id: hash, action: any): boolean;
-		on_message(message_id: hash, message: any, sender: hash): void;
-		remove(component: Component): void;
-		set_blacklist(blacklist_components?: any[] | Component): DruidInstance;
-		set_whitelist(whitelist_components?: any[] | Component): DruidInstance;
-		update(dt: number): void;
+		on_input(this: DruidInstance, action_id: hash, action: any): boolean; // TO-DO: action type is `input_message` table from GO/GUI
+		on_message(
+			this: DruidInstance,
+			message_id: hash,
+			message: any,
+			sender: url,
+		): void;
+		/** @returns True if component was removed  */
+		remove(this: DruidInstance, component: Component): boolean;
+		set_blacklist(
+			this: DruidInstance,
+			blacklist_components?: any[] | Component,
+		): DruidInstance;
+		set_whitelist(
+			this: DruidInstance,
+			whitelist_components?: any[] | Component,
+		): DruidInstance;
+		update(this: DruidInstance, dt: number): void;
 	}
 	export { type DruidInstance };
 
