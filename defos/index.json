@@ -3,6 +3,13 @@
   "url": "https://github.com/subsoap/defos",
   "versions": [
     {
+      "version": "2.8.0",
+      "url": "https://github.com/subsoap/defos/archive/refs/tags/v2.8.0.zip",
+      "hash": "78ea11a024d28f3f5d252799f64339e09c99a1e9",
+      "path": "defos-2.8.0.d.ts",
+      "checksum": "7a964cfca752c5bf6a369d8639d3d3fc"
+    },
+    {
       "version": "2.7.1",
       "url": "https://github.com/subsoap/defos/archive/refs/tags/v2.7.1.zip",
       "hash": "847b5d950a441359ff1461fd9199769cdadb8caa",
