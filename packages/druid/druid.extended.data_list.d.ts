@@ -5,7 +5,8 @@
  */
 declare module 'druid.extended.data_list' {
 	type DataList = typeof import('druid.extended.data_list');
-	type SHIFT_POLICY = keyof typeof import('druid.const').SHIFT;
+	type SHIFT_POLICY =
+		(typeof import('druid.const').SHIFT)[keyof typeof import('druid.const').SHIFT];
 
 	export function add(
 		this: DataList,

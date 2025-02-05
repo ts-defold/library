@@ -20,7 +20,8 @@ declare module 'druid.helper' {
 		max_ascent: number;
 		max_descent: number;
 	};
-	type SHIFT_POLICY = keyof typeof import('druid.const').SHIFT;
+	type SHIFT_POLICY =
+		(typeof import('druid.const').SHIFT)[keyof typeof import('druid.const').SHIFT];
 
 	export function add_array<T1, T2>(target: T1[], source: T2[]): (T1 | T2)[];
 	export function centrate_nodes(margin?: number, ...nodes: node[]): void;
