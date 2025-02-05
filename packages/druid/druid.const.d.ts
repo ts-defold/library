@@ -27,7 +27,14 @@ declare module 'druid.const' {
 	export const ACTION_BACKSPACE: hash;
 	export const ACTION_SCROLL_UP: hash;
 	export const ACTION_SCROLL_DOWN: hash;
+	export const ACTION_LEFT: hash;
+	export const ACTION_RIGHT: hash;
+	export const ACTION_LSHIFT: hash;
+	export const ACTION_LCTRL: hash;
+	export const ACTION_LCMD: hash;
+
 	export const IS_STENCIL_CHECK: boolean;
+
 	export const ON_INPUT: string;
 	export const ON_UPDATE: string;
 	export const ON_MESSAGE: string;
@@ -38,9 +45,11 @@ declare module 'druid.const' {
 	export const ON_MESSAGE_INPUT: string;
 	export const ON_WINDOW_RESIZED: string;
 	export const ON_LANGUAGE_CHANGE: string;
+
 	export const PRIORITY_INPUT: number;
 	export const PRIORITY_INPUT_HIGH: number;
 	export const PRIORITY_INPUT_MAX: number;
+
 	export const MESSAGE_INPUT: {
 		BUTTON_CLICK: string;
 		BUTTON_LONG_CLICK: string;
@@ -48,12 +57,15 @@ declare module 'druid.const' {
 		BUTTON_REPEATED_CLICK: string;
 		TEXT_SET: string;
 	};
+
 	export const PIVOTS: {
 		[key: PivotKey]: vmath.vector3;
 	};
+
 	export const REVERSE_PIVOTS: {
-		[key: PivotKey]: string;
+		[key: PivotKey]: PivotKey;
 	};
+
 	export const LAYOUT_MODE: {
 		STRETCH_X: string;
 		STRETCH_Y: string;
@@ -62,9 +74,11 @@ declare module 'druid.const' {
 		FIT: typeof gui.ADJUST_FIT;
 		STRETCH: typeof gui.ADJUST_STRETCH;
 	};
+
 	export const VECTOR_ZERO: vmath.vector3;
 	export const SYS_INFO: ReturnType<typeof sys.get_sys_info>;
 	export const CURRENT_SYSTEM_NAME: string;
+
 	export const OS: {
 		ANDROID: string;
 		IOS: string;
@@ -73,11 +87,13 @@ declare module 'druid.const' {
 		WINDOWS: string;
 		BROWSER: string;
 	};
+
 	export const SHIFT: {
 		NO_SHIFT: number;
 		LEFT: number;
 		RIGHT: number;
 	};
+
 	export const TEXT_ADJUST: {
 		DOWNSCALE: string;
 		TRIM: string;
@@ -86,18 +102,22 @@ declare module 'druid.const' {
 		SCROLL: string;
 		SCALE_THEN_SCROLL: string;
 	};
+
 	export const SIDE: {
 		X: string;
 		Y: string;
 	};
+
 	export const SWIPE: {
 		UP: string;
 		DOWN: string;
 		LEFT: string;
 		RIGHT: string;
 	};
+
 	export const ERRORS: {
 		GRID_DYNAMIC_ANCHOR: string;
 	};
+
 	export const EMPTY_FUNCTION: () => void;
 }

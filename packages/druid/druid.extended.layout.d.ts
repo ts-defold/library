@@ -1,43 +1,72 @@
 /**
- * This is a definition stub with incomplete or untested signatures.
- * Contributions are welcome to improve the accuracy of these types.
  * @see {@link https://github.com/ts-defold/library|Github Source}
  * @see {@link https://insality.github.io/druid/modules/Druid.html|Documentation}
  * @noResolution
  */
 declare module 'druid.extended.layout' {
-	export function fit_into_node(this: Layout, node?: node): Layout;
-	export function fit_into_size(
-		this: Layout,
-		target_size: vmath.vector3,
-	): Layout;
-	export function fit_into_window(this: Layout): Layout;
+	// TO-DO
+	type Layout = typeof import('druid.extended.layout');
+
+	interface RowData {
+		width: number;
+		height: number;
+		count: number;
+	}
+
+	interface RowsData {
+		total_width: number;
+		total_height: number;
+		nodes_width: LuaMap<node, number>;
+		nodes_height: LuaMap<node, number>;
+		rows: RowData[];
+	}
+
 	export function init(
 		this: Layout,
 		node: node,
-		mode: string,
-		on_size_changed_callback?: () => void,
-	): void;
-	export function set_max_gui_upscale(
-		this: Layout,
-		max_gui_upscale: number,
+		layout_type: string,
+		on_size_changed_callback?: Function, // TO-DO
 	): Layout;
-	export function set_max_size(this: Layout, max_size: vmath.vector3): Layout;
-	export function set_min_size(this: Layout, min_size: vmath.vector3): Layout;
-	export function set_origin_position(
+	export function update(this: Layout): void;
+	export function set_margin(
 		this: Layout,
-		new_origin_position: vmath.vector3,
+		margin_x: number,
+		margin_y: number,
 	): Layout;
-	export function set_origin_size(
-		this: Layout,
-		new_origin_size: vmath.vector3,
-	): Layout;
+	export function set_padding(this: Layout, padding: vmath.vector4): Layout;
+	export function set_dirty(this: Layout): Layout;
+	export function set_justify(this: Layout, is_justify: boolean): Layout;
+	export function set_type(this: Layout, type: string): Layout;
 
-	export const mode: string;
+	export function set_hug_content(
+		this: Layout,
+		is_hug_width: boolean,
+		is_hug_height: boolean,
+	): Layout;
+	export function add(this: Layout, node_or_node_id: node | string): Layout;
+	export function refresh_layout(this: Layout): Layout;
+	export function clear_layout(this: Layout): Layout;
+
+	export function get_node_size(
+		this: Layout,
+		node: node,
+	): LuaMultiReturn<[number, number]>;
+	export function calculate_rows_data(this: Layout): RowsData;
+	export function set_node_position(
+		this: Layout,
+		node: node,
+		x: number,
+		y: number,
+	): node;
+
+	export const mode: string; // TO-DO is this real?
 	export const node: node;
-	export const on_size_changed: (
-		new_size: import('druid.druid').DruidEvent,
-	) => void;
+	export const type: string;
+	export const margin: { x: number; y: number };
+	export const padding: ReturnType<typeof gui.get_slice9>;
+	export const isDirty: boolean;
+	export const entities: node[];
+	export const isJustify: boolean;
+	export const isResizeWidth: boolean;
+	export const isResizeHeight: boolean;
 }
-
-type Layout = typeof import('druid.extended.layout');
