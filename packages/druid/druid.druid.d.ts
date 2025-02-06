@@ -402,7 +402,7 @@ declare module 'druid.druid' {
 		new_input(
 			this: DruidInstance,
 			click_node: node | string,
-			text_node: node | string | Text,
+			text_node: node | Text | string,
 			keyboard_type?: number,
 		): typeof import('druid.extended.input');
 		new_lang_text(
@@ -485,6 +485,7 @@ declare module 'druid.druid' {
 			whitelist_components?: any[] | Component,
 		): DruidInstance;
 		update(this: DruidInstance, dt: number): void;
+		new: <T>(this: DruidInstance, module: T, name: string) => T;
 	}
 	export { type DruidInstance };
 
@@ -497,7 +498,7 @@ declare module 'druid.druid' {
 	export function register(
 		this: void,
 		name: string,
-		module: DruidExtendedModule, // TO-DO
+		module: DruidExtendedModule | BaseComponent, // TO-DO
 	): void;
 	export function set_default_style(this: void, style: DruidStyle): void;
 	export function set_sound_function(
