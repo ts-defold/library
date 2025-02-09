@@ -22,6 +22,7 @@ declare module 'lang.lang' {
 	export function get_lang(): string;
 	export function get_langs(): string[];
 	export function set_next_lang(): void;
+	export function get_next_lang(): string;
 	export function is_exist(text_id: string): boolean;
 	export function txt(text_id: string): string;
 	export function txp(text_id: string, ...params: any[]): string;
