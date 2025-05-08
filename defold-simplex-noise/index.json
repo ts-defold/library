@@ -1,0 +1,13 @@
+{
+  "name": "simplex",
+  "url": "https://github.com/indiesoftby/defold-simplex-noise",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/indiesoftby/defold-simplex-noise/archive/refs/tags/1.0.0.zip",
+      "hash": "62264a37ab78127fcb55ef91c2b0ec054a9b5fca",
+      "path": "simplex-1.0.0.d.ts",
+      "checksum": "d67f60f86af9c71bd7c18a54fa4cbb20"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "zstd",
+  "url": "https://github.com/indiesoftby/defold-zstd",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/indiesoftby/defold-zstd/archive/refs/tags/1.5.7-1.zip",
+      "hash": "28b9f079c90e194d6aa6f6837f33c2f18ee73fe6",
+      "path": "zstd-1.0.0.d.ts",
+      "checksum": "e5f1dd146aa347c221568be69778b1e3"
+    }
+  ]
+}

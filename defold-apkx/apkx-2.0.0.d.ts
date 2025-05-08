@@ -6,10 +6,10 @@
  * @see {@link https://github.com/dapetcu21/defold-apkx|Github Source}
  */
 declare namespace apkx {
-	type Handle = LuaUserData & {
+	type Handle = LuaUserdata & {
 		readonly __brand: 'apkx.Handle';
 	};
-	type State = LuaUserData & {
+	type State = LuaUserdata & {
 		readonly __brand: 'apkx.STATE';
 	};
 
