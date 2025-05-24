@@ -135,6 +135,10 @@
     "name": "jstodef",
     "url": "https://github.com/AGulev/jstodef"
   },
+  "defold-tile-raycast": {
+    "name": "tile_raycast",
+    "url": "https://github.com/selimanac/defold-tile-raycast"
+  },
   "defos": {
     "name": "defos",
     "url": "https://github.com/subsoap/defos"

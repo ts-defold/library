@@ -1,0 +1,13 @@
+{
+  "name": "tile_raycast",
+  "url": "https://github.com/selimanac/defold-tile-raycast",
+  "versions": [
+    {
+      "version": "2.0.0",
+      "url": "https://github.com/selimanac/defold-tile-raycast/archive/refs/tags/v2.0.zip",
+      "hash": "641d78394e73df5d640fabcf04871b304cba39f7",
+      "path": "tile_raycast-2.0.0.d.ts",
+      "checksum": "7b644069402df3ef57a2263d7ebbffe2"
+    }
+  ]
+}
