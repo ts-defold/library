@@ -1,394 +1,394 @@
 {
-  "extension-admob": {
-    "name": "admob",
-    "url": "https://github.com/defold/extension-admob"
-  },
-  "defold-richtext": {
-    "name": "richtext",
-    "url": "https://github.com/britzl/defold-richtext"
-  },
-  "extension-poki-sdk": {
-    "name": "poki_sdk",
-    "url": "https://github.com/defold/extension-poki-sdk"
-  },
-  "defold-zstd": {
-    "name": "zstd",
-    "url": "https://github.com/indiesoftby/defold-zstd"
-  },
-  "extension-sfmtrandom": {
-    "name": "sfmtrandom",
-    "url": "https://github.com/Lerg/extension-sfmtrandom"
-  },
-  "defold-clipboard": {
-    "name": "clipboard",
-    "url": "https://github.com/britzl/defold-clipboard"
-  },
-  "deftest": {
-    "name": "deftest",
-    "url": "https://github.com/britzl/deftest"
-  },
-  "defold-xmath": {
-    "name": "xmath",
-    "url": "https://github.com/thejustinwalsh/defold-xmath"
-  },
-  "extension-siwa": {
-    "name": "siwa",
-    "url": "https://github.com/defold/extension-siwa"
-  },
-  "defold-textinput": {
-    "name": "textinput",
-    "url": "https://github.com/baochungit/defold-textinput"
-  },
-  "library-defold-persist": {
-    "name": "persist",
-    "url": "https://github.com/klaytonkowalski/library-defold-persist"
-  },
-  "defsave": {
-    "name": "defsave",
-    "url": "https://github.com/subsoap/defsave"
-  },
-  "extension-pcgrandom": {
-    "name": "pcgrandom",
-    "url": "https://github.com/Lerg/extension-pcgrandom"
-  },
-  "extension-imgui": {
-    "name": "imgui",
-    "url": "https://github.com/britzl/extension-imgui"
-  },
-  "library-defold-rendy": {
-    "name": "rendy",
-    "url": "https://github.com/klaytonkowalski/library-defold-rendy"
-  },
-  "defold-yametrica": {
-    "name": "yametrica",
-    "url": "https://github.com/indiesoftby/defold-yametrica"
-  },
-  "monarch": {
-    "name": "monarch",
-    "url": "https://github.com/britzl/monarch"
-  },
-  "squid": {
-    "name": "squid",
-    "url": "https://github.com/paweljarosz/squid"
-  },
-  "extension-videoplayer-mpeg": {
-    "name": "mpeg",
-    "url": "https://github.com/defold/extension-videoplayer-mpeg"
-  },
-  "extension-review": {
-    "name": "review",
-    "url": "https://github.com/defold/extension-review"
-  },
-  "nakama-defold": {
-    "name": "nakama",
-    "url": "https://github.com/heroiclabs/nakama-defold"
-  },
-  "extension-firebase-analytics": {
-    "name": "firebase",
-    "url": "https://github.com/defold/extension-firebase-analytics"
-  },
-  "extension-iac": {
-    "name": "iac",
-    "url": "https://github.com/defold/extension-iac"
-  },
-  "defold-coolmathgames-sdk": {
-    "name": "coolmath_games",
-    "url": "https://github.com/fabtjar/defold-coolmathgames-sdk"
-  },
-  "defold-prng": {
-    "name": "prng",
-    "url": "https://github.com/thinknathan/defold-prng"
-  },
-  "defold-yoga": {
-    "name": "yoga",
-    "url": "https://github.com/farism/defold-yoga"
-  },
-  "lua-immutable": {
-    "name": "immutable",
-    "url": "https://github.com/paweljarosz/lua-immutable"
-  },
-  "bzAnim": {
-    "name": "bzAnim",
-    "url": "https://github.com/jbp4444/bzAnim"
-  },
-  "extension-netimgui": {
-    "name": "netimgui",
-    "url": "https://github.com/DreamRealityInteractive/extension-netimgui"
-  },
-  "extension-facebook": {
-    "name": "facebook",
-    "url": "https://github.com/defold/extension-facebook"
-  },
-  "extension-webrtc": {
-    "name": "webrtc",
-    "url": "https://github.com/VitusVeit/extension-webrtc"
-  },
-  "extension-zendesk": {
-    "name": "zendesk",
-    "url": "https://github.com/defold/extension-zendesk"
-  },
-  "def_taptic_engine": {
-    "name": "taptic_engine",
-    "url": "https://github.com/MaratGilyazov/def_taptic_engine"
-  },
-  "jstodef": {
-    "name": "jstodef",
-    "url": "https://github.com/AGulev/jstodef"
-  },
-  "defold-tile-raycast": {
-    "name": "tile_raycast",
-    "url": "https://github.com/selimanac/defold-tile-raycast"
-  },
-  "defos": {
-    "name": "defos",
-    "url": "https://github.com/subsoap/defos"
-  },
-  "dicebag": {
-    "name": "dicebag",
-    "url": "https://github.com/8bitskull/dicebag"
-  },
-  "extension-iap": {
-    "name": "iap",
-    "url": "https://github.com/defold/extension-iap"
-  },
-  "defold-random": {
-    "name": "rnd",
-    "url": "https://github.com/selimanac/defold-random"
-  },
-  "defold-splitmix64": {
-    "name": "splitmix64",
-    "url": "https://github.com/indiesoftby/defold-splitmix64"
-  },
-  "defold-simplex-noise": {
-    "name": "simplex",
-    "url": "https://github.com/indiesoftby/defold-simplex-noise"
-  },
-  "narrator": {
-    "name": "narrator",
-    "url": "https://github.com/astrochili/narrator"
-  },
-  "defold-tweener": {
-    "name": "tweener",
-    "url": "https://github.com/Insality/defold-tweener"
-  },
-  "defold-proto": {
-    "name": "proto",
-    "url": "https://github.com/Insality/defold-proto"
-  },
-  "extension-googleplayinstant": {
-    "name": "instantapp",
-    "url": "https://github.com/defold/extension-googleplayinstant"
-  },
-  "defold-yagames": {
-    "name": "yagames",
-    "url": "https://github.com/indiesoftby/defold-yagames"
-  },
-  "extension-spine": {
-    "name": "spine",
-    "url": "https://github.com/defold/extension-spine"
-  },
-  "extension-permissions": {
-    "name": "permissions",
-    "url": "https://github.com/defold/extension-permissions"
-  },
-  "drawpixels": {
-    "name": "drawpixels",
-    "url": "https://github.com/AGulev/drawpixels"
-  },
-  "platypus": {
-    "name": "platypus",
-    "url": "https://github.com/britzl/platypus"
-  },
-  "defold-uuid4": {
-    "name": "uuid4",
-    "url": "https://github.com/selimanac/defold-uuid4"
-  },
   "extension-nativetext": {
     "name": "nativetext",
     "url": "https://github.com/Lerg/extension-nativetext"
-  },
-  "extension-gpgs": {
-    "name": "gpgs",
-    "url": "https://github.com/defold/extension-gpgs"
-  },
-  "extension-ironsource": {
-    "name": "ironsource",
-    "url": "https://github.com/defold/extension-ironsource"
-  },
-  "defold-imagepicker": {
-    "name": "imagepicker",
-    "url": "https://github.com/baochungit/defold-imagepicker"
-  },
-  "defold-screenshot": {
-    "name": "screenshot",
-    "url": "https://github.com/britzl/defold-screenshot"
-  },
-  "defold-lang": {
-    "name": "lang",
-    "url": "https://github.com/Insality/defold-lang"
-  },
-  "extension-rive": {
-    "name": "extension-rive",
-    "url": "https://github.com/defold/extension-rive"
-  },
-  "defold-playdeck": {
-    "name": "playdeck",
-    "url": "https://github.com/d954mas/defold-playdeck"
-  },
-  "gooey": {
-    "name": "gooey",
-    "url": "https://github.com/britzl/gooey"
-  },
-  "defold-event": {
-    "name": "event",
-    "url": "https://github.com/Insality/defold-event"
-  },
-  "def-setv": {
-    "name": "setv",
-    "url": "https://github.com/thinknathan/def-setv"
-  },
-  "extension-push": {
-    "name": "push",
-    "url": "https://github.com/defold/extension-push"
-  },
-  "LuaScriptInstance": {
-    "name": "lua_script_instance",
-    "url": "https://github.com/DanEngelbrecht/LuaScriptInstance"
-  },
-  "defold-orthographic": {
-    "name": "orthographic",
-    "url": "https://github.com/britzl/defold-orthographic"
-  },
-  "extension-safearea": {
-    "name": "safearea",
-    "url": "https://github.com/defold/extension-safearea"
-  },
-  "DAABBCC": {
-    "name": "aabb",
-    "url": "https://github.com/selimanac/DAABBCC"
-  },
-  "extension-kaiads": {
-    "name": "kaiads",
-    "url": "https://github.com/defold/extension-kaiads"
-  },
-  "extension-websocket": {
-    "name": "websocket",
-    "url": "https://github.com/defold/extension-websocket"
-  },
-  "boom": {
-    "name": "boom",
-    "url": "https://github.com/britzl/boom"
-  },
-  "defold-metrics": {
-    "name": "metrics",
-    "url": "https://github.com/britzl/defold-metrics"
-  },
-  "starly": {
-    "name": "starly",
-    "url": "https://github.com/VowSoftware/starly"
-  },
-  "extension-cas": {
-    "name": "cas",
-    "url": "https://github.com/Lerg/extension-cas/"
-  },
-  "defold-saver": {
-    "name": "saver",
-    "url": "https://github.com/Insality/defold-saver"
-  },
-  "extension-videoplayer": {
-    "name": "videoplayer",
-    "url": "https://github.com/defold/extension-videoplayer"
-  },
-  "AppLovin-MAX-Defold": {
-    "name": "applovin",
-    "url": "https://github.com/AppLovin/AppLovin-MAX-Defold"
-  },
-  "extension-vibrate": {
-    "name": "vibrate",
-    "url": "https://github.com/adamwestman/extension-vibrate"
-  },
-  "extension-crypt": {
-    "name": "crypt",
-    "url": "https://github.com/defold/extension-crypt"
-  },
-  "gd-defold": {
-    "name": "gdsdk",
-    "url": "https://github.com/GameDistribution/gd-defold"
-  },
-  "extension-steam": {
-    "name": "steam",
-    "url": "https://github.com/defold/extension-steam"
-  },
-  "defold-playable-ads": {
-    "name": "mraid",
-    "url": "https://github.com/indiesoftby/defold-playable-ads"
-  },
-  "defold-scene3d": {
-    "name": "scene3d",
-    "url": "https://github.com/indiesoftby/defold-scene3d"
-  },
-  "defold-sharing": {
-    "name": "sharing",
-    "url": "https://github.com/britzl/defold-sharing"
-  },
-  "extension-webview": {
-    "name": "webview",
-    "url": "https://github.com/defold/extension-webview"
-  },
-  "defold-lldebugger": {
-    "name": "lldebugger",
-    "url": "https://github.com/ts-defold/defold-lldebugger"
   },
   "defold-extension-unity-ads": {
     "name": "unityads",
     "url": "https://github.com/AGulev/defold-extension-unity-ads"
   },
-  "defold-lfs": {
-    "name": "lfs",
-    "url": "https://github.com/britzl/defold-lfs"
+  "extension-pcgrandom": {
+    "name": "pcgrandom",
+    "url": "https://github.com/Lerg/extension-pcgrandom"
   },
-  "defold-log": {
-    "name": "log",
-    "url": "https://github.com/Insality/defold-log"
+  "defold-scene3d": {
+    "name": "scene3d",
+    "url": "https://github.com/indiesoftby/defold-scene3d"
   },
-  "extension-videoplayer-native": {
-    "name": "videoplayer",
-    "url": "https://github.com/defold/extension-videoplayer-native"
+  "defold-textinput": {
+    "name": "textinput",
+    "url": "https://github.com/baochungit/defold-textinput"
   },
-  "extension-adinfo": {
-    "name": "adinfo",
-    "url": "https://github.com/defold/extension-adinfo"
+  "defold-simplex-noise": {
+    "name": "simplex",
+    "url": "https://github.com/indiesoftby/defold-simplex-noise"
   },
-  "defold-astar": {
-    "name": "astar",
-    "url": "https://github.com/selimanac/defold-astar"
+  "extension-push": {
+    "name": "push",
+    "url": "https://github.com/defold/extension-push"
+  },
+  "extension-websocket": {
+    "name": "websocket",
+    "url": "https://github.com/defold/extension-websocket"
+  },
+  "extension-admob": {
+    "name": "admob",
+    "url": "https://github.com/defold/extension-admob"
+  },
+  "extension-firebase-analytics": {
+    "name": "firebase",
+    "url": "https://github.com/defold/extension-firebase-analytics"
   },
   "defold-skippy": {
     "name": "skippy",
     "url": "https://github.com/NaakkaDev/defold-skippy"
   },
-  "defmath": {
-    "name": "defmath",
-    "url": "https://github.com/subsoap/defmath"
+  "extension-facebook": {
+    "name": "facebook",
+    "url": "https://github.com/defold/extension-facebook"
   },
-  "defold-zzfx": {
-    "name": "zzfx",
-    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  "lua-immutable": {
+    "name": "immutable",
+    "url": "https://github.com/paweljarosz/lua-immutable"
   },
-  "defcon": {
-    "name": "defcon",
-    "url": "https://github.com/britzl/defcon"
+  "defold-saver": {
+    "name": "saver",
+    "url": "https://github.com/Insality/defold-saver"
   },
-  "defold-apkx": {
-    "name": "apkx",
-    "url": "https://github.com/dapetcu21/defold-apkx"
+  "extension-cas": {
+    "name": "cas",
+    "url": "https://github.com/Lerg/extension-cas/"
   },
   "defold-input": {
     "name": "in",
     "url": "https://github.com/britzl/defold-input"
   },
+  "defold-prng": {
+    "name": "prng",
+    "url": "https://github.com/thinknathan/defold-prng"
+  },
+  "extension-vibrate": {
+    "name": "vibrate",
+    "url": "https://github.com/adamwestman/extension-vibrate"
+  },
+  "defold-xmath": {
+    "name": "xmath",
+    "url": "https://github.com/thejustinwalsh/defold-xmath"
+  },
+  "extension-webrtc": {
+    "name": "webrtc",
+    "url": "https://github.com/VitusVeit/extension-webrtc"
+  },
+  "defold-playable-ads": {
+    "name": "mraid",
+    "url": "https://github.com/indiesoftby/defold-playable-ads"
+  },
+  "defsave": {
+    "name": "defsave",
+    "url": "https://github.com/subsoap/defsave"
+  },
+  "defold-screenshot": {
+    "name": "screenshot",
+    "url": "https://github.com/britzl/defold-screenshot"
+  },
+  "extension-iac": {
+    "name": "iac",
+    "url": "https://github.com/defold/extension-iac"
+  },
+  "dicebag": {
+    "name": "dicebag",
+    "url": "https://github.com/8bitskull/dicebag"
+  },
+  "defold-yametrica": {
+    "name": "yametrica",
+    "url": "https://github.com/indiesoftby/defold-yametrica"
+  },
+  "defold-yagames": {
+    "name": "yagames",
+    "url": "https://github.com/indiesoftby/defold-yagames"
+  },
+  "defold-lang": {
+    "name": "lang",
+    "url": "https://github.com/Insality/defold-lang"
+  },
+  "extension-siwa": {
+    "name": "siwa",
+    "url": "https://github.com/defold/extension-siwa"
+  },
+  "extension-videoplayer-native": {
+    "name": "videoplayer",
+    "url": "https://github.com/defold/extension-videoplayer-native"
+  },
+  "defold-tweener": {
+    "name": "tweener",
+    "url": "https://github.com/Insality/defold-tweener"
+  },
+  "squid": {
+    "name": "squid",
+    "url": "https://github.com/paweljarosz/squid"
+  },
+  "defold-proto": {
+    "name": "proto",
+    "url": "https://github.com/Insality/defold-proto"
+  },
+  "defold-playdeck": {
+    "name": "playdeck",
+    "url": "https://github.com/d954mas/defold-playdeck"
+  },
+  "extension-webview": {
+    "name": "webview",
+    "url": "https://github.com/defold/extension-webview"
+  },
+  "monarch": {
+    "name": "monarch",
+    "url": "https://github.com/britzl/monarch"
+  },
+  "defold-lfs": {
+    "name": "lfs",
+    "url": "https://github.com/britzl/defold-lfs"
+  },
+  "defold-event": {
+    "name": "event",
+    "url": "https://github.com/Insality/defold-event"
+  },
+  "extension-videoplayer-mpeg": {
+    "name": "mpeg",
+    "url": "https://github.com/defold/extension-videoplayer-mpeg"
+  },
+  "extension-permissions": {
+    "name": "permissions",
+    "url": "https://github.com/defold/extension-permissions"
+  },
+  "defold-coolmathgames-sdk": {
+    "name": "coolmath_games",
+    "url": "https://github.com/fabtjar/defold-coolmathgames-sdk"
+  },
+  "extension-review": {
+    "name": "review",
+    "url": "https://github.com/defold/extension-review"
+  },
+  "defold-yoga": {
+    "name": "yoga",
+    "url": "https://github.com/farism/defold-yoga"
+  },
+  "extension-zendesk": {
+    "name": "zendesk",
+    "url": "https://github.com/defold/extension-zendesk"
+  },
+  "defold-zzfx": {
+    "name": "zzfx",
+    "url": "https://github.com/thejustinwalsh/defold-zzfx"
+  },
+  "bzAnim": {
+    "name": "bzAnim",
+    "url": "https://github.com/jbp4444/bzAnim"
+  },
+  "defold-metrics": {
+    "name": "metrics",
+    "url": "https://github.com/britzl/defold-metrics"
+  },
+  "library-defold-persist": {
+    "name": "persist",
+    "url": "https://github.com/klaytonkowalski/library-defold-persist"
+  },
+  "defold-astar": {
+    "name": "astar",
+    "url": "https://github.com/selimanac/defold-astar"
+  },
+  "AppLovin-MAX-Defold": {
+    "name": "applovin",
+    "url": "https://github.com/AppLovin/AppLovin-MAX-Defold"
+  },
+  "defold-sharing": {
+    "name": "sharing",
+    "url": "https://github.com/britzl/defold-sharing"
+  },
+  "extension-safearea": {
+    "name": "safearea",
+    "url": "https://github.com/defold/extension-safearea"
+  },
+  "extension-gpgs": {
+    "name": "gpgs",
+    "url": "https://github.com/defold/extension-gpgs"
+  },
+  "defold-imagepicker": {
+    "name": "imagepicker",
+    "url": "https://github.com/baochungit/defold-imagepicker"
+  },
+  "defold-lldebugger": {
+    "name": "lldebugger",
+    "url": "https://github.com/ts-defold/defold-lldebugger"
+  },
+  "defold-apkx": {
+    "name": "apkx",
+    "url": "https://github.com/dapetcu21/defold-apkx"
+  },
+  "gooey": {
+    "name": "gooey",
+    "url": "https://github.com/britzl/gooey"
+  },
+  "defold-log": {
+    "name": "log",
+    "url": "https://github.com/Insality/defold-log"
+  },
+  "defold-tile-raycast": {
+    "name": "tile_raycast",
+    "url": "https://github.com/selimanac/defold-tile-raycast"
+  },
+  "boom": {
+    "name": "boom",
+    "url": "https://github.com/britzl/boom"
+  },
+  "defold-random": {
+    "name": "rnd",
+    "url": "https://github.com/selimanac/defold-random"
+  },
+  "defold-orthographic": {
+    "name": "orthographic",
+    "url": "https://github.com/britzl/defold-orthographic"
+  },
+  "defold-zstd": {
+    "name": "zstd",
+    "url": "https://github.com/indiesoftby/defold-zstd"
+  },
+  "library-defold-rendy": {
+    "name": "rendy",
+    "url": "https://github.com/klaytonkowalski/library-defold-rendy"
+  },
+  "def_taptic_engine": {
+    "name": "taptic_engine",
+    "url": "https://github.com/MaratGilyazov/def_taptic_engine"
+  },
   "defold-webgl-memory": {
     "name": "webgl_memory",
     "url": "https://github.com/indiesoftby/defold-webgl-memory"
+  },
+  "defold-clipboard": {
+    "name": "clipboard",
+    "url": "https://github.com/britzl/defold-clipboard"
+  },
+  "extension-sfmtrandom": {
+    "name": "sfmtrandom",
+    "url": "https://github.com/Lerg/extension-sfmtrandom"
+  },
+  "extension-crypt": {
+    "name": "crypt",
+    "url": "https://github.com/defold/extension-crypt"
+  },
+  "extension-iap": {
+    "name": "iap",
+    "url": "https://github.com/defold/extension-iap"
+  },
+  "nakama-defold": {
+    "name": "nakama",
+    "url": "https://github.com/heroiclabs/nakama-defold"
+  },
+  "defcon": {
+    "name": "defcon",
+    "url": "https://github.com/britzl/defcon"
+  },
+  "jstodef": {
+    "name": "jstodef",
+    "url": "https://github.com/AGulev/jstodef"
+  },
+  "extension-steam": {
+    "name": "steam",
+    "url": "https://github.com/defold/extension-steam"
+  },
+  "platypus": {
+    "name": "platypus",
+    "url": "https://github.com/britzl/platypus"
+  },
+  "defos": {
+    "name": "defos",
+    "url": "https://github.com/subsoap/defos"
+  },
+  "defold-uuid4": {
+    "name": "uuid4",
+    "url": "https://github.com/selimanac/defold-uuid4"
+  },
+  "extension-googleplayinstant": {
+    "name": "instantapp",
+    "url": "https://github.com/defold/extension-googleplayinstant"
+  },
+  "extension-poki-sdk": {
+    "name": "poki_sdk",
+    "url": "https://github.com/defold/extension-poki-sdk"
+  },
+  "def-setv": {
+    "name": "setv",
+    "url": "https://github.com/thinknathan/def-setv"
+  },
+  "defold-splitmix64": {
+    "name": "splitmix64",
+    "url": "https://github.com/indiesoftby/defold-splitmix64"
+  },
+  "extension-videoplayer": {
+    "name": "videoplayer",
+    "url": "https://github.com/defold/extension-videoplayer"
+  },
+  "defmath": {
+    "name": "defmath",
+    "url": "https://github.com/subsoap/defmath"
+  },
+  "extension-ironsource": {
+    "name": "ironsource",
+    "url": "https://github.com/defold/extension-ironsource"
+  },
+  "DAABBCC": {
+    "name": "aabb",
+    "url": "https://github.com/selimanac/DAABBCC"
+  },
+  "extension-spine": {
+    "name": "spine",
+    "url": "https://github.com/defold/extension-spine"
+  },
+  "narrator": {
+    "name": "narrator",
+    "url": "https://github.com/astrochili/narrator"
+  },
+  "gd-defold": {
+    "name": "gdsdk",
+    "url": "https://github.com/GameDistribution/gd-defold"
+  },
+  "extension-netimgui": {
+    "name": "netimgui",
+    "url": "https://github.com/DreamRealityInteractive/extension-netimgui"
+  },
+  "starly": {
+    "name": "starly",
+    "url": "https://github.com/VowSoftware/starly"
+  },
+  "extension-imgui": {
+    "name": "imgui",
+    "url": "https://github.com/britzl/extension-imgui"
+  },
+  "deftest": {
+    "name": "deftest",
+    "url": "https://github.com/britzl/deftest"
+  },
+  "LuaScriptInstance": {
+    "name": "lua_script_instance",
+    "url": "https://github.com/DanEngelbrecht/LuaScriptInstance"
+  },
+  "extension-rive": {
+    "name": "extension-rive",
+    "url": "https://github.com/defold/extension-rive"
+  },
+  "extension-kaiads": {
+    "name": "kaiads",
+    "url": "https://github.com/defold/extension-kaiads"
+  },
+  "defold-richtext": {
+    "name": "richtext",
+    "url": "https://github.com/britzl/defold-richtext"
+  },
+  "drawpixels": {
+    "name": "drawpixels",
+    "url": "https://github.com/AGulev/drawpixels"
+  },
+  "extension-adinfo": {
+    "name": "adinfo",
+    "url": "https://github.com/defold/extension-adinfo"
   }
 }
