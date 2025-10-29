@@ -167,6 +167,10 @@
     "name": "review",
     "url": "https://github.com/defold/extension-review"
   },
+  "defold-bridge": {
+    "name": "bridge",
+    "url": "https://github.com/Playgama/bridge-defold"
+  },
   "defold-yoga": {
     "name": "yoga",
     "url": "https://github.com/farism/defold-yoga"

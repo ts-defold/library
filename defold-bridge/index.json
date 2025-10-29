@@ -1,0 +1,13 @@
+{
+  "name": "bridge",
+  "url": "https://github.com/Playgama/bridge-defold",
+  "versions": [
+    {
+      "version": "1.26.1",
+      "url": "https://github.com/Playgama/bridge-defold/archive/refs/tags/v1.26.1.zip",
+      "hash": "557885fe580cdedd4356e5f8315c9522211545bf",
+      "path": "bridge-1.26.1.d.ts",
+      "checksum": "b5a74190037ffde87b728542786ee849"
+    }
+  ]
+}
