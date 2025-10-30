@@ -83,6 +83,10 @@
     "name": "mraid",
     "url": "https://github.com/indiesoftby/defold-playable-ads"
   },
+  "def-windward-jps": {
+    "name": "def-windward-jps",
+    "url": "https://github.com/s-kania/def-windward-jps"
+  },
   "defsave": {
     "name": "defsave",
     "url": "https://github.com/subsoap/defsave"

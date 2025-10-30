@@ -1,0 +1,13 @@
+{
+  "name": "def-windward-jps",
+  "url": "https://github.com/s-kania/def-windward-jps",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "url": "https://github.com/s-kania/def-windward-jps/archive/refs/tags/v1.0.0.zip",
+      "hash": "8f103e6678801a4702c6e373e6862a164f640034",
+      "path": "def_windward_jps-1.0.0.d.ts",
+      "checksum": "f50a824bc50f5ee52fa65dbf953bf983"
+    }
+  ]
+}
